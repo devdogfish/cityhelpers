@@ -75,8 +75,6 @@ nav { display: flex; flex-direction: column; gap: 2px; }
 nav a { padding: 8px 12px; border: 1px solid transparent; border-radius: var(--radius); font-size: 14px; line-height: 1.5; text-decoration: none; color: var(--slate); }
 nav a:hover { background: var(--paper); }
 nav a[aria-current=page] { border-color: var(--line); background: var(--aqua); font-weight: 700; }
-.business-link { border-radius: var(--radius); display: block; margin: 24px 12px 0; font-size: 12px; color: var(--muted); text-decoration: none; }
-.business-link span { margin-left: 3px; }
 main { min-width: 0; max-width: 720px; outline: none; }
 h1 { margin: -5px 0 28px; color: var(--slate); font-size: 32px; line-height: 1.25; letter-spacing: -.8px; font-weight: 700; text-wrap: balance; }
 h2 { margin: 34px 0 12px; color: var(--slate); font-size: 23px; line-height: 1.35; letter-spacing: -.3px; }
@@ -164,7 +162,7 @@ footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px;
   .sidebar-brand { margin: 0; padding: 6px 0 10px; border-bottom: 0; }
   .shell { display: block; padding: 0 20px 36px; }
   aside { position: static; max-height: none; margin-bottom: 28px; padding: 16px 0; border-bottom: 1px solid var(--line); }
-  .nav-label, .business-link { border-radius: var(--radius); display: none; }
+  .nav-label { border-radius: var(--radius); display: none; }
   nav { flex-direction: row; flex-wrap: wrap; gap: 4px 12px; }
   .nav-group { width: 100%; flex-direction: row; flex-wrap: wrap; gap: 0 12px; margin-top: 8px; }
   .nav-group-title { width: 100%; padding: 4px 0; }

@@ -14,17 +14,14 @@
 </head>
 <body{% if page.url == '/' %} class="overview"{% endif %}>
   <a class="skip" href="#content">Skip to notes</a>
-  <header class="masthead">
-    <div class="masthead-inner">
-      <a class="identity" href="{{ '/' | relative_url }}" aria-label="City Helpers notes home">
-        <img src="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}" width="60" height="60" alt="City Helpers Inc. logo">
-        <span><span class="brand">City Helpers</span><span class="brand-caption">Team notes</span></span>
-      </a>
-      <span class="location">Toronto / GTA</span>
-    </div>
-  </header>
   <div class="shell">
     <aside>
+      <header class="sidebar-brand">
+        <a class="identity" href="{{ '/' | relative_url }}" aria-label="City Helpers notes home">
+          <img src="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}" width="48" height="48" alt="City Helpers Inc. logo">
+          <span><span class="brand">City Helpers</span><span class="brand-caption">Team notes</span></span>
+        </a>
+      </header>
       <div class="nav-label">Notes</div>
       <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="notes-navigation" hidden>Browse notes</button>
       <nav id="notes-navigation" aria-label="Notes">

@@ -6,7 +6,7 @@ nav a { padding: 5px 10px; line-height: 1.4; }
 .nav-group { margin-top: 10px; }
 .nav-group-title { padding: 6px 10px 3px; }
 .business-link { margin: 16px 10px 0; }
-.nav-toggle { display: none; }
+.nav-toggle { display: none; border-radius: var(--radius); }
 .overview h1 { margin-bottom: 18px; }
 .overview .prose > h2 { margin: 24px 0 8px; padding-bottom: 6px; }
 .overview .prose ul { margin: 0 0 16px; }
@@ -19,16 +19,17 @@ nav a { padding: 5px 10px; line-height: 1.4; }
   aside { margin-bottom: 20px; padding: 10px 0; }
   .nav-toggle:not([hidden]) {
     display: flex; align-items: center; justify-content: space-between;
-    width: 100%; min-height: 44px; padding: 8px 0;
+    width: 100%; min-height: 44px; padding: 8px 10px;
     border: 0; background: transparent; color: var(--blue);
     font: inherit; font-size: 15px; font-weight: 700; cursor: pointer;
   }
+  .nav-toggle:hover { background: var(--paper); }
   .nav-toggle::after { content: '−'; font-size: 20px; }
   .nav-toggle[aria-expanded="false"]::after { content: '+'; }
   .nav-toggle:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
   aside.is-collapsed nav { display: none; }
   nav { gap: 0 12px; }
-  nav a { min-height: 44px; display: flex; align-items: center; padding: 8px 0; }
+  nav a { min-height: 44px; display: flex; align-items: center; padding: 8px 10px; }
   .nav-group { margin-top: 6px; }
   .nav-group-title { padding: 4px 0 0; }
   .overview .prose li a { padding: 5px 0; }

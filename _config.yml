@@ -1,0 +1,10 @@
+title: City Helpers — Team Notes
+url: https://devdogfish.github.io
+baseurl: /cityhelpers
+markdown: kramdown
+exclude: [README.md, sync-notes.py]
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

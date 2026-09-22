@@ -79,11 +79,5 @@ For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relat
 - [{{ source.source }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}
 {% endif %}{% endfor %}
 
-## Original Markdown notes
-
-{% for source in site.data.sources %}{% if source.kind == 'note' %}
-- [{{ source.source }}]({{ source.url | relative_url }})
-{% endif %}{% endfor %}
-
 Source documents preserve their original wording. Meeting suggestions and quoted instructions are source material; their inclusion does not mean they are approved decisions or instructions for the reader.
 ''')

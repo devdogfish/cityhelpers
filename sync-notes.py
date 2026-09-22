@@ -1,67 +1,126 @@
-"""Copy project Markdown notes into the site and generate its navigation."""
+"""Publish root notes and notes one folder deep, with deterministic navigation."""
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 import json
+import posixpath
 import re
 import uuid
 
-root = Path(__file__).resolve().parent
-known = {
+KNOWN = {
     'OBJECTIVE.md': ('objective', 'Business problem and objective', 'Objective'),
     'TARGET_AUDIENCE.md': ('target-audience', 'Target audience', 'Target audience'),
     'CONTEXT.md': ('context', 'Business context', 'Business context'),
 }
-excluded = {'README.md', 'AGENTS.md', 'CLAUDE.md', 'SKILL.md'}
-sources = sorted((p for p in root.parent.glob('*.md')
-                  if p.name not in excluded and not p.name.startswith(('.', '_')) and not p.is_symlink()),
-                 key=lambda p: (list(known).index(p.name) if p.name in known else len(known), p.name))
-if not sources:
-    raise SystemExit('No Markdown notes found in the parent project folder.')
-notes = []
-slugs = {'index', 'readme'}
-for source in sources:
-    body = source.read_text(encoding='utf-8').strip()
-    heading = re.match(r'^#\s+(.+?)\n', body + '\n')
-    slug, title, label = known.get(source.name, (
-        re.sub(r'[^a-z0-9]+', '-', source.stem.lower()).strip('-'),
-        heading.group(1) if heading else source.stem.replace('_', ' ').replace('-', ' ').capitalize(),
-        heading.group(1) if heading else source.stem.replace('_', ' ').replace('-', ' ').capitalize()))
-    if not slug or slug in slugs:
-        raise SystemExit(f'Duplicate or reserved page name: {source.name}')
-    slugs.add(slug)
-    if heading:
-        body = body[heading.end():].lstrip()
-    notes.append(dict(source=source.name, file=slug + '.md', url='/' + slug + '.html',
-                      title=title, label=label, body=body,
-                      updated=datetime.fromtimestamp(source.stat().st_mtime).date().isoformat()))
-# Rewrite links between project notes to their generated pages.
-for note in notes:
-    for other in notes:
-        note['body'] = re.sub(r'\]\((?:\./)?' + re.escape(other['source']) + r'(#[^)]*)?\)',
-                             lambda m: '](' + other['url'].lstrip('/') + (m.group(1) or '') + ')', note['body'])
-manifest = root / '_data/notes.json'
-previous = json.loads(manifest.read_text()) if manifest.exists() else []
-current = {n['file'] for n in notes}
-for old in previous:
-    name = old['file']
-    if name not in current and Path(name).name == name and name.endswith('.md'):
-        (root / name).unlink(missing_ok=True)
-for note in notes:
-    frontmatter = '\n'.join(f'{key}: {json.dumps(note[key], ensure_ascii=False)}'
-                            for key in ('title', 'updated'))
-    (root / note['file']).write_text('---\n' + frontmatter + '\n---\n\n' + note['body'] + '\n', encoding='utf-8')
-    print('Synced ' + note['source'])
-manifest.parent.mkdir(exist_ok=True)
-manifest.write_text(json.dumps([{k: v for k, v in n.items() if k != 'body'} for n in notes], indent=2, ensure_ascii=False) + '\n')
-(root / '_data/publication.json').write_text(json.dumps({'id': uuid.uuid4().hex}) + '\n')
-(root / 'index.md').write_text('''---
-title: Marketing project notes
----
-Our shared reference for developing a practical customer acquisition plan for City Helpers in Toronto/GTA.
+EXCLUDED = {'README.md', 'AGENTS.md', 'CLAUDE.md', 'SKILL.md'}
+INFRASTRUCTURE = {'site', 'node_modules', 'work', 'outputs'}
 
-{% for note in site.data.notes %}
+
+def visible(path):
+    return not path.name.startswith(('.', '_')) and not path.is_symlink()
+
+
+def sort_key(value):
+    return (value.casefold(), value)
+
+
+def discover(project, site):
+    sources = []
+    for path in project.iterdir():
+        if not visible(path):
+            continue
+        if path.is_file() and path.suffix == '.md' and path.name not in EXCLUDED:
+            sources.append(path)
+        elif path.is_dir() and path.resolve() != site.resolve() and path.name not in INFRASTRUCTURE:
+            sources.extend(p for p in path.iterdir()
+                           if visible(p) and p.is_file() and p.suffix == '.md' and p.name not in EXCLUDED)
+    return sorted(sources, key=lambda p: (sort_key(p.relative_to(project).parent.as_posix()), sort_key(p.name)))
+
+
+def sync(root):
+    root = Path(root)
+    project = root.parent
+    sources = discover(project, root)
+    if not sources:
+        raise ValueError('No Markdown notes found in the project root or immediate folders.')
+    notes = []
+    slugs = {'index', 'readme'}
+    for source in sources:
+        body = source.read_text(encoding='utf-8').strip()
+        heading = re.match(r'^#\s+(.+?)\n', body + '\n')
+        title = heading.group(1) if heading else source.stem.replace('_', ' ').replace('-', ' ').capitalize()
+        label = re.sub(r'^City Helpers\s*[—–-]\s*', '', title, flags=re.I)
+        label = label[:1].upper() + label[1:]
+        slug, title, label = KNOWN.get(source.name, (
+            re.sub(r'[^a-z0-9]+', '-', source.stem.lower()).strip('-'), title, label))
+        if not slug or slug in slugs:
+            raise ValueError(f'Duplicate or reserved page name: {source.relative_to(project)}')
+        slugs.add(slug)
+        if heading:
+            body = body[heading.end():].lstrip()
+        relative = source.relative_to(project)
+        folder = '' if relative.parent == Path('.') else relative.parent.as_posix()
+        notes.append(dict(source=relative.as_posix(), folder=folder, file=slug + '.md',
+                          url='/' + slug + '.html', title=title, label=label, body=body,
+                          updated=datetime.fromtimestamp(source.stat().st_mtime).date().isoformat()))
+    by_source = {note['source']: note for note in notes}
+    by_name = {Path(note['source']).name: note for note in notes}
+    for note in notes:
+        def rewrite(match):
+            target = match.group(1).strip('<>')
+            parts = urlsplit(target)
+            if parts.scheme or parts.netloc or not parts.path.lower().endswith('.md'):
+                return match.group(0)
+            path = unquote(parts.path)
+            relative = posixpath.normpath(posixpath.join(posixpath.dirname(note['source']), path))
+            other = by_source.get(relative)
+            # Preserve old bare-filename links when an existing note changes folder.
+            if other is None and '/' not in path:
+                other = by_name.get(path)
+            if other is None:
+                raise ValueError(f"Unresolved note link in {note['source']}: {target}")
+            suffix = ('?' + parts.query if parts.query else '') + ('#' + parts.fragment if parts.fragment else '')
+            return '](' + other['url'].lstrip('/') + suffix + ')'
+        note['body'] = re.sub(r'\]\((<[^>]+>|[^\s)]+)\)', rewrite, note['body'])
+    # Complete validation before replacing generated pages.
+    manifest = root / '_data/notes.json'
+    previous = json.loads(manifest.read_text()) if manifest.exists() else []
+    current = {note['file'] for note in notes}
+    for old in previous:
+        name = old['file']
+        if name not in current and Path(name).name == name and name.endswith('.md'):
+            (root / name).unlink(missing_ok=True)
+    for note in notes:
+        frontmatter = '\n'.join(f'{key}: {json.dumps(note[key], ensure_ascii=False)}'
+                                for key in ('title', 'updated'))
+        (root / note['file']).write_text('---\n' + frontmatter + '\n---\n\n' + note['body'] + '\n', encoding='utf-8')
+        print('Synced ' + note['source'])
+    public = [{k: v for k, v in n.items() if k != 'body'} for n in notes]
+    navigation = []
+    for folder in sorted({n['folder'] for n in public}, key=sort_key):
+        label = folder.replace('-', ' ').replace('_', ' ').capitalize() if folder else 'Project notes'
+        navigation.append(dict(folder=folder, label=label, notes=[n for n in public if n['folder'] == folder]))
+    manifest.parent.mkdir(exist_ok=True)
+    manifest.write_text(json.dumps(public, indent=2, ensure_ascii=False) + '\n')
+    (root / '_data/navigation.json').write_text(json.dumps(navigation, indent=2, ensure_ascii=False) + '\n')
+    (root / '_data/publication.json').write_text(json.dumps({'id': uuid.uuid4().hex}) + '\n')
+    (root / 'index.md').write_text('''---
+title: City Helpers knowledge base
+---
+Our shared reference for understanding City Helpers and developing practical ways to help the business in Toronto/GTA.
+
+{% for group in site.data.navigation %}
+## {{ group.label }}
+
+{% for note in group.notes %}
 - [{{ note.label }}]({{ note.url | relative_url }})
 {% endfor %}
+{% endfor %}
 
-These are working notes. Sources are linked throughout; assumptions and details needing client confirmation are identified in the text.
-''')
+Evidence, assumptions, proposals, and results are distinguished within each topic. Navigation follows the local note folders in alphabetical order.
+''', encoding='utf-8')
+    return public
+
+
+if __name__ == '__main__':
+    sync(Path(__file__).resolve().parent)

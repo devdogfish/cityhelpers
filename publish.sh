@@ -11,6 +11,7 @@ gh api user --jq .login >/dev/null
 # Refuse to overwrite remote changes; reconcile them before regenerating pages.
 git fetch origin main --quiet
 git merge-base --is-ancestor origin/main HEAD || { echo 'Remote has new commits. Run git pull --rebase, then publish again.' >&2; exit 1; }
+python3 test-sync-notes.py
 python3 sync-notes.py
 git diff --check
 git add -A

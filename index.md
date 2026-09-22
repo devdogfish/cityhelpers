@@ -1,10 +1,14 @@
 ---
-title: Marketing project notes
+title: City Helpers knowledge base
 ---
-Our shared reference for developing a practical customer acquisition plan for City Helpers in Toronto/GTA.
+Our shared reference for understanding City Helpers and developing practical ways to help the business in Toronto/GTA.
 
-{% for note in site.data.notes %}
+{% for group in site.data.navigation %}
+## {{ group.label }}
+
+{% for note in group.notes %}
 - [{{ note.label }}]({{ note.url | relative_url }})
 {% endfor %}
+{% endfor %}
 
-These are working notes. Sources are linked throughout; assumptions and details needing client confirmation are identified in the text.
+Evidence, assumptions, proposals, and results are distinguished within each topic. Navigation follows the local note folders in alphabetical order.

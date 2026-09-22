@@ -25,8 +25,13 @@
       <div class="nav-label">Notes</div>
       <nav aria-label="Notes">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
-        {% for note in site.data.notes %}
-        <a href="{{ note.url | relative_url }}" {% if page.url == note.url %}aria-current="page"{% endif %}>{{ note.label | escape }}</a>
+        {% for group in site.data.navigation %}
+        <section class="nav-group" aria-labelledby="nav-group-{{ forloop.index }}">
+          <h2 id="nav-group-{{ forloop.index }}" class="nav-group-title">{{ group.label | escape }}</h2>
+          {% for note in group.notes %}
+          <a href="{{ note.url | relative_url }}" {% if page.url == note.url %}aria-current="page"{% endif %}>{{ note.label | escape }}</a>
+          {% endfor %}
+        </section>
         {% endfor %}
       </nav>
       <a class="business-link" href="https://www.cityhelpers.ca/" target="_blank" rel="noopener noreferrer">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>

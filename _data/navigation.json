@@ -1,0 +1,155 @@
+[
+  {
+    "folder": "current-business",
+    "label": "Current business",
+    "notes": [
+      {
+        "source": "current-business/CONTEXT.md",
+        "folder": "current-business",
+        "file": "context.md",
+        "url": "/context.html",
+        "title": "Business context",
+        "label": "Business context",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "current-business/CUSTOMER_JOURNEY.md",
+        "folder": "current-business",
+        "file": "customer-journey.md",
+        "url": "/customer-journey.html",
+        "title": "City Helpers — customer journey",
+        "label": "Customer journey",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "current-business/EXISTING_MARKETING_FUNNEL.md",
+        "folder": "current-business",
+        "file": "existing-marketing-funnel.md",
+        "url": "/existing-marketing-funnel.html",
+        "title": "City Helpers — existing marketing funnel",
+        "label": "Existing marketing funnel",
+        "updated": "2026-09-22"
+      }
+    ]
+  },
+  {
+    "folder": "ideas-and-work",
+    "label": "Ideas and work",
+    "notes": [
+      {
+        "source": "ideas-and-work/COMMUNITY_OUTREACH.md",
+        "folder": "ideas-and-work",
+        "file": "community-outreach.md",
+        "url": "/community-outreach.html",
+        "title": "Community outreach",
+        "label": "Community outreach",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/CUSTOMER_RESEARCH.md",
+        "folder": "ideas-and-work",
+        "file": "customer-research.md",
+        "url": "/customer-research.html",
+        "title": "Customer research",
+        "label": "Customer research",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/DIGITAL_ADVERTISING.md",
+        "folder": "ideas-and-work",
+        "file": "digital-advertising.md",
+        "url": "/digital-advertising.html",
+        "title": "Digital advertising",
+        "label": "Digital advertising",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/EXPERIMENTS_AND_DECISIONS.md",
+        "folder": "ideas-and-work",
+        "file": "experiments-and-decisions.md",
+        "url": "/experiments-and-decisions.html",
+        "title": "Experiments and decisions",
+        "label": "Experiments and decisions",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/MESSAGING.md",
+        "folder": "ideas-and-work",
+        "file": "messaging.md",
+        "url": "/messaging.html",
+        "title": "Messaging",
+        "label": "Messaging",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/PARTNERSHIPS.md",
+        "folder": "ideas-and-work",
+        "file": "partnerships.md",
+        "url": "/partnerships.html",
+        "title": "Partnerships",
+        "label": "Partnerships",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/REWARDS_AND_REFERRALS.md",
+        "folder": "ideas-and-work",
+        "file": "rewards-and-referrals.md",
+        "url": "/rewards-and-referrals.html",
+        "title": "Rewards and referrals",
+        "label": "Rewards and referrals",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "ideas-and-work/WEBSITE_AND_BOOKING.md",
+        "folder": "ideas-and-work",
+        "file": "website-and-booking.md",
+        "url": "/website-and-booking.html",
+        "title": "Website and booking",
+        "label": "Website and booking",
+        "updated": "2026-09-22"
+      }
+    ]
+  },
+  {
+    "folder": "looking-ahead",
+    "label": "Looking ahead",
+    "notes": [
+      {
+        "source": "looking-ahead/OBJECTIVE.md",
+        "folder": "looking-ahead",
+        "file": "objective.md",
+        "url": "/objective.html",
+        "title": "Business problem and objective",
+        "label": "Objective",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "looking-ahead/OPEN_QUESTIONS.md",
+        "folder": "looking-ahead",
+        "file": "open-questions.md",
+        "url": "/open-questions.html",
+        "title": "Open questions",
+        "label": "Open questions",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "looking-ahead/SUCCESS_AND_MEASUREMENT.md",
+        "folder": "looking-ahead",
+        "file": "success-and-measurement.md",
+        "url": "/success-and-measurement.html",
+        "title": "Success and measurement",
+        "label": "Success and measurement",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "looking-ahead/TARGET_AUDIENCE.md",
+        "folder": "looking-ahead",
+        "file": "target-audience.md",
+        "url": "/target-audience.html",
+        "title": "Target audience",
+        "label": "Target audience",
+        "updated": "2026-09-22"
+      }
+    ]
+  }
+]

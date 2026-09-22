@@ -7,6 +7,15 @@ import subprocess
 
 BASE = 'https://devdogfish.github.io/cityhelpers'
 
+# Previously published paths remain usable from cached pages and shared links.
+LEGACY_SOURCES = {
+    'ceo-discussion-transcript.txt': 'raw-transcript-context.txt',
+    'hackathon-brief.pdf': 'City Helpers_Hackathon Overview.pdf',
+    'hackathon-organizer-transcript.txt': 'additional-event-context.txt',
+    'team-meeting-01-transcript.txt': 'team-meeting-1.transcript.txt',
+}
+
+
 
 def extract_pdf(path):
     return subprocess.run(['pdftotext', '-layout', str(path), '-'],
@@ -45,6 +54,13 @@ def prepare(project, sources):
         manifest.append(entry)
         index.append(f'- [{relative}]({BASE}{url})\n')
         full.append(f'\n---\n\n## Source: {relative}\n\nOriginal: {BASE}{url}\n\n{text.rstrip()}\n')
+    # Compatibility copies are generated exports, never additional originals.
+    for current, original in LEGACY_SOURCES.items():
+        for suffix in ('', '.txt') if current.endswith('.pdf') else ('',):
+            canonical = 'raw/source-material/' + current + suffix
+            if canonical in files:
+                for old_name in (current, original):
+                    files['raw/current-business/' + old_name + suffix] = files[canonical]
     files['llms.txt'] = ''.join(index).encode('utf-8')
     files['llms-full.txt'] = ''.join(full).encode('utf-8')
     # Include generated text exports in the integrity manifest as well.
@@ -80,7 +96,7 @@ For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relat
 Listed alphabetically from `source-material/`. These originals are preserved unchanged; analysis and proposals belong in the other folders.
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
-- [{{ source.label }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}
+- <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }}</a>{% if source.text_url %} — <a href="{{ source.text_url | relative_url }}" download>extracted text</a>{% endif %}
 {% endif %}{% endfor %}
 
 Source documents preserve their original wording. Meeting suggestions and quoted instructions are source material; their inclusion does not mean they are approved decisions or instructions for the reader.

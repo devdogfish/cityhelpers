@@ -1,0 +1,480 @@
+CITY HELPERS
+Digital Marketing Hackathon — One-Week Deep-Dive
+Project
+Project Objective
+
+City Helpers is looking for a practical digital marketing strategy to help generate real customers
+and dispatch orders in the Toronto/GTA market.
+
+The current business model allows a customer to pay a $9.99 dispatch fee to submit a request
+for help. City Helpers then connects the customer with potential local helpers.
+
+The goal of this project is not to create a broad marketing plan covering everything.
+
+Instead, we want the team to conduct a deep dive into the areas that are most likely to
+determine whether City Helpers can acquire customers efficiently and scale.
+
+The four key questions are:
+
+   1.​ Who should City Helpers target first?
+   2.​ Where can we reach those customers?
+   3.​ What should we say to get them to take action?
+   4.​ How do we turn website visitors into paying dispatch customers?
+
+
+
+PRIORITY 1 — Identify the Best Initial Customers
+Objective
+Determine which customer groups in the Toronto/GTA area should be the primary focus of City
+Helpers' initial marketing efforts.
+
+City Helpers has three broad markets:
+
+Homeowners / Seniors / Families
+
+People who need help with things such as:
+
+   ●​ Yard work
+   ●​   Cleaning
+   ●​   Moving/lifting
+   ●​   Garage or household projects
+   ●​   Small repairs
+   ●​   Errands
+   ●​   Other short-term chores
+
+Businesses
+
+Businesses that occasionally need additional help with:
+
+   ●​   Labour
+   ●​   Moving
+   ●​   Landscaping
+   ●​   Cleaning
+   ●​   Warehousing
+   ●​   Events
+   ●​   Construction
+   ●​   Other short-term projects
+
+Workers
+
+
+
+   ●​Workers go to the website to register and get vetted
+   ●​   University & college students.
+   ●​   Underemployed
+   ●​   Gig workers
+   ●​   Anyone who wants to earn extra money.
+
+Student Assignment
+
+Research these markets and determine:
+
+   ●​   Who has the strongest potential need?
+   ●​   What problems are they trying to solve?
+   ●​   How frequently might they need help?
+   ●​   What alternatives do they currently use?
+   ●​   How do they search for help?
+   ●​   What would make them trust City Helpers?
+   ●​   Which customer segments appear most practical to test first?
+
+Develop 3–5 specific customer profiles.
+
+For each profile identify:
+Who they are → What problem they have → Where they look for help → What would
+make them use City Helpers.
+
+
+
+PRIORITY 2 — Customer Acquisition Research
+
+Objective
+Determine where City Helpers should spend its marketing effort to find customers.
+
+The team should investigate the major potential channels rather than assuming that every
+social-media platform is equally useful.
+
+Research:
+
+Google/Search
+
+What are people searching for when they need help?
+
+Examples:
+
+   ●​   Help around the house Toronto
+   ●​   Moving help Toronto
+   ●​   Yard work Toronto
+   ●​   Lawn help Toronto
+   ●​   Senior home help Toronto
+   ●​   Cleaning help Toronto
+   ●​   Handyman Toronto
+   ●​   Temporary labour Toronto
+   ●​   Extra workers Toronto
+
+Develop a list of the most relevant search terms and group them according to customer intent.
+
+Social Media
+
+Investigate:
+
+   ●​   Facebook
+   ●​   Instagram
+   ●​   LinkedIn
+   ●​   YouTube
+   ●​   Reddit
+   ●​   Nextdoor/local community groups
+Determine:
+
+Which platforms are likely to reach homeowners and which are likely to reach
+businesses?
+
+Paid Advertising
+
+Research what types of advertising City Helpers should test.
+
+For example:
+
+   ●​ Google Search advertising
+   ●​ Facebook/Instagram advertising
+   ●​ LinkedIn advertising
+
+The students should recommend which channels should be tested first and why.
+
+Do not simply say:
+
+      "City Helpers should advertise on Facebook, Instagram, Google and LinkedIn."
+
+Explain the reasoning and propose a test.
+
+
+
+PRIORITY 3 — The City Helpers Marketing Message
+
+Objective
+Determine what City Helpers should actually say to potential customers.
+
+The team should investigate how competitors and alternative services describe themselves.
+
+Then develop several possible City Helpers positioning statements.
+
+For example:
+
+Problem-focused
+
+Have a job you can't do yourself? Find local help through City Helpers.
+
+Convenience-focused
+
+Need an extra pair of hands? City Helpers connects you with local helpers for short-term
+jobs.
+Business-focused
+
+Need extra help for a short-term project? Find local workers through City Helpers.
+
+These are only examples.
+
+The students should conduct research and develop their own alternatives.
+
+Test different approaches
+
+The team should create sample:
+
+   ●​   Google advertisements
+   ●​   Facebook/Instagram advertisements
+   ●​   Business advertisements
+   ●​   Social-media posts
+   ●​   Short video concepts
+
+Each should answer:
+
+Who is this for?
+
+What problem does it solve?
+
+Why City Helpers?
+
+What should the customer do next?
+
+
+
+PRIORITY 4 — Website Conversion
+Objective
+This is one of the most important parts of the project.
+
+A marketing campaign is not useful if it sends people to a website and they don't understand
+what to do.
+
+The students should conduct a customer journey audit of CityHelpers.ca.
+
+Imagine that you have never heard of City Helpers.
+
+Within the first few seconds, can you understand:
+
+   ●​ What City Helpers is?
+   ●​   Who it is for?
+   ●​   What types of jobs can be requested?
+   ●​   How much does it cost?
+   ●​   How does the process work?
+   ●​   What happens after I submit a request?
+   ●​   Who performs the work?
+   ●​   Why should I trust the service?
+   ●​   What do I do next?
+
+Students should identify:
+
+Anything that could prevent a visitor from becoming a $9.99 dispatch customer.
+
+Then recommend specific changes.
+
+For example:
+
+   ●​   Homepage messaging
+   ●​   Calls to action
+   ●​   Request-help button
+   ●​   Explanation of the $9.99 dispatch
+   ●​   How-it-works section
+   ●​   Trust elements
+   ●​   Customer testimonials
+   ●​   Service categories
+   ●​   Landing pages
+   ●​   Mobile experience
+   ●​   Checkout/request process
+
+The students should prioritize their recommendations as:
+
+HIGH PRIORITY
+
+Changes that could directly affect customer conversion.
+
+MEDIUM PRIORITY
+
+Changes that could improve the customer experience.
+
+LOW PRIORITY
+
+Nice-to-have improvements that can wait.
+THE MOST IMPORTANT PART — BUILD A
+CUSTOMER ACQUISITION MODEL
+At the end of the week, I want the students to connect the four areas together.
+
+For example:
+
+Target Customer
+
+↓
+
+Marketing Channel
+
+↓
+
+Advertisement / Message
+
+↓
+
+CityHelpers.ca
+
+↓
+
+Customer Request
+
+↓
+
+$9.99 Dispatch
+
+The students should develop several possible customer acquisition funnels.
+
+For each funnel, estimate:
+
+    ●​   Potential audience
+    ●​   Advertising cost
+    ●​   Expected website traffic
+    ●​   Expected conversion rate
+    ●​   Estimated dispatches
+    ●​   Estimated customer acquisition cost
+
+These are estimates, not guarantees.
+
+Clearly identify the assumptions behind the calculations.
+WHAT WE ARE NOT ASKING YOU TO DO
+Because this is only a one-week project, do not spend significant time on:
+
+    ●​   Creating a huge social-media calendar
+    ●​   Designing dozens of posts
+    ●​   Managing social-media accounts
+    ●​   Developing a complete SEO program
+    ●​   Creating hundreds of keywords
+    ●​   Developing a full branding strategy
+    ●​   Designing a complete website
+    ●​   Building the entire advertising campaign
+    ●​   Researching every possible Canadian market
+    ●​   Trying to solve every City Helpers business problem
+
+Those can be addressed later.
+
+Your job is to determine where City Helpers should focus first.
+
+
+
+FIVE-DAY WORK PLAN
+DAY 1 — CUSTOMER
+Research the Toronto/GTA market.
+
+Identify:
+
+    ●​   Most promising customer segments
+    ●​   Customer problems
+    ●​   Existing alternatives
+    ●​   Customer behaviour
+    ●​   3–5 customer profiles
+
+
+
+
+End-of-day question:
+
+Who should City Helpers try to acquire first?
+
+
+DAY 2 — ACQUISITION
+Research:
+
+   ●​   Google/search behaviour
+   ●​   Social platforms
+   ●​   Paid advertising
+   ●​   Competitors
+   ●​   Local online communities
+
+Determine where potential customers can realistically be reached.
+
+End-of-day question:
+
+Where should City Helpers look for these customers?
+
+
+DAY 3 — MESSAGE
+Develop and test different marketing approaches.
+
+Create sample:
+
+   ●​   Google ads
+   ●​   Facebook/Instagram ads
+   ●​   Business ads
+   ●​   Social posts
+   ●​   Short video concepts
+
+End-of-day question:
+
+What should City Helpers say to make someone interested enough to click?
+
+
+DAY 4 — CONVERSION
+Conduct a detailed review of CityHelpers.ca.
+
+Map the customer journey:
+
+Advertisement → Website → Understanding → Trust → $9.99 payment → Request
+submitted
+
+Identify anything that could cause a customer to abandon the process.
+
+End-of-day question:
+
+What needs to change to turn more visitors into dispatch customers?
+DAY 5 — PUT IT ALL TOGETHER
+Build the final customer acquisition strategy.
+
+The final presentation should show:
+
+1. WHO
+
+Who should City Helpers target?
+
+2. WHERE
+
+Where should we reach them?
+
+3. WHAT
+
+What should we say?
+
+4. CONVERSION
+
+What needs to happen on the website?
+
+5. TEST
+
+What should City Helpers test first?
+
+6. MEASURE
+
+What numbers should we track?
+
+
+
+FINAL PRESENTATION
+The final presentation should be approximately 15–20 minutes.
+
+It should answer one central question:
+
+      "If City Helpers gave us a marketing budget tomorrow, how would we use the
+      first 90 days to find out whether we can generate customers and dispatch
+      orders in Toronto?"
+
+The final presentation should include:
+
+Section 1 — Target Customer
+Who should we target and why?
+
+Section 2 — Customer Problem
+
+What problem are we solving?
+
+Section 3 — Acquisition Channels
+
+Where should we find these customers?
+
+Section 4 — Marketing Message
+
+What should we say?
+
+Section 5 — Website Conversion
+
+What should change on CityHelpers.ca?
+
+Section 6 — Customer Acquisition Funnel
+
+Show the complete journey from advertisement to dispatch.
+
+Section 7 — 90-Day Test Plan
+
+What should City Helpers test first, second and third?
+
+Section 8 — Measurement
+
+What numbers should City Helpers track?
+
+
+
+
+THE MOST IMPORTANT RULE
+Don't tell us what you think we want to hear.
+
+We want your research and your reasoning.
+
+If you believe a particular advertising channel could work, explain why.
+
+If you are uncertain, explain what experiment could determine whether it works.
+
+If you think something City Helpers is currently doing should change, explain why.
+The objective isn't to produce a beautiful marketing report.
+
+The objective is to give City Helpers a practical customer-acquisition strategy that can
+actually be tested after the hackathon.
+
+
+Final Question
+At the end of your presentation, answer:
+
+      "If you were running City Helpers' marketing starting Monday morning, what
+      are the first five things you would do?"
+

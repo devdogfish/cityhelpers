@@ -109,6 +109,15 @@ class SyncTests(unittest.TestCase):
         self.assertFalse((self.site / 'raw/source-material/meeting.txt').exists())
         self.assertNotIn('Last speaker.', (self.site / 'llms-full.txt').read_text())
 
+    def test_previous_download_urls_keep_original_bytes(self):
+        self.note('current-business/business-context.md')
+        original = self.note('source-material/ceo-discussion-transcript.txt', 'Original words.\n')
+        sync_notes.sync(self.site)
+        for name in ['ceo-discussion-transcript.txt', 'raw-transcript-context.txt']:
+            self.assertEqual((self.site / 'raw/current-business' / name).read_bytes(), original.read_bytes())
+        sources = json.loads((self.site / '_data/sources.json').read_text())
+        self.assertEqual(sum(s['kind'] == 'source' for s in sources), 1)
+
     def test_unregistered_page_cannot_be_published_without_navigation(self):
         self.note('current-business/CONTEXT.md')
         (self.site / 'orphan.html').write_text('<h1>Not in navigation</h1>')

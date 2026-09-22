@@ -10,9 +10,29 @@
     "sha256": "11e38283191984b820fa564b640ad77e1b27cadaf58e8f63faeee15d6eda4efa"
   },
   {
+    "file": "raw/current-business/City Helpers_Hackathon Overview.pdf",
+    "url": "/raw/current-business/City%20Helpers_Hackathon%20Overview.pdf",
+    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca"
+  },
+  {
+    "file": "raw/current-business/City Helpers_Hackathon Overview.pdf.txt",
+    "url": "/raw/current-business/City%20Helpers_Hackathon%20Overview.pdf.txt",
+    "sha256": "528895caffa168df116e09d47629327c10f61819126e1cd17304d48728cf5142"
+  },
+  {
+    "file": "raw/current-business/additional-event-context.txt",
+    "url": "/raw/current-business/additional-event-context.txt",
+    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022"
+  },
+  {
     "file": "raw/current-business/business-context.md",
     "url": "/raw/current-business/business-context.md",
     "sha256": "bbeeacc2cc5656336b21d08c0817b83c4972add2fc73ec31319851baa0307420"
+  },
+  {
+    "file": "raw/current-business/ceo-discussion-transcript.txt",
+    "url": "/raw/current-business/ceo-discussion-transcript.txt",
+    "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
   },
   {
     "file": "raw/current-business/customer-journey.md",
@@ -23,6 +43,36 @@
     "file": "raw/current-business/existing-marketing-funnel.md",
     "url": "/raw/current-business/existing-marketing-funnel.md",
     "sha256": "4bb2cde6d5f5436c4699da18c3c500ba34a02c02ae5524d6917f5b8c219e7267"
+  },
+  {
+    "file": "raw/current-business/hackathon-brief.pdf",
+    "url": "/raw/current-business/hackathon-brief.pdf",
+    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca"
+  },
+  {
+    "file": "raw/current-business/hackathon-brief.pdf.txt",
+    "url": "/raw/current-business/hackathon-brief.pdf.txt",
+    "sha256": "528895caffa168df116e09d47629327c10f61819126e1cd17304d48728cf5142"
+  },
+  {
+    "file": "raw/current-business/hackathon-organizer-transcript.txt",
+    "url": "/raw/current-business/hackathon-organizer-transcript.txt",
+    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022"
+  },
+  {
+    "file": "raw/current-business/raw-transcript-context.txt",
+    "url": "/raw/current-business/raw-transcript-context.txt",
+    "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
+  },
+  {
+    "file": "raw/current-business/team-meeting-01-transcript.txt",
+    "url": "/raw/current-business/team-meeting-01-transcript.txt",
+    "sha256": "b21c41ee22f54adc7112f464e90cb51c1757742c4f1d79c8b71c87796d014ef0"
+  },
+  {
+    "file": "raw/current-business/team-meeting-1.transcript.txt",
+    "url": "/raw/current-business/team-meeting-1.transcript.txt",
+    "sha256": "b21c41ee22f54adc7112f464e90cb51c1757742c4f1d79c8b71c87796d014ef0"
   },
   {
     "file": "raw/current-business/worker-matching.md",

@@ -105,6 +105,24 @@ class SyncTests(unittest.TestCase):
         self.assertFalse((self.site / 'raw/current-business/meeting.txt').exists())
         self.assertNotIn('Last speaker.', (self.site / 'llms-full.txt').read_text())
 
+    def test_unregistered_page_cannot_be_published_without_navigation(self):
+        self.note('current-business/CONTEXT.md')
+        (self.site / 'orphan.html').write_text('<h1>Not in navigation</h1>')
+        with self.assertRaisesRegex(ValueError, 'Unregistered site page'):
+            sync_notes.sync(self.site)
+
+    def test_body_link_cannot_mask_missing_navigation_entry(self):
+        spec = importlib.util.spec_from_file_location('verify_published', Path(__file__).with_name('verify-published.py'))
+        verifier = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(verifier)
+        page = verifier.Page()
+        page.feed('<nav aria-label="Notes"><a href="/cityhelpers/">Home</a></nav>'
+                  '<main><a href="/cityhelpers/sources.html">Sources</a></main>')
+        self.assertIn('/cityhelpers/sources.html', page.links)
+        self.assertNotIn('/cityhelpers/sources.html', page.nav_links)
+        page.feed('<nav aria-label="Notes"><a href="/cityhelpers/sources.html">Sources</a></nav>')
+        self.assertIn('/cityhelpers/sources.html', page.nav_links)
+
 
 if __name__ == '__main__':
     unittest.main()

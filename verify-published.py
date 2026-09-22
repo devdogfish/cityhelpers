@@ -20,6 +20,8 @@ class Page(HTMLParser):
         super().__init__()
         self.marker = None
         self.links = set()
+        self.nav_links = set()
+        self.in_nav = False
         self.groups = []
         self.in_group = False
         self.robots = ''
@@ -29,8 +31,12 @@ class Page(HTMLParser):
             self.marker = attrs.get('content')
         if tag == 'meta' and attrs.get('name') == 'robots':
             self.robots = attrs.get('content', '')
+        if tag == 'nav' and attrs.get('aria-label') == 'Notes':
+            self.in_nav = True
         if tag == 'a':
             self.links.add(attrs.get('href', ''))
+            if self.in_nav:
+                self.nav_links.add(attrs.get('href', ''))
         if tag == 'h2' and 'nav-group-title' in attrs.get('class', '').split():
             self.groups.append('')
             self.in_group = True
@@ -38,6 +44,8 @@ class Page(HTMLParser):
         if self.in_group:
             self.groups[-1] += data
     def handle_endtag(self, tag):
+        if tag == 'nav':
+            self.in_nav = False
         if tag == 'h2':
             self.in_group = False
 
@@ -48,7 +56,7 @@ def verify(path):
         page = Page()
         page.feed(result.stdout)
         if result.returncode == 0 and page.marker == build:
-            missing = [p for p in pages if '/cityhelpers' + p not in page.links]
+            missing = [p for p in pages if '/cityhelpers' + p not in page.nav_links]
             if missing:
                 raise RuntimeError(f'{path}: navigation missing {missing}')
             if page.groups != groups:
@@ -69,8 +77,9 @@ def verify_context(item):
     raise RuntimeError(f"{item['url']}: published bytes differ from local source/export")
 
 
-with ThreadPoolExecutor(max_workers=4) as pool:
-    for message in pool.map(verify, pages):
-        print(message)
-    for message in pool.map(verify_context, context_files):
-        print(message)
+if __name__ == '__main__':
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for message in pool.map(verify, pages):
+            print(message)
+        for message in pool.map(verify_context, context_files):
+            print(message)

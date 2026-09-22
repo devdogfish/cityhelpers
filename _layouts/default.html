@@ -29,7 +29,7 @@
       <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="notes-navigation" hidden>Browse notes</button>
       <nav id="notes-navigation" aria-label="Notes">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
-        <a href="{{ '/sources.html' | relative_url }}" {% if page.url == '/sources.html' %}aria-current="page"{% endif %}>Sources / LLM context</a>
+        <a href="{{ '/sources.html' | relative_url }}" {% if page.url == '/sources.html' %}aria-current="page"{% endif %}>Sources &amp; transcripts</a>
         {% for group in site.data.navigation %}
         <section class="nav-group" aria-labelledby="nav-group-{{ forloop.index }}">
           <h2 id="nav-group-{{ forloop.index }}" class="nav-group-title">{{ group.label | escape }}</h2>

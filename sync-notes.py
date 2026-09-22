@@ -88,6 +88,13 @@ def sync(root):
     manifest = root / '_data/notes.json'
     previous = json.loads(manifest.read_text()) if manifest.exists() else []
     current = {note['file'] for note in notes}
+    registered = current | {n['file'] for n in previous} | {'index.md', 'sources.md'}
+    # A manually added HTML/Jekyll page must not silently become an orphan.
+    for path in root.iterdir():
+        if not path.is_file() or not visible(path) or path.name in registered or path.name in EXCLUDED:
+            continue
+        if path.suffix == '.html' or (path.suffix == '.md' and path.read_text().startswith('---')):
+            raise ValueError(f'Unregistered site page: {path.name}. Add its source note to a project folder so navigation includes it.')
     for old in previous:
         name = old['file']
         if name not in current and Path(name).name == name and name.endswith('.md'):

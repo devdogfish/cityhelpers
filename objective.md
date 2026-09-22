@@ -7,7 +7,15 @@ City Helpers wants more paying customers in Toronto/GTA. Our initial focus is se
 
 **1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We can reconstruct visible entry points, but lack channel-level visitor and enquiry counts, outbound contacts and replies, paid dispatches, completed jobs, acquisition costs, and repeat bookings. Whether City Helpers already tracks these internally is unknown.
 
+- [Customer research](customer-research.html) — understand needs, buying habits, and booking barriers.
+
 **2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches at a viable cost, supported by completed jobs and repeat bookings. Better measurement supports that outcome, but does not itself deliver customers.
+
+- [Community outreach](community-outreach.html) — reach seniors through local events and demonstrations.
+- [Facebook ads](digital-advertising.html) — promote specific services to relevant local audiences.
+- [Housing and community partnerships](partnerships.html) — build trusted referral routes to residents.
+- [Rewards and referrals](rewards-and-referrals.html) — encourage introductions and repeat bookings.
+- [Website and booking](website-and-booking.html) — clarify the offer and help enquiries become paid jobs.
 
 The written hackathon brief requests a 90-day test plan covering audience, channels, messages, website improvements, and estimated results. Our recommendations should specify both what each test will teach us and how it could generate customers, with spending caps, evaluation dates, assumptions, and agreed success measures. The CEO’s transcript supports testing and acquisition work; the explicit 90-day timeframe comes from the brief.
 

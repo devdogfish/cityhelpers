@@ -1,4 +1,4 @@
-# Worker matching and delivery
+# Operational workflow
 
 **Find a worker → agree the job → deliver → close.** Continue from the [customer journey](customer-journey.md). Blue boxes carry the main route; grey boxes supply workers; diamonds are decisions; red boxes show exceptions; green marks handoff or completion. Dashed arrows indicate handling needing confirmation. This maps the stated business process, not verified software or automation.
 

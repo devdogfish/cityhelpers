@@ -67,7 +67,7 @@
     "label": "Business objectives",
     "file": "raw/current-business/business-objectives.md",
     "url": "/raw/current-business/business-objectives.md",
-    "sha256": "779194c51bc89ff73c3243a0c7f626432456b3ef6853e056a67f9931606659c5",
+    "sha256": "7dd3fcb8bed1693f3d28a64838ddd5e63f8426e04b02f086474df5d1332de417",
     "kind": "note",
     "format": "MD"
   },
@@ -76,7 +76,7 @@
     "label": "Competitors",
     "file": "raw/current-business/competitors.md",
     "url": "/raw/current-business/competitors.md",
-    "sha256": "4f06c114f7aac6f9a78c17101f49e9b7b12ef4291983ccedef001da0e0fb3b83",
+    "sha256": "28dd971113f158f580d09330eac5c5efa4d095448d6f3746fb2d2f00c1a0eefd",
     "kind": "note",
     "format": "MD"
   },
@@ -112,7 +112,7 @@
     "label": "Worker matching",
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "1eae081958efe0078ecdddc5581558879cb17740478284f1b091603bc3295ee9",
+    "sha256": "78b1cf476f5415bfad5cb3f8078a6f3463a3b96fb80bb4364b526e375d309017",
     "kind": "note",
     "format": "MD"
   },

@@ -22,5 +22,21 @@
     "title": "Business context",
     "label": "Business context",
     "updated": "2026-09-22"
+  },
+  {
+    "source": "CUSTOMER_JOURNEY.md",
+    "file": "customer-journey.md",
+    "url": "/customer-journey.html",
+    "title": "City Helpers — customer journey",
+    "label": "City Helpers — customer journey",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "EXISTING_MARKETING_FUNNEL.md",
+    "file": "existing-marketing-funnel.md",
+    "url": "/existing-marketing-funnel.html",
+    "title": "City Helpers — existing marketing funnel",
+    "label": "City Helpers — existing marketing funnel",
+    "updated": "2026-09-22"
   }
 ]

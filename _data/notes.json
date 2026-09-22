@@ -13,8 +13,8 @@
     "folder": "current-business",
     "file": "customer-journey.md",
     "url": "/customer-journey.html",
-    "title": "City Helpers — customer journey",
-    "label": "Customer journey",
+    "title": "City Helpers — client acquisition",
+    "label": "Client acquisition",
     "updated": "2026-09-22"
   },
   {
@@ -24,6 +24,15 @@
     "url": "/existing-marketing-funnel.html",
     "title": "City Helpers — existing marketing funnel",
     "label": "Existing marketing funnel",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "current-business/WORKER_MATCHING.md",
+    "folder": "current-business",
+    "file": "worker-matching.md",
+    "url": "/worker-matching.html",
+    "title": "City Helpers — worker matching and delivery",
+    "label": "Worker matching and delivery",
     "updated": "2026-09-22"
   },
   {

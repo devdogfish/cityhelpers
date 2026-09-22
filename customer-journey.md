@@ -1,82 +1,76 @@
 ---
-title: "City Helpers — customer journey"
+title: "City Helpers — client acquisition"
 updated: "2026-09-22"
 ---
 
-Solid arrows show published routes or the stated service process, not verified customer behaviour. Dashed arrows show possible paths whose operation is unverified. The map covers known entry points, booking, fulfilment, exceptions, and return visits; internal workflows remain unknown.
+Read top to bottom. Each layer has one purpose; the branches show alternate customer routes. **Blue = documented channel or published process. Amber = activity or handling not verified.** Arrows describe the journey, not measured conversion. This map ends when a paid dispatch has a submitted worker request; operations continue in [worker matching and delivery](worker-matching.html).
 
 ```mermaid
-flowchart TD
-    subgraph discovery["1. Discovery and enquiry"]
-        Search["Organic search"] --> Web["Website / service page"]
-        LinkedIn["LinkedIn posts"] --> Web
-        Nextdoor["Nextdoor posts<br/>Halifax page"] --> Web
-        Nextdoor --> Enquiry["Email, call, or platform message"]
-        Facebook["Facebook page<br/>Activity unverified"] -.-> Web
-        Referral["Neighbour, family, or partner referral<br/>Unverified"] -.-> Web
-        Referral -.-> Enquiry
-        Direct["Direct / returning visit"] -.-> Web
-        Prospect["B2B prospecting<br/>Advertised sales model"] -.-> Sales["Sales conversation<br/>Execution unverified"]
-        Sales -.-> Enquiry
-        Sales -.-> Business
-        Sales -.-> Leave["Leave / postpone / choose another provider"]
+flowchart TB
+    subgraph L1["01 · REACH"]
+        Inbound["Organic inbound<br/>Search · LinkedIn · Nextdoor"]
+        Other["Other entry routes<br/>Facebook page · direct visit · referral<br/>Activity / attribution unverified"]
+        Outbound["Business outbound<br/>Sales partners recruited to prospect<br/>Actual outreach unverified"]
     end
 
-    subgraph booking["2. Understanding and purchase"]
-        Web --> Info["Service details, pricing,<br/>testimonials, and FAQ"]
-        Web --> Enquiry
-        Info --> Audience{"Customer type"}
-        Info -.-> Leave
-        Enquiry -.-> Support["Staff answers questions<br/>Handling process unknown"]
-        Support -.-> Audience
-        Support -.-> Leave
-        Audience -->|"Senior / homeowner"| Home["Homeowner offer<br/>$9.99 dispatch + worker labour"]
-        Audience -->|"Business"| Business["Business offer<br/>Dispatch vs subscription unclear"]
-        Home --> Fee["Pay platform fee"]
-        Business --> Fee
-        Fee -.-> Incomplete["Payment fails / checkout abandoned"]
-        Incomplete -.-> Fee
-        Incomplete -.-> Leave
-        Fee --> Request["Submit worker request"]
-        Request -.-> Unsubmitted["Paid, but request unfinished<br/>Recovery process unknown"]
-        Unsubmitted -.-> Request
-        Unsubmitted -.-> Enquiry
+    subgraph L2["02 · ENTRY"]
+        Website["Website / service page"]
+        Contact["Call · email · platform message<br/>Enquiry channels exist;<br/>booking assistance unverified"]
+        Sales["B2B sales conversation<br/>Advertised model"]
     end
 
-    subgraph delivery["3. Matching and job delivery"]
-        Request --> Notify["City Helpers notifies local workers"]
-        Notify --> Select["Customer selects worker(s)<br/>Agree job details and labour price"]
-        Notify -.-> NoMatch["No suitable / available worker<br/>Resolution unknown"]
-        NoMatch -.-> Enquiry
-        Select --> Job["Worker attends and performs job"]
-        Select --> NoShow["Worker accepts but does not attend"]
-        NoShow --> Report["Customer reports no-show"]
-        Report --> Replace["Replacement worker can be requested"]
-        Replace -.-> Notify
-        Job --> Satisfied{"Satisfied with work?"}
-        Satisfied -->|"Yes"| PayWorker["Pay worker directly"]
-        Satisfied -->|"No"| Dispute["Contact City Helpers<br/>Company and worker address dispute"]
-        Dispute -.-> Resolved["Resolution<br/>Outcome and timing unknown"]
-        Resolved -.-> PayWorker
-        Resolved -.-> Stop["Customer does not return"]
+    subgraph L3["03 · CONSIDERATION"]
+        Understand["Understand tasks, vetting, pricing,<br/>testimonials, and next steps"]
+        Pause["Leave · postpone · choose an alternative<br/>Reasons and volumes unknown"]
     end
 
-    subgraph retention["4. After the job"]
-        PayWorker --> Rate["Rate worker<br/>Published process"]
-        Rate -.-> Return["Another job needed"]
-        Return -.-> Web
-        Return -.-> Enquiry
-        Rate -.-> Recommend["Recommend City Helpers<br/>Referral behaviour unverified"]
-        Recommend -.-> Referral
-        Rate -.-> Stop
+    subgraph L4["04 · OFFER"]
+        Home["Senior / homeowner<br/>$9.99 dispatch<br/>Worker labour paid separately"]
+        Business["Business customer<br/>Dispatch vs membership offer<br/>Conflicting local evidence"]
     end
 
-    classDef uncertain fill:#fff4d6,stroke:#a66b00,color:#362500;
-    classDef exit fill:#fbe9e7,stroke:#ad4435,color:#4b1710;
-    class Facebook,Referral,Direct,Prospect,Sales,Support,Business,NoMatch,Unsubmitted,Resolved,Return,Recommend uncertain;
-    class Leave,Incomplete,Stop exit;
+    subgraph L5["05 · CONVERSION"]
+        Fee["Pay City Helpers platform fee"]
+        Request["Submit worker request"]
+        Incomplete["Payment fails or request unfinished<br/>Recovery process unknown"]
+    end
+
+    subgraph L6["06 · HANDOFF"]
+        Handoff(["Paid dispatch + submitted request<br/>Continue in worker matching diagram"])
+    end
+
+    Inbound --> Website
+    Inbound --> Contact
+    Other -.-> Website
+    Other -.-> Contact
+    Outbound -.-> Sales
+    Website --> Understand
+    Contact -.-> Understand
+    Sales -.-> Understand
+    Understand --> Home
+    Understand --> Business
+    Understand -.-> Pause
+    Home --> Fee
+    Business --> Fee
+    Fee --> Request
+    Fee -.-> Incomplete
+    Request -.-> Incomplete
+    Request --> Handoff
+
+    %% Invisible layout constraints keep terminal branches inside their layer.
+    Pause ~~~ Home
+    Incomplete ~~~ Handoff
+
+    classDef documented fill:#e8f2fa,stroke:#397497,color:#17394d;
+    classDef unknown fill:#fff3d6,stroke:#b7872c,color:#49350d;
+    classDef boundary fill:#e4f2e9,stroke:#45825d,color:#20412c;
+    class Inbound,Website,Understand,Home,Fee,Request documented;
+    class Other,Outbound,Contact,Sales,Pause,Business,Incomplete unknown;
+    class Handoff boundary;
 ```
 
-**Important unknowns:** actual checkout screens and account requirements; enquiry-to-booking handoffs; matching times; recovery after failed payment or unmatched requests; refund outcomes; repeat-customer fees; and automated reminders. The pricing page currently lists a business dispatch offer, while other pages still describe subscriptions. No paid-ad funnel or active outbound programme targeting seniors has been verified. Worker recruitment feeds service capacity and is outside this customer journey.
+**Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in `ideas-and-work/`; they are not shown as existing acquisition channels.
 
-**Sources:** [Website](https://www.cityhelpers.ca/), [pricing](https://www.cityhelpers.ca/pricing-plans/plans-pricing), [published service process and exception policies](https://www.cityhelpers.ca/terms-and-conditions), [LinkedIn posts and sales recruitment](https://ca.linkedin.com/company/cityhelpers), [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/), and `EXISTING_MARKETING_FUNNEL.md`. Snapshot: 22 September 2026.
+**Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
+
+**Sources:** [existing marketing funnel](existing-marketing-funnel.html), [business context](context.html), [open questions](open-questions.html), and the CEO transcript `raw-transcript-context.txt`. These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in `CONTEXT.md`, so the business offer remains unresolved.

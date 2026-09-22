@@ -16,6 +16,8 @@ KNOWN = {
     'CONTEXT.md': ('context', 'Business context', 'Business context'),
 }
 EXCLUDED = {'README.md', 'AGENTS.md', 'CLAUDE.md', 'SKILL.md'}
+SECTION_ORDER = {'current-business': 0, 'looking-ahead': 1, 'brainstorming': 2}
+REDIRECTS = {'success-and-measurement.md': '/objective.html'}
 INFRASTRUCTURE = {'site', 'node_modules', 'work', 'outputs'}
 
 
@@ -91,7 +93,7 @@ def sync(root):
     manifest = root / '_data/notes.json'
     previous = json.loads(manifest.read_text()) if manifest.exists() else []
     current = {note['file'] for note in notes}
-    registered = current | {n['file'] for n in previous} | {'index.md', 'sources.md'}
+    registered = current | {n['file'] for n in previous} | {'index.md', 'sources.md'} | set(REDIRECTS)
     # A manually added HTML/Jekyll page must not silently become an orphan.
     for path in root.iterdir():
         if not path.is_file() or not visible(path) or path.name in registered or path.name in EXCLUDED:
@@ -102,6 +104,13 @@ def sync(root):
         name = old['file']
         if name not in current and Path(name).name == name and name.endswith('.md'):
             (root / name).unlink(missing_ok=True)
+    for filename, target in REDIRECTS.items():
+        (root / filename).write_text('---\nlayout: null\n---\n<!doctype html>\n'
+            '<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow">'
+            '<meta http-equiv="refresh" content="0; url={{ \'' + target + '\' | relative_url }}">'
+            '<title>Moved to Business objectives</title></head><body>'
+            '<a href="{{ \'' + target + '\' | relative_url }}">Continue to Business objectives</a>'
+            '</body></html>\n')
     for note in notes:
         frontmatter = '\n'.join(f'{key}: {json.dumps(note[key], ensure_ascii=False)}'
                                 for key in ('title', 'updated'))
@@ -109,7 +118,7 @@ def sync(root):
         print('Synced ' + note['source'])
     public = [{k: v for k, v in n.items() if k != 'body'} for n in notes]
     navigation = []
-    for folder in sorted({n['folder'] for n in public}, key=sort_key):
+    for folder in sorted({n['folder'] for n in public}, key=lambda folder: (SECTION_ORDER.get(folder, 3), sort_key(folder))):
         label = folder.replace('-', ' ').replace('_', ' ').capitalize() if folder else 'Project notes'
         navigation.append(dict(folder=folder, label=label, notes=[n for n in public if n['folder'] == folder]))
     manifest.parent.mkdir(exist_ok=True)

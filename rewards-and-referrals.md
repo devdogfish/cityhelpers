@@ -11,4 +11,4 @@ One possible test is a capped dispatch credit earned after a referred customer's
 
 **Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](existing-marketing-funnel.html), [measurement](success-and-measurement.html), and [experiments](experiments-and-decisions.html).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](existing-marketing-funnel.html), [measurement](objective.html), and [experiments](experiments-and-decisions.html).

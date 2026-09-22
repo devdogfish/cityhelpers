@@ -4,6 +4,161 @@ Contains all published Markdown notes, original transcripts, and text extracted 
 
 ---
 
+## Source: brainstorming/community-outreach.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/community-outreach.md
+
+# Community outreach
+
+**Status: team ideas, untested.** The meeting proposed sponsoring senior socials, coffee/tea gatherings, service giveaways, and door hangers. A participant described a neighbour gaining car-detailing customers after a building giveaway; this is an anecdote, not evidence of City Helpers results.
+
+The hypothesis is that meeting a representative and seeing a useful service can make City Helpers familiar and easier to trust. Begin with an existing gathering through a willing community partner. Demonstrate one task, explain the dispatch fee and separate labour charge, and give attendees a simple next step. Hosting a standalone event adds cost and coordination; compare that option only after learning from a small collaboration.
+
+Match the offer to the setting. Seniors in apartments may need lifting, organizing, or small indoor jobs; yard-work messaging belongs with people responsible for their own outdoor space. Door hangers are a proposed awareness tool, with distribution arranged through the building or organizer. A giveaway needs a defined task, labour allowance, worker availability, and funding; a free dispatch alone does not pay for the work.
+
+**Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
+
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/business-objectives.md).
+
+---
+
+## Source: brainstorming/customer-research.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/customer-research.md
+
+# Customer research
+
+**Status: proposed research plan.** The team asked how to understand customer behaviour and suggested event signups, surveys, customer profiles, testimonials, and platform data. The aim is to learn which jobs people need, how they find help, and what prevents booking.
+
+Start with existing customers, relevant seniors who have not used City Helpers, and people who started but did not complete a request if the business can reach them. Keep their experiences separate. Ask about the last real task they needed help with: what they did, whom they contacted, what it cost, why they chose that option, and what went wrong. Ask whether they booked for themselves or someone else without assuming either answer.
+
+At events, use a short optional enquiry or feedback form. During booking, collect service requirements; add research questions only where they do not obstruct the task. Use testimonials as clues to motivations, recognizing that they are selected positive experiences. The meeting mentioned scraping or a Meta API, but no access or useful data fields were established; first inspect aggregate reporting available in the business's own accounts. Public platform activity does not reveal private preferences or purchase intent.
+
+**Smallest test:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
+
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); interview design is proposed. See [target audience](../current-business/target-audience.md) and [website](website-and-booking.md).
+
+---
+
+## Source: brainstorming/digital-advertising.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/digital-advertising.md
+
+# Digital advertising
+
+**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
+
+Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
+
+The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Treat this as a creative concept to compare with a direct task-focused message. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
+
+**Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
+
+Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
+
+---
+
+## Source: brainstorming/experiments-and-decisions.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/experiments-and-decisions.md
+
+# Experiments and decisions
+
+This is the working register for turning ideas into evidence. No acquisition experiment has been run or funded by this project. The order below is a proposed sequence based on dependencies, not an agreed team schedule.
+
+| Stage | Proposed work | Evidence needed to proceed |
+|---|---|---|
+| Establish the offer | Resolve fees, available tasks/areas, budget, and existing data. | Answers from City Helpers. |
+| Learn from customers | Interviews and booking walkthroughs. | Specific needs, language, and recurring obstacles. |
+| Improve booking | Fix the clearest comprehension or completion problem. | Successful repeat walkthroughs. |
+| Test acquisition | One community partner/event or one focused Facebook test. | Staff capacity, measurement, and a spending cap. |
+| Explore repeat use | A limited referral or reward experiment. | Completed jobs, satisfied customers, and viable economics. |
+
+For each experiment record: problem; audience and task; hypothesis; source; owner; change being tested; budget and staff effort; start/end dates; learning question; customer-growth measure; fulfilment limits; results; and decision with reasons. Mark status as proposed, ready, running, completed, or stopped. Set numerical thresholds with the business before launch.
+
+**Current working decisions:** prioritize seniors booking help themselves; focus initial acquisition on Toronto/GTA; distinguish audience/measurement learning from generating paying customers; organize the knowledge base by business topic. The slide deck is a later expression of this work and does not determine which ideas are worth preserving. These are project decisions from our conversation, not claims of CEO approval.
+
+**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../looking-ahead/business-objectives.md) and [open questions](../looking-ahead/open-questions.md).
+
+---
+
+## Source: brainstorming/messaging.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.md
+
+# Messaging
+
+**Status: proposed directions, not validated copy.** The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
+
+| Direction | Draft message | What to learn |
+|---|---|---|
+| Specific task | “Need a hand with your yard cleanup?” | Does a concrete task generate relevant enquiries? |
+| Independence | “Get help with the chores you want done.” | Does the wording feel respectful and useful? |
+| Time with family | “Spend the afternoon with family. Get a hand with the chores.” | Is this relevant to the buyer's actual motivation? |
+| Simple process | “Tell us the job. Find local help.” | Do people understand the service and next step? |
+
+These lines need a clear explanation of the $9.99 dispatch fee and separate worker payment. Verify vetting, availability, and service terms before promising a particular screening standard, guaranteed arrival, or same-day help. Avoid presenting seniors as unable to make their own booking decisions.
+
+**Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
+
+Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).
+
+---
+
+## Source: brainstorming/partnerships.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/partnerships.md
+
+# Partnerships
+
+**Status: team idea, untested.** The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone. No new partner commitment is established.
+
+Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
+
+Start by learning what residents ask for, what services already exist, and where the organization sees a gap. Offer a specific service and a named contact rather than a broad claim to handle everything. An introduction or opt-in referral can support the relationship without requiring a resident contact list. Apartment residents and homeowners need different examples.
+
+**Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
+
+Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../looking-ahead/open-questions.md).
+
+---
+
+## Source: brainstorming/rewards-and-referrals.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/rewards-and-referrals.md
+
+# Rewards and referrals
+
+**Status: mentioned in the meeting; mechanics undefined.** The transcript refers to reward and partner programmes but does not preserve a full explanation. The options below develop that idea and should not be attributed to the team as agreed decisions.
+
+A referral reward would encourage a satisfied customer to introduce a new customer. A repeat-use reward would encourage an existing customer to return. A partner payment would compensate an organization or representative for bringing customers. These address different behaviours and should be evaluated separately; the existing B2B sales recruitment already mentions commissions.
+
+One possible test is a capped dispatch credit earned after a referred customer's first paid, completed job. A second option is a small credit toward a later booking. Values, eligibility, timing, and funding remain undecided. Credits must distinguish the City Helpers fee from worker labour, and the business needs enough contribution per customer to fund them.
+
+**Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
+
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../looking-ahead/business-objectives.md), and [experiments](experiments-and-decisions.md).
+
+---
+
+## Source: brainstorming/website-and-booking.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/website-and-booking.md
+
+# Website and booking
+
+**Status: team observations and proposed improvements.** Participants described the website as difficult to use and suggested simplifying it. They also proposed customer preference fields and worker skill checkboxes. These observations need a task-based walkthrough; they do not yet quantify abandonment.
+
+First clarify the service, total payment structure, covered jobs, what happens after payment, and how to get help. Reconcile dispatch/subscription language across pages. Then inspect the path from “I need help” through fee payment and submitted request, including mobile use, readability, errors, and recovery after an unfinished request. See the [current journey](../current-business/customer-journey.md).
+
+Customer preferences could capture task, area, timing, and practical requirements. Collect what is necessary to fulfil the request; additional research questions can be optional or asked later. More profile fields might improve matching but also make booking harder. Worker skill categories could complement résumés, although declared skills still need appropriate verification and availability checks.
+
+**Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
+
+Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../looking-ahead/business-objectives.md).
+
+---
+
 ## Source: current-business/business-context.md
 
 Original: https://devdogfish.github.io/cityhelpers/raw/current-business/business-context.md
@@ -99,7 +254,7 @@ flowchart TB
 | E · Incomplete outcomes | Exit reasons, volumes, and recovery processes are unknown. Customers may retry or return through an entry route. |
 | F · Business offer | Dispatch and membership descriptions conflict in local evidence. |
 
-**Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in `ideas-and-work/`; they are not shown as existing acquisition channels.
+**Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in the Brainstorming section; they are not shown as existing acquisition channels.
 
 **Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
 
@@ -249,162 +404,7 @@ flowchart TB
 
 **What is not established:** an automatic matching algorithm, live availability checks, skill verification rules, response deadlines, or guaranteed fulfilment. The team proposed worker skill checkboxes and customer preferences; these remain improvements to investigate, not existing system capabilities. A replacement restarts matching; an unresolved case requires an operational decision, not an assumed refund or successful completion.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../ideas-and-work/website-and-booking.md), [open questions](../looking-ahead/open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
-
----
-
-## Source: ideas-and-work/community-outreach.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/community-outreach.md
-
-# Community outreach
-
-**Status: team ideas, untested.** The meeting proposed sponsoring senior socials, coffee/tea gatherings, service giveaways, and door hangers. A participant described a neighbour gaining car-detailing customers after a building giveaway; this is an anecdote, not evidence of City Helpers results.
-
-The hypothesis is that meeting a representative and seeing a useful service can make City Helpers familiar and easier to trust. Begin with an existing gathering through a willing community partner. Demonstrate one task, explain the dispatch fee and separate labour charge, and give attendees a simple next step. Hosting a standalone event adds cost and coordination; compare that option only after learning from a small collaboration.
-
-Match the offer to the setting. Seniors in apartments may need lifting, organizing, or small indoor jobs; yard-work messaging belongs with people responsible for their own outdoor space. Door hangers are a proposed awareness tool, with distribution arranged through the building or organizer. A giveaway needs a defined task, labour allowance, worker availability, and funding; a free dispatch alone does not pay for the work.
-
-**Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
-
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/success-and-measurement.md).
-
----
-
-## Source: ideas-and-work/customer-research.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/customer-research.md
-
-# Customer research
-
-**Status: proposed research plan.** The team asked how to understand customer behaviour and suggested event signups, surveys, customer profiles, testimonials, and platform data. The aim is to learn which jobs people need, how they find help, and what prevents booking.
-
-Start with existing customers, relevant seniors who have not used City Helpers, and people who started but did not complete a request if the business can reach them. Keep their experiences separate. Ask about the last real task they needed help with: what they did, whom they contacted, what it cost, why they chose that option, and what went wrong. Ask whether they booked for themselves or someone else without assuming either answer.
-
-At events, use a short optional enquiry or feedback form. During booking, collect service requirements; add research questions only where they do not obstruct the task. Use testimonials as clues to motivations, recognizing that they are selected positive experiences. The meeting mentioned scraping or a Meta API, but no access or useful data fields were established; first inspect aggregate reporting available in the business's own accounts. Public platform activity does not reveal private preferences or purchase intent.
-
-**Smallest test:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
-
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); interview design is proposed. See [target audience](../current-business/target-audience.md) and [website](website-and-booking.md).
-
----
-
-## Source: ideas-and-work/digital-advertising.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/digital-advertising.md
-
-# Digital advertising
-
-**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
-
-Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
-
-The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Treat this as a creative concept to compare with a direct task-focused message. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
-
-**Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
-
-Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
-
----
-
-## Source: ideas-and-work/experiments-and-decisions.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/experiments-and-decisions.md
-
-# Experiments and decisions
-
-This is the working register for turning ideas into evidence. No acquisition experiment has been run or funded by this project. The order below is a proposed sequence based on dependencies, not an agreed team schedule.
-
-| Stage | Proposed work | Evidence needed to proceed |
-|---|---|---|
-| Establish the offer | Resolve fees, available tasks/areas, budget, and existing data. | Answers from City Helpers. |
-| Learn from customers | Interviews and booking walkthroughs. | Specific needs, language, and recurring obstacles. |
-| Improve booking | Fix the clearest comprehension or completion problem. | Successful repeat walkthroughs. |
-| Test acquisition | One community partner/event or one focused Facebook test. | Staff capacity, measurement, and a spending cap. |
-| Explore repeat use | A limited referral or reward experiment. | Completed jobs, satisfied customers, and viable economics. |
-
-For each experiment record: problem; audience and task; hypothesis; source; owner; change being tested; budget and staff effort; start/end dates; learning question; customer-growth measure; fulfilment limits; results; and decision with reasons. Mark status as proposed, ready, running, completed, or stopped. Set numerical thresholds with the business before launch.
-
-**Current working decisions:** prioritize seniors booking help themselves; focus initial acquisition on Toronto/GTA; distinguish audience/measurement learning from generating paying customers; organize the knowledge base by business topic. The slide deck is a later expression of this work and does not determine which ideas are worth preserving. These are project decisions from our conversation, not claims of CEO approval.
-
-**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../looking-ahead/business-objectives.md) and [open questions](../looking-ahead/open-questions.md).
-
----
-
-## Source: ideas-and-work/messaging.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/messaging.md
-
-# Messaging
-
-**Status: proposed directions, not validated copy.** The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
-
-| Direction | Draft message | What to learn |
-|---|---|---|
-| Specific task | “Need a hand with your yard cleanup?” | Does a concrete task generate relevant enquiries? |
-| Independence | “Get help with the chores you want done.” | Does the wording feel respectful and useful? |
-| Time with family | “Spend the afternoon with family. Get a hand with the chores.” | Is this relevant to the buyer's actual motivation? |
-| Simple process | “Tell us the job. Find local help.” | Do people understand the service and next step? |
-
-These lines need a clear explanation of the $9.99 dispatch fee and separate worker payment. Verify vetting, availability, and service terms before promising a particular screening standard, guaranteed arrival, or same-day help. Avoid presenting seniors as unable to make their own booking decisions.
-
-**Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
-
-Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).
-
----
-
-## Source: ideas-and-work/partnerships.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/partnerships.md
-
-# Partnerships
-
-**Status: team idea, untested.** The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone. No new partner commitment is established.
-
-Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
-
-Start by learning what residents ask for, what services already exist, and where the organization sees a gap. Offer a specific service and a named contact rather than a broad claim to handle everything. An introduction or opt-in referral can support the relationship without requiring a resident contact list. Apartment residents and homeowners need different examples.
-
-**Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
-
-Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../looking-ahead/open-questions.md).
-
----
-
-## Source: ideas-and-work/rewards-and-referrals.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/rewards-and-referrals.md
-
-# Rewards and referrals
-
-**Status: mentioned in the meeting; mechanics undefined.** The transcript refers to reward and partner programmes but does not preserve a full explanation. The options below develop that idea and should not be attributed to the team as agreed decisions.
-
-A referral reward would encourage a satisfied customer to introduce a new customer. A repeat-use reward would encourage an existing customer to return. A partner payment would compensate an organization or representative for bringing customers. These address different behaviours and should be evaluated separately; the existing B2B sales recruitment already mentions commissions.
-
-One possible test is a capped dispatch credit earned after a referred customer's first paid, completed job. A second option is a small credit toward a later booking. Values, eligibility, timing, and funding remain undecided. Credits must distinguish the City Helpers fee from worker labour, and the business needs enough contribution per customer to fund them.
-
-**Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
-
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../looking-ahead/success-and-measurement.md), and [experiments](experiments-and-decisions.md).
-
----
-
-## Source: ideas-and-work/website-and-booking.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/website-and-booking.md
-
-# Website and booking
-
-**Status: team observations and proposed improvements.** Participants described the website as difficult to use and suggested simplifying it. They also proposed customer preference fields and worker skill checkboxes. These observations need a task-based walkthrough; they do not yet quantify abandonment.
-
-First clarify the service, total payment structure, covered jobs, what happens after payment, and how to get help. Reconcile dispatch/subscription language across pages. Then inspect the path from “I need help” through fee payment and submitted request, including mobile use, readability, errors, and recovery after an unfinished request. See the [current journey](../current-business/customer-journey.md).
-
-Customer preferences could capture task, area, timing, and practical requirements. Collect what is necessary to fulfil the request; additional research questions can be optional or asked later. More profile fields might improve matching but also make booking harder. Worker skill categories could complement résumés, although declared skills still need appropriate verification and availability checks.
-
-**Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
-
-Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../looking-ahead/success-and-measurement.md).
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../brainstorming/website-and-booking.md), [open questions](../looking-ahead/open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
 
 ---
 
@@ -414,13 +414,15 @@ Original: https://devdogfish.github.io/cityhelpers/raw/looking-ahead/business-ob
 
 # Business objectives
 
-City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”. Our working interpretation separates two related problems: understanding customer acquisition and improving it.
+City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”.
 
-**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Track visits, requests, paid dispatches, and acquisition costs by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We currently lack access to these figures; that does not establish whether City Helpers already collects them.
+**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We currently lack access to these figures; that does not establish whether City Helpers already collects them.
 
-**2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches. Better measurement supports that outcome, but does not itself deliver customers.
+**2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches at a viable cost, supported by completed jobs and repeat bookings. Better measurement supports that outcome, but does not itself deliver customers.
 
-The written hackathon brief requests a 90-day test plan covering audience, channels, messages, website improvements, and estimated results. Our recommendations should specify both what each test will teach us and how it could generate customers, with budgets, assumptions, and success measures for each. The CEO’s transcript supports testing and acquisition work; the explicit 90-day timeframe comes from the brief.
+The written hackathon brief requests a 90-day test plan covering audience, channels, messages, website improvements, and estimated results. Our recommendations should specify both what each test will teach us and how it could generate customers, with spending caps, evaluation dates, assumptions, and agreed success measures. The CEO’s transcript supports testing and acquisition work; the explicit 90-day timeframe comes from the brief.
+
+**Proposed measurement:** calculate conversion as paying customers divided by eligible visitors, acquisition cost as attributable spending divided by new paying customers, and completion rate as completed jobs divided by submitted requests. Keep periods and channels comparable; include incentives and staff effort in costs. Track unique customers separately from dispatches. Set targets after confirming baseline data and capacity.
 
 ---
 
@@ -450,30 +452,6 @@ Questions for City Helpers. Answers are pending; add each response beneath its q
 11. How are worker no-shows and customer complaints handled?
 12. Which housing or community partnerships and incentive programmes already exist?
 13. Can staff interview recent customers and people who did not finish booking?
-
----
-
-## Source: looking-ahead/success-and-measurement.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/looking-ahead/success-and-measurement.md
-
-# Success and measurement
-
-We have two objectives: learn how people become customers and increase sustainable paid business. A test can produce useful learning without producing enough customers; report both outcomes separately. This is a proposed measurement framework, not a description of existing analytics.
-
-| Stage | Record | What it tells us |
-|---|---|---|
-| Discovery | Channel, campaign/partner code, date, city | Where interest originates. |
-| Enquiry | Unique enquiries, task, service area, booking for self/another person when relevant | Whether the audience and jobs fit. |
-| Booking | Unique visitors, booking starts, platform payments, submitted requests | Where people stop. |
-| Delivery | Matches, completed jobs, cancellations, no-shows, refunds | Whether acquisition creates delivered value. |
-| Return | Repeat paid bookings and time to next booking | Whether relationships continue. |
-
-**Core calculations:** paid conversion = paying customers / eligible visitors for the same period and source; acquisition cost = attributable acquisition spending / new paying customers; completion rate = completed jobs / submitted requests. Include event costs, incentives, and staff effort when comparing channels. Record dispatch volume separately from unique customers. Worker wages paid directly are not City Helpers revenue.
-
-Use distinct links or referral codes and an optional “How did you hear about us?” field for offline activity. Link enquiry, payment, request, and outcome records without publishing personal details. Avoid treating ad clicks, event attendance, and website sessions as interchangeable counts.
-
-Before each test, agree a budget cap, evaluation date, outcome target, and operational limits. Numeric targets require current costs and capacity; none are established yet. Low-volume tests can reveal usability problems and customer language without supporting precise conversion forecasts. See [open questions](open-questions.md).
 
 ---
 

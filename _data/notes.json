@@ -1,5 +1,77 @@
 [
   {
+    "source": "brainstorming/community-outreach.md",
+    "folder": "brainstorming",
+    "file": "community-outreach.md",
+    "url": "/community-outreach.html",
+    "title": "Community outreach",
+    "label": "Community outreach",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/customer-research.md",
+    "folder": "brainstorming",
+    "file": "customer-research.md",
+    "url": "/customer-research.html",
+    "title": "Customer research",
+    "label": "Customer research",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/digital-advertising.md",
+    "folder": "brainstorming",
+    "file": "digital-advertising.md",
+    "url": "/digital-advertising.html",
+    "title": "Digital advertising",
+    "label": "Digital advertising",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/experiments-and-decisions.md",
+    "folder": "brainstorming",
+    "file": "experiments-and-decisions.md",
+    "url": "/experiments-and-decisions.html",
+    "title": "Experiments and decisions",
+    "label": "Experiments and decisions",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/messaging.md",
+    "folder": "brainstorming",
+    "file": "messaging.md",
+    "url": "/messaging.html",
+    "title": "Messaging",
+    "label": "Messaging",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/partnerships.md",
+    "folder": "brainstorming",
+    "file": "partnerships.md",
+    "url": "/partnerships.html",
+    "title": "Partnerships",
+    "label": "Partnerships",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/rewards-and-referrals.md",
+    "folder": "brainstorming",
+    "file": "rewards-and-referrals.md",
+    "url": "/rewards-and-referrals.html",
+    "title": "Rewards and referrals",
+    "label": "Rewards and referrals",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "brainstorming/website-and-booking.md",
+    "folder": "brainstorming",
+    "file": "website-and-booking.md",
+    "url": "/website-and-booking.html",
+    "title": "Website and booking",
+    "label": "Website and booking",
+    "updated": "2026-09-22"
+  },
+  {
     "source": "current-business/business-context.md",
     "folder": "current-business",
     "file": "context.md",
@@ -45,78 +117,6 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/community-outreach.md",
-    "folder": "ideas-and-work",
-    "file": "community-outreach.md",
-    "url": "/community-outreach.html",
-    "title": "Community outreach",
-    "label": "Community outreach",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/customer-research.md",
-    "folder": "ideas-and-work",
-    "file": "customer-research.md",
-    "url": "/customer-research.html",
-    "title": "Customer research",
-    "label": "Customer research",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/digital-advertising.md",
-    "folder": "ideas-and-work",
-    "file": "digital-advertising.md",
-    "url": "/digital-advertising.html",
-    "title": "Digital advertising",
-    "label": "Digital advertising",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/experiments-and-decisions.md",
-    "folder": "ideas-and-work",
-    "file": "experiments-and-decisions.md",
-    "url": "/experiments-and-decisions.html",
-    "title": "Experiments and decisions",
-    "label": "Experiments and decisions",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/messaging.md",
-    "folder": "ideas-and-work",
-    "file": "messaging.md",
-    "url": "/messaging.html",
-    "title": "Messaging",
-    "label": "Messaging",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/partnerships.md",
-    "folder": "ideas-and-work",
-    "file": "partnerships.md",
-    "url": "/partnerships.html",
-    "title": "Partnerships",
-    "label": "Partnerships",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/rewards-and-referrals.md",
-    "folder": "ideas-and-work",
-    "file": "rewards-and-referrals.md",
-    "url": "/rewards-and-referrals.html",
-    "title": "Rewards and referrals",
-    "label": "Rewards and referrals",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "ideas-and-work/website-and-booking.md",
-    "folder": "ideas-and-work",
-    "file": "website-and-booking.md",
-    "url": "/website-and-booking.html",
-    "title": "Website and booking",
-    "label": "Website and booking",
-    "updated": "2026-09-22"
-  },
-  {
     "source": "looking-ahead/business-objectives.md",
     "folder": "looking-ahead",
     "file": "objective.md",
@@ -132,15 +132,6 @@
     "url": "/open-questions.html",
     "title": "Q&A",
     "label": "Q&A",
-    "updated": "2026-09-22"
-  },
-  {
-    "source": "looking-ahead/success-and-measurement.md",
-    "folder": "looking-ahead",
-    "file": "success-and-measurement.md",
-    "url": "/success-and-measurement.html",
-    "title": "Success and measurement",
-    "label": "Success and measurement",
     "updated": "2026-09-22"
   }
 ]

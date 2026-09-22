@@ -22,7 +22,7 @@ The command discovers the notes, generates pages and navigation, commits and pus
 
 - `source-material/` holds untouched originals. Its eligible direct children (`.md`, `.txt`, `.pdf`) appear alphabetically on Sources & transcripts, never as separate navigation pages. Keep analysis and edits in the topic folders; the publisher only reads originals.
 - Root-level `.md` notes and notes one folder deep become public pages automatically. A new immediate folder containing eligible notes automatically creates a navigation group.
-- Sections appear as Current business, Brainstorming, then other folders alphabetically. Files are sorted alphabetically (case-insensitive, with a case-sensitive tie break). Group labels come from folder names. No manually maintained navigation list is needed.
+- Sections appear as Current business, Brainstorming, then other folders alphabetically. Files are sorted alphabetically (case-insensitive, with a case-sensitive tie break), except Q&A appears last in Current business. Group labels come from folder names. No manually maintained navigation list is needed.
 - Root notes appear in a `Project notes` group. Empty groups disappear. Deeper folders are not scanned.
 - `site/`, `work/`, `outputs/`, `node_modules/`, hidden/underscore folders, and symlink folders are excluded.
 - `README.md`, `AGENTS.md`, `CLAUDE.md`, `SKILL.md`, symlinks, and filenames beginning with `_` or `.` are excluded.

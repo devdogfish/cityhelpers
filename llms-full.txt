@@ -153,7 +153,7 @@ Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matc
 
 Original: https://devdogfish.github.io/cityhelpers/raw/current-business/business-context.md
 
-# Business context
+# Introduction
 
 *Initial public-source snapshot: 22 September 2026. Figures and operating claims need client confirmation.*
 

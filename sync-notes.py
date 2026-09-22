@@ -9,7 +9,7 @@ import uuid
 import knowledge_exports
 
 KNOWN = {
-    'business-context.md': ('context', 'Business context', 'Business context'),
+    'business-context.md': ('context', 'Introduction', 'Introduction'),
     'business-objectives.md': ('objective', 'Business objectives', 'Business objectives'),
     'OBJECTIVE.md': ('objective', 'Business problem and objective', 'Objective'),
     'TARGET_AUDIENCE.md': ('target-audience', 'Target audience', 'Target audience'),
@@ -120,7 +120,8 @@ def sync(root):
     navigation = []
     for folder in sorted({n['folder'] for n in public}, key=lambda folder: (SECTION_ORDER.get(folder, 3), sort_key(folder))):
         label = folder.replace('-', ' ').replace('_', ' ').capitalize() if folder else 'Project notes'
-        navigation.append(dict(folder=folder, label=label, notes=[n for n in public if n['folder'] == folder]))
+        navigation.append(dict(folder=folder, label=label, notes=sorted([n for n in public if n['folder'] == folder],
+            key=lambda n: (n['source'] == 'current-business/open-questions.md', sort_key(Path(n['source']).name)))))
     manifest.parent.mkdir(exist_ok=True)
     manifest.write_text(json.dumps(public, indent=2, ensure_ascii=False) + '\n')
     (root / '_data/navigation.json').write_text(json.dumps(navigation, indent=2, ensure_ascii=False) + '\n')

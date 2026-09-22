@@ -1,5 +1,5 @@
 ---
-title: "Business context"
+title: "Introduction"
 updated: "2026-09-22"
 ---
 

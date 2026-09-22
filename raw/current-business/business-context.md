@@ -1,4 +1,4 @@
-# Business context
+# Introduction
 
 *Initial public-source snapshot: 22 September 2026. Figures and operating claims need client confirmation.*
 

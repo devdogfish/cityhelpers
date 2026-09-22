@@ -8,8 +8,8 @@
         "folder": "current-business",
         "file": "context.md",
         "url": "/context.html",
-        "title": "Business context",
-        "label": "Business context",
+        "title": "Introduction",
+        "label": "Introduction",
         "updated": "2026-09-22"
       },
       {
@@ -40,15 +40,6 @@
         "updated": "2026-09-22"
       },
       {
-        "source": "current-business/open-questions.md",
-        "folder": "current-business",
-        "file": "open-questions.md",
-        "url": "/open-questions.html",
-        "title": "Q&A",
-        "label": "Q&A",
-        "updated": "2026-09-22"
-      },
-      {
         "source": "current-business/target-audience.md",
         "folder": "current-business",
         "file": "target-audience.md",
@@ -64,6 +55,15 @@
         "url": "/worker-matching.html",
         "title": "Worker matching and delivery",
         "label": "Worker matching and delivery",
+        "updated": "2026-09-22"
+      },
+      {
+        "source": "current-business/open-questions.md",
+        "folder": "current-business",
+        "file": "open-questions.md",
+        "url": "/open-questions.html",
+        "title": "Q&A",
+        "label": "Q&A",
         "updated": "2026-09-22"
       }
     ]

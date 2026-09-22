@@ -28,7 +28,7 @@
         <a href="{{ pair[1] | relative_url }}" {% if page.url == pair[1] %}aria-current="page"{% endif %}>{{ pair[0] }}</a>
         {% endfor %}
       </nav>
-      <a class="business-link" href="https://www.cityhelpers.ca/">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>
+      <a class="business-link" href="https://www.cityhelpers.ca/" target="_blank" rel="noopener noreferrer">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>
     </aside>
     <main id="content" tabindex="-1">
       <article>
@@ -38,5 +38,16 @@
       <footer><span>Working notes · Updated {{ page.updated | default: "22 September 2026" }}</span><span>Marketing project; not the official City Helpers website.</span></footer>
     </main>
   </div>
+  <script>
+    document.querySelectorAll('a[href]').forEach(link => {
+      const url = new URL(link.href);
+      if ((url.protocol === 'https:' || url.protocol === 'http:') && url.origin !== location.origin) {
+        link.target = '_blank';
+        link.relList.add('noopener', 'noreferrer');
+        const label = link.getAttribute('aria-label') || link.textContent.trim();
+        link.setAttribute('aria-label', label + ' (opens in a new tab)');
+      }
+    });
+  </script>
 </body>
 </html>

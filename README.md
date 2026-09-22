@@ -4,7 +4,7 @@ Live site: https://devdogfish.github.io/cityhelpers/
 
 ## Edit and publish
 
-Edit or add Markdown files in the project root or one folder deep, for example `current-business/`, `looking-ahead/`, or `brainstorming/`. Then, from the parent `cityhelpers.ca` folder, run:
+Edit or add Markdown files in the project root or one folder deep, for example `current-business/` or `brainstorming/`. Then, from the parent `cityhelpers.ca` folder, run:
 
 ```bash
 ./publish.sh
@@ -22,7 +22,7 @@ The command discovers the notes, generates pages and navigation, commits and pus
 
 - `source-material/` holds untouched originals. Its eligible direct children (`.md`, `.txt`, `.pdf`) appear alphabetically on Sources & transcripts, never as separate navigation pages. Keep analysis and edits in the topic folders; the publisher only reads originals.
 - Root-level `.md` notes and notes one folder deep become public pages automatically. A new immediate folder containing eligible notes automatically creates a navigation group.
-- Sections appear as Current business, Looking ahead, Brainstorming, then other folders alphabetically. Files are sorted alphabetically (case-insensitive, with a case-sensitive tie break). Group labels come from folder names. No manually maintained navigation list is needed.
+- Sections appear as Current business, Brainstorming, then other folders alphabetically. Files are sorted alphabetically (case-insensitive, with a case-sensitive tie break). Group labels come from folder names. No manually maintained navigation list is needed.
 - Root notes appear in a `Project notes` group. Empty groups disappear. Deeper folders are not scanned.
 - `site/`, `work/`, `outputs/`, `node_modules/`, hidden/underscore folders, and symlink folders are excluded.
 - `README.md`, `AGENTS.md`, `CLAUDE.md`, `SKILL.md`, symlinks, and filenames beginning with `_` or `.` are excluded.
@@ -31,7 +31,7 @@ The command discovers the notes, generates pages and navigation, commits and pus
 - New notes use their first `# Heading` as their title, or their filename if no heading exists.
 - Adding, renaming, or removing a note updates the menu and generated pages. Duplicate or reserved page names are rejected.
 - URLs derive from filenames, not folders: moving `customer-journey.md` into `current-business/` preserves `/customer-journey.html`. Renaming a filename changes its URL. Duplicate filenames/slugs across folders are rejected.
-- Relative note links, including `../looking-ahead/business-objectives.md#anchor`, are converted to site links. Missing Markdown targets fail before generated pages are replaced. Legacy bare-filename links still resolve when their target moves folders.
+- Relative note links, including `../current-business/business-objectives.md#anchor`, are converted to site links. Missing Markdown targets fail before generated pages are replaced. Legacy bare-filename links still resolve when their target moves folders.
 - Edit original notes in the project folders: the copies inside `site/` are generated and overwritten on publishing.
 - Logo and design live in `assets/` and `_layouts/`. Website changes in this repository are included in publishing.
 

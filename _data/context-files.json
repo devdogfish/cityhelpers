@@ -2,17 +2,17 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "3641411384782cb127883a6f9502c23f18d8f9dcc16aab8a082ddf51baa8ab84"
+    "sha256": "ee1ac110f264cf3d0d3445fd2cbd49287a7cb43b7f604d8f9bf4036b18053eac"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "a88544a4f1449a6eaa7a803c8dcc5b66f71e127e822f0fa602dc98c38dc0b672"
+    "sha256": "580fc92b99f50363788646688b524aa0249e444fd85d50448ce5ae17c7f672ed"
   },
   {
     "file": "raw/brainstorming/community-outreach.md",
     "url": "/raw/brainstorming/community-outreach.md",
-    "sha256": "f725d113ebf7fa67e7030127fd8ef16c2e044ddf806976efae1a11791f2fbcf0"
+    "sha256": "777301b53d56fec65aea496fa06116a67eb578ddd3b504805caf12ad8cc2cafb"
   },
   {
     "file": "raw/brainstorming/customer-research.md",
@@ -27,7 +27,7 @@
   {
     "file": "raw/brainstorming/experiments-and-decisions.md",
     "url": "/raw/brainstorming/experiments-and-decisions.md",
-    "sha256": "a4474c05fbd292cebfe2231b75cbcf43b707c3f7942b75c18e4886c4a4389287"
+    "sha256": "353766c0dc4bc8373c1cf6e4a22d1ab4e4dca98e1cc55bac245657454540a7d7"
   },
   {
     "file": "raw/brainstorming/messaging.md",
@@ -37,17 +37,17 @@
   {
     "file": "raw/brainstorming/partnerships.md",
     "url": "/raw/brainstorming/partnerships.md",
-    "sha256": "eeedf65d3986a1cf9f8eaad4075bc0bf1c2a6a7cea521209bfc0cce35969d328"
+    "sha256": "ce89ac423b3d7ee8d05d68fa875beeda0feec3184279bd9d885f0b0ead0f2947"
   },
   {
     "file": "raw/brainstorming/rewards-and-referrals.md",
     "url": "/raw/brainstorming/rewards-and-referrals.md",
-    "sha256": "9039535029369ab7ca14636905c9c7386e24464129e4e2b7db670fdc1e6cd31c"
+    "sha256": "06ef8bb9b05c1977e238f3a7a42bf8bc26e2fe6c1cb40293a08ce86f82966881"
   },
   {
     "file": "raw/brainstorming/website-and-booking.md",
     "url": "/raw/brainstorming/website-and-booking.md",
-    "sha256": "8cfc7d28c6c8ba632b7ebb81bb31e2c5a063c330453914fc9bb80027dbfff6ef"
+    "sha256": "ba28ccee67c7f5e9330b7fe04db8416683c9fbb472741273fdd003e85216d111"
   },
   {
     "file": "raw/current-business/City Helpers_Hackathon Overview.pdf",
@@ -70,6 +70,11 @@
     "sha256": "bbeeacc2cc5656336b21d08c0817b83c4972add2fc73ec31319851baa0307420"
   },
   {
+    "file": "raw/current-business/business-objectives.md",
+    "url": "/raw/current-business/business-objectives.md",
+    "sha256": "8804e642bf958d81fcf9cb7c7b8c2bd0142bb430a1b827e71f0cb8a68f1dcc28"
+  },
+  {
     "file": "raw/current-business/ceo-discussion-transcript.txt",
     "url": "/raw/current-business/ceo-discussion-transcript.txt",
     "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
@@ -77,7 +82,7 @@
   {
     "file": "raw/current-business/customer-journey.md",
     "url": "/raw/current-business/customer-journey.md",
-    "sha256": "3f146fd0723e162ed32a6fb7f53b07e536bf372f75c869ee1e6f2908c25d079e"
+    "sha256": "12684c3e281ac0637775c292a56b14c5df411085270759b5f34e4936767eb7c9"
   },
   {
     "file": "raw/current-business/existing-marketing-funnel.md",
@@ -98,6 +103,11 @@
     "file": "raw/current-business/hackathon-organizer-transcript.txt",
     "url": "/raw/current-business/hackathon-organizer-transcript.txt",
     "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022"
+  },
+  {
+    "file": "raw/current-business/open-questions.md",
+    "url": "/raw/current-business/open-questions.md",
+    "sha256": "67f87bcf6444e480c64c326542e36b2dac1a26bc89e497e84f8d461bd61e6ddc"
   },
   {
     "file": "raw/current-business/raw-transcript-context.txt",
@@ -122,17 +132,7 @@
   {
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "f928e8ad979d5f0b4a83efe445f9a6bb66d5b919fee0dd0b096de3f7e8ef8044"
-  },
-  {
-    "file": "raw/looking-ahead/business-objectives.md",
-    "url": "/raw/looking-ahead/business-objectives.md",
-    "sha256": "8804e642bf958d81fcf9cb7c7b8c2bd0142bb430a1b827e71f0cb8a68f1dcc28"
-  },
-  {
-    "file": "raw/looking-ahead/open-questions.md",
-    "url": "/raw/looking-ahead/open-questions.md",
-    "sha256": "67f87bcf6444e480c64c326542e36b2dac1a26bc89e497e84f8d461bd61e6ddc"
+    "sha256": "918adc16cde93dc221a728b9593d580834e8d5f821f06ac2b123af5445a1077f"
   },
   {
     "file": "raw/source-material/ceo-discussion-transcript.txt",

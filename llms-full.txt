@@ -18,7 +18,7 @@ Match the offer to the setting. Seniors in apartments may need lifting, organizi
 
 **Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/business-objectives.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).
 
 ---
 
@@ -78,7 +78,7 @@ For each experiment record: problem; audience and task; hypothesis; source; owne
 
 **Current working decisions:** prioritize seniors booking help themselves; focus initial acquisition on Toronto/GTA; distinguish audience/measurement learning from generating paying customers; organize the knowledge base by business topic. The slide deck is a later expression of this work and does not determine which ideas are worth preserving. These are project decisions from our conversation, not claims of CEO approval.
 
-**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../looking-ahead/business-objectives.md) and [open questions](../looking-ahead/open-questions.md).
+**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../current-business/business-objectives.md) and [open questions](../current-business/open-questions.md).
 
 ---
 
@@ -119,7 +119,7 @@ Start by learning what residents ask for, what services already exist, and where
 
 **Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
 
-Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../looking-ahead/open-questions.md).
+Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../current-business/open-questions.md).
 
 ---
 
@@ -137,7 +137,7 @@ One possible test is a capped dispatch credit earned after a referred customer's
 
 **Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../looking-ahead/business-objectives.md), and [experiments](experiments-and-decisions.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../current-business/business-objectives.md), and [experiments](experiments-and-decisions.md).
 
 ---
 
@@ -155,7 +155,7 @@ Customer preferences could capture task, area, timing, and practical requirement
 
 **Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
 
-Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../looking-ahead/business-objectives.md).
+Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../current-business/business-objectives.md).
 
 ---
 
@@ -172,6 +172,24 @@ Original: https://devdogfish.github.io/cityhelpers/raw/current-business/business
 **Model and scale.** The [pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) lists a $9.99 homeowner dispatch fee, $99 business monthly plan, and $999 annual business plan; customers pay workers directly. Worker registration is free, with applications requesting identity, résumé, and video details. [LinkedIn](https://ca.linkedin.com/company/cityhelpers) lists **2–10 employees** and 148 followers: a useful small-team estimate, not a verified headcount. Its listed 2011 founding date conflicts with a [corporate directory’s November 2024 incorporation record](https://www.canadacompanyregistry.com/companies/city-helpers-inc/); confirm the company timeline. Revenue, customer count, worker pool, and transaction volume are unverified.
 
 **Footprint and current approach.** The [contact page](https://www.cityhelpers.ca/contact-3) says Nova Scotia and Ontario are served. Recent LinkedIn posts explicitly promote Halifax and Toronto; Calgary and Edmonton appear as expansion targets, not confirmed active markets. Acquisition appears to combine website signup/request forms, search-oriented service pages, customer testimonials, local business partnerships, and frequent organic LinkedIn posts. A recent LinkedIn recruitment post seeks commission-based B2B sales partners, suggesting outbound membership sales. The company also has identifiable [Facebook](https://www.facebook.com/profile.php?id=61563866975989) and [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) pages, plus [Indeed worker recruiting](https://ca.indeed.com/viewjob?jk=13896068e2f8dcca). Instagram/TikTok presence and paid-ad spend were not verified. Website copy varies on whether homeowner pricing is per dispatch or monthly and whether City Helpers or the customer pays the worker; clarify before marketing claims. [FAQ](https://www.cityhelpers.ca/frequently-asked-questions) · [Terms](https://www.cityhelpers.ca/terms-and-conditions) · [How it works](https://www.cityhelpers.ca/how-it-works)
+
+---
+
+## Source: current-business/business-objectives.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/current-business/business-objectives.md
+
+# Business objectives
+
+City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”.
+
+**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We currently lack access to these figures; that does not establish whether City Helpers already collects them.
+
+**2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches at a viable cost, supported by completed jobs and repeat bookings. Better measurement supports that outcome, but does not itself deliver customers.
+
+The written hackathon brief requests a 90-day test plan covering audience, channels, messages, website improvements, and estimated results. Our recommendations should specify both what each test will teach us and how it could generate customers, with spending caps, evaluation dates, assumptions, and agreed success measures. The CEO’s transcript supports testing and acquisition work; the explicit 90-day timeframe comes from the brief.
+
+**Proposed measurement:** calculate conversion as paying customers divided by eligible visitors, acquisition cost as attributable spending divided by new paying customers, and completion rate as completed jobs divided by submitted requests. Keep periods and channels comparable; include incentives and staff effort in costs. Track unique customers separately from dispatches. Set targets after confirming baseline data and capacity.
 
 ---
 
@@ -258,7 +276,7 @@ flowchart TB
 
 **Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](../looking-ahead/open-questions.md), and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in [business context](https://devdogfish.github.io/cityhelpers/context.html), so the business offer remains unresolved.
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](open-questions.md), and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in [business context](https://devdogfish.github.io/cityhelpers/context.html), so the business offer remains unresolved.
 
 ---
 
@@ -298,6 +316,35 @@ The [published process](https://www.cityhelpers.ca/terms-and-conditions) describ
 ## Measurement gap
 
 We can identify entry points and reconstruct the advertised journey, but cannot quantify the funnel. Missing evidence includes channel-level visitors and enquiries, outbound contacts and replies, paid dispatches, completed jobs, acquisition costs, and repeat bookings. Whether City Helpers already tracks these internally is unknown. The CEO's claim of approximately 1,200 vetted Toronto workers describes supply, not customer acquisition or active worker availability.
+
+---
+
+## Source: current-business/open-questions.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/current-business/open-questions.md
+
+# Q&A
+
+Questions for City Helpers. Answers are pending; add each response beneath its question, with the respondent and date.
+
+## Team questions
+
+1. Do you expect a detailed report alongside the final presentation, or only the presentation?
+2. Does worker vetting include any checks beyond those described on the website? What does the full process involve?
+3. How will the planned automation accommodate seniors who prefer speaking on the phone? Can they enquire and book by phone or with staff assistance?
+4. What are the main complaints from workers, seniors and families, and businesses about what is advertised or promised? Please distinguish the three groups.
+
+## Business and marketing questions
+
+5. What marketing budget and staff time can support a small test?
+6. Which Toronto neighbourhoods, tasks, and dates can active workers reliably cover?
+7. What does each customer pay, when, and what happens if no worker is found?
+8. How many enquiries, paid dispatches, completed jobs, and repeat customers exist in each city?
+9. What remains from each dispatch after support, payment, and fulfilment costs?
+10. Which analytics, acquisition-source fields, customer records, and outbound tracking already exist?
+11. How are worker no-shows and customer complaints handled?
+12. Which housing or community partnerships and incentive programmes already exist?
+13. Can staff interview recent customers and people who did not finish booking?
 
 ---
 
@@ -404,54 +451,7 @@ flowchart TB
 
 **What is not established:** an automatic matching algorithm, live availability checks, skill verification rules, response deadlines, or guaranteed fulfilment. The team proposed worker skill checkboxes and customer preferences; these remain improvements to investigate, not existing system capabilities. A replacement restarts matching; an unresolved case requires an operational decision, not an assumed refund or successful completion.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../brainstorming/website-and-booking.md), [open questions](../looking-ahead/open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
-
----
-
-## Source: looking-ahead/business-objectives.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/looking-ahead/business-objectives.md
-
-# Business objectives
-
-City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”.
-
-**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We currently lack access to these figures; that does not establish whether City Helpers already collects them.
-
-**2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches at a viable cost, supported by completed jobs and repeat bookings. Better measurement supports that outcome, but does not itself deliver customers.
-
-The written hackathon brief requests a 90-day test plan covering audience, channels, messages, website improvements, and estimated results. Our recommendations should specify both what each test will teach us and how it could generate customers, with spending caps, evaluation dates, assumptions, and agreed success measures. The CEO’s transcript supports testing and acquisition work; the explicit 90-day timeframe comes from the brief.
-
-**Proposed measurement:** calculate conversion as paying customers divided by eligible visitors, acquisition cost as attributable spending divided by new paying customers, and completion rate as completed jobs divided by submitted requests. Keep periods and channels comparable; include incentives and staff effort in costs. Track unique customers separately from dispatches. Set targets after confirming baseline data and capacity.
-
----
-
-## Source: looking-ahead/open-questions.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/looking-ahead/open-questions.md
-
-# Q&A
-
-Questions for City Helpers. Answers are pending; add each response beneath its question, with the respondent and date.
-
-## Team questions
-
-1. Do you expect a detailed report alongside the final presentation, or only the presentation?
-2. Does worker vetting include any checks beyond those described on the website? What does the full process involve?
-3. How will the planned automation accommodate seniors who prefer speaking on the phone? Can they enquire and book by phone or with staff assistance?
-4. What are the main complaints from workers, seniors and families, and businesses about what is advertised or promised? Please distinguish the three groups.
-
-## Business and marketing questions
-
-5. What marketing budget and staff time can support a small test?
-6. Which Toronto neighbourhoods, tasks, and dates can active workers reliably cover?
-7. What does each customer pay, when, and what happens if no worker is found?
-8. How many enquiries, paid dispatches, completed jobs, and repeat customers exist in each city?
-9. What remains from each dispatch after support, payment, and fulfilment costs?
-10. Which analytics, acquisition-source fields, customer records, and outbound tracking already exist?
-11. How are worker no-shows and customer complaints handled?
-12. Which housing or community partnerships and incentive programmes already exist?
-13. Can staff interview recent customers and people who did not finish booking?
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../brainstorming/website-and-booking.md), [open questions](open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
 
 ---
 

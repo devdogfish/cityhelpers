@@ -37,7 +37,7 @@ class SyncTests(unittest.TestCase):
         sync_notes.sync(self.site)
         before = (self.site / '_data/navigation.json').read_text()
         groups = json.loads(before)
-        self.assertEqual([g['folder'] for g in groups], ['current-business', 'looking-ahead', 'brainstorming'])
+        self.assertEqual([g['folder'] for g in groups], ['current-business', 'brainstorming', 'looking-ahead'])
         self.assertEqual([n['source'] for n in groups[0]['notes']], ['current-business/A.md', 'current-business/B.md'])
         sync_notes.sync(self.site)
         self.assertEqual(before, (self.site / '_data/navigation.json').read_text())

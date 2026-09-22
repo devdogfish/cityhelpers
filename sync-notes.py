@@ -16,7 +16,7 @@ KNOWN = {
     'CONTEXT.md': ('context', 'Business context', 'Business context'),
 }
 EXCLUDED = {'README.md', 'AGENTS.md', 'CLAUDE.md', 'SKILL.md'}
-SECTION_ORDER = {'current-business': 0, 'looking-ahead': 1, 'brainstorming': 2}
+SECTION_ORDER = {'current-business': 0, 'brainstorming': 1}
 REDIRECTS = {'success-and-measurement.md': '/objective.html'}
 INFRASTRUCTURE = {'site', 'node_modules', 'work', 'outputs'}
 

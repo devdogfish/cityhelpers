@@ -1,6 +1,6 @@
 # Digital advertising
 
-**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../looking-ahead/TARGET_AUDIENCE.md). That research does not predict City Helpers conversions or acquisition cost.
+**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../looking-ahead/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
 
 Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
 
@@ -8,4 +8,4 @@ The meeting suggested tailoring ads to different groups and showing a senior enj
 
 **Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
-Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: `current-business/team-meeting-1.transcript.txt` and the original hackathon brief. See [messaging](MESSAGING.md) and [website](WEBSITE_AND_BOOKING.md).
+Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: `current-business/team-meeting-01-transcript.txt` and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).

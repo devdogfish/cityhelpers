@@ -1,6 +1,6 @@
 [
   {
-    "source": "current-business/CONTEXT.md",
+    "source": "current-business/business-context.md",
     "folder": "current-business",
     "file": "context.md",
     "url": "/context.html",
@@ -9,34 +9,34 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "current-business/CUSTOMER_JOURNEY.md",
+    "source": "current-business/customer-journey.md",
     "folder": "current-business",
     "file": "customer-journey.md",
     "url": "/customer-journey.html",
-    "title": "City Helpers — client acquisition",
-    "label": "Client acquisition",
+    "title": "Customer journey",
+    "label": "Customer journey",
     "updated": "2026-09-22"
   },
   {
-    "source": "current-business/EXISTING_MARKETING_FUNNEL.md",
+    "source": "current-business/existing-marketing-funnel.md",
     "folder": "current-business",
     "file": "existing-marketing-funnel.md",
     "url": "/existing-marketing-funnel.html",
-    "title": "City Helpers — existing marketing funnel",
+    "title": "Existing marketing funnel",
     "label": "Existing marketing funnel",
     "updated": "2026-09-22"
   },
   {
-    "source": "current-business/WORKER_MATCHING.md",
+    "source": "current-business/worker-matching.md",
     "folder": "current-business",
     "file": "worker-matching.md",
     "url": "/worker-matching.html",
-    "title": "City Helpers — worker matching and delivery",
+    "title": "Worker matching and delivery",
     "label": "Worker matching and delivery",
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/COMMUNITY_OUTREACH.md",
+    "source": "ideas-and-work/community-outreach.md",
     "folder": "ideas-and-work",
     "file": "community-outreach.md",
     "url": "/community-outreach.html",
@@ -45,7 +45,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/CUSTOMER_RESEARCH.md",
+    "source": "ideas-and-work/customer-research.md",
     "folder": "ideas-and-work",
     "file": "customer-research.md",
     "url": "/customer-research.html",
@@ -54,7 +54,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/DIGITAL_ADVERTISING.md",
+    "source": "ideas-and-work/digital-advertising.md",
     "folder": "ideas-and-work",
     "file": "digital-advertising.md",
     "url": "/digital-advertising.html",
@@ -63,7 +63,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/EXPERIMENTS_AND_DECISIONS.md",
+    "source": "ideas-and-work/experiments-and-decisions.md",
     "folder": "ideas-and-work",
     "file": "experiments-and-decisions.md",
     "url": "/experiments-and-decisions.html",
@@ -72,7 +72,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/MESSAGING.md",
+    "source": "ideas-and-work/messaging.md",
     "folder": "ideas-and-work",
     "file": "messaging.md",
     "url": "/messaging.html",
@@ -81,7 +81,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/PARTNERSHIPS.md",
+    "source": "ideas-and-work/partnerships.md",
     "folder": "ideas-and-work",
     "file": "partnerships.md",
     "url": "/partnerships.html",
@@ -90,7 +90,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/REWARDS_AND_REFERRALS.md",
+    "source": "ideas-and-work/rewards-and-referrals.md",
     "folder": "ideas-and-work",
     "file": "rewards-and-referrals.md",
     "url": "/rewards-and-referrals.html",
@@ -99,7 +99,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "ideas-and-work/WEBSITE_AND_BOOKING.md",
+    "source": "ideas-and-work/website-and-booking.md",
     "folder": "ideas-and-work",
     "file": "website-and-booking.md",
     "url": "/website-and-booking.html",
@@ -108,16 +108,16 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "looking-ahead/OBJECTIVE.md",
+    "source": "looking-ahead/business-objectives.md",
     "folder": "looking-ahead",
     "file": "objective.md",
     "url": "/objective.html",
-    "title": "Business problem and objective",
-    "label": "Objective",
+    "title": "Business objectives",
+    "label": "Business objectives",
     "updated": "2026-09-22"
   },
   {
-    "source": "looking-ahead/OPEN_QUESTIONS.md",
+    "source": "looking-ahead/open-questions.md",
     "folder": "looking-ahead",
     "file": "open-questions.md",
     "url": "/open-questions.html",
@@ -126,7 +126,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "looking-ahead/SUCCESS_AND_MEASUREMENT.md",
+    "source": "looking-ahead/success-and-measurement.md",
     "folder": "looking-ahead",
     "file": "success-and-measurement.md",
     "url": "/success-and-measurement.html",
@@ -135,7 +135,7 @@
     "updated": "2026-09-22"
   },
   {
-    "source": "looking-ahead/TARGET_AUDIENCE.md",
+    "source": "looking-ahead/target-audience.md",
     "folder": "looking-ahead",
     "file": "target-audience.md",
     "url": "/target-audience.html",

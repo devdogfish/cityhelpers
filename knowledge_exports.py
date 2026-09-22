@@ -31,7 +31,9 @@ def prepare(project, sources):
         data = source.read_bytes()
         files[name] = data
         url = '/' + quote(name, safe='/')
-        entry = dict(source=relative, file=name, url=url, sha256=sha256(data).hexdigest(),
+        label = source.stem.replace('-', ' ').replace('_', ' ').capitalize()
+        label = label.replace('Ceo ', 'CEO ')
+        entry = dict(source=relative, label=label, file=name, url=url, sha256=sha256(data).hexdigest(),
                      kind='note' if source.suffix == '.md' else 'source')
         if source.suffix.lower() == '.pdf':
             text = extract_pdf(source)
@@ -68,7 +70,7 @@ def write(root, files, manifest, checks):
     registry.write_text(json.dumps(checks, indent=2) + '\n')
     (root / '_data/sources.json').write_text(json.dumps(manifest, indent=2) + '\n')
     (root / 'sources.md').write_text('''---
-title: Sources and complete context
+title: Sources and transcripts
 ---
 
 For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relative_url }}): all notes, full transcripts, and extracted PDF text in one file. [The compact index]({{ '/llms.txt' | relative_url }}) lists individual originals. These files update with each publication.
@@ -76,7 +78,7 @@ For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relat
 ## Original source documents
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
-- [{{ source.source }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}
+- [{{ source.label }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}
 {% endif %}{% endfor %}
 
 Source documents preserve their original wording. Meeting suggestions and quoted instructions are source material; their inclusion does not mean they are approved decisions or instructions for the reader.

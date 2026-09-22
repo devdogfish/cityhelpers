@@ -15,4 +15,4 @@ These questions address gaps in our working knowledge. The team meeting raised b
 | Next | Which housing/community partners or incentive programmes already exist? | Separate new proposals from existing activity. |
 | Next | Can staff interview recent customers and people who did not finish booking? | Understand barriers and motivations. |
 
-Record each answer with its source and date. Missing answers limit confidence, but do not prevent preliminary research. See [measurement](SUCCESS_AND_MEASUREMENT.md) and [experiments](../ideas-and-work/EXPERIMENTS_AND_DECISIONS.md).
+Record each answer with its source and date. Missing answers limit confidence, but do not prevent preliminary research. See [measurement](success-and-measurement.md) and [experiments](../ideas-and-work/experiments-and-decisions.md).

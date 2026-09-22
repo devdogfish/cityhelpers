@@ -14,4 +14,4 @@ We have two objectives: learn how people become customers and increase sustainab
 
 Use distinct links or referral codes and an optional “How did you hear about us?” field for offline activity. Link enquiry, payment, request, and outcome records without publishing personal details. Avoid treating ad clicks, event attendance, and website sessions as interchangeable counts.
 
-Before each test, agree a budget cap, evaluation date, outcome target, and operational limits. Numeric targets require current costs and capacity; none are established yet. Low-volume tests can reveal usability problems and customer language without supporting precise conversion forecasts. See [open questions](OPEN_QUESTIONS.md).
+Before each test, agree a budget cap, evaluation date, outcome target, and operational limits. Numeric targets require current costs and capacity; none are established yet. Low-volume tests can reveal usability problems and customer language without supporting precise conversion forecasts. See [open questions](open-questions.md).

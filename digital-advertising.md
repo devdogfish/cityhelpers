@@ -11,4 +11,4 @@ The meeting suggested tailoring ads to different groups and showing a senior enj
 
 **Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
-Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: `current-business/team-meeting-1.transcript.txt` and the original hackathon brief. See [messaging](messaging.html) and [website](website-and-booking.html).
+Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: `current-business/team-meeting-01-transcript.txt` and the original hackathon brief. See [messaging](messaging.html) and [website](website-and-booking.html).

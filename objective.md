@@ -1,5 +1,5 @@
 ---
-title: "Business problem and objective"
+title: "Business objectives"
 updated: "2026-09-22"
 ---
 

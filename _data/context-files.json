@@ -2,116 +2,116 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "d283a91b9b1557865a3524625858499dbceeb62f95f9b0ca38702e7d52134fb8"
+    "sha256": "e5d57fde0dcb713c3c5d9a9cf4ec48f7f3c70ea4f0cae3f1669fb87474bc7357"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "4118b2f36dfedb0f207bf7967ef897191d01a27e9ee08a7dfae09bd5b99e8923"
+    "sha256": "be86c6e68988a3dfff8b4d8c6ed70fa4fb072af1c9081b21da9cb598172bc8dc"
   },
   {
-    "file": "raw/current-business/CONTEXT.md",
-    "url": "/raw/current-business/CONTEXT.md",
-    "sha256": "3aa97846faac5c778c1ac4e25b1b0ef264998da04dcce257b4c6edfcc8734b25"
+    "file": "raw/current-business/business-context.md",
+    "url": "/raw/current-business/business-context.md",
+    "sha256": "bbeeacc2cc5656336b21d08c0817b83c4972add2fc73ec31319851baa0307420"
   },
   {
-    "file": "raw/current-business/CUSTOMER_JOURNEY.md",
-    "url": "/raw/current-business/CUSTOMER_JOURNEY.md",
-    "sha256": "5711f0dff131a17a8ada44af1d6c1a62320284d1a87d49e989eca16e91e20807"
-  },
-  {
-    "file": "raw/current-business/City Helpers_Hackathon Overview.pdf",
-    "url": "/raw/current-business/City%20Helpers_Hackathon%20Overview.pdf",
-    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca"
-  },
-  {
-    "file": "raw/current-business/City Helpers_Hackathon Overview.pdf.txt",
-    "url": "/raw/current-business/City%20Helpers_Hackathon%20Overview.pdf.txt",
-    "sha256": "528895caffa168df116e09d47629327c10f61819126e1cd17304d48728cf5142"
-  },
-  {
-    "file": "raw/current-business/EXISTING_MARKETING_FUNNEL.md",
-    "url": "/raw/current-business/EXISTING_MARKETING_FUNNEL.md",
-    "sha256": "4a43460f3bb7726e7a211efdf18c0f21b211a0a90b2c1a0bb38f83700141968a"
-  },
-  {
-    "file": "raw/current-business/WORKER_MATCHING.md",
-    "url": "/raw/current-business/WORKER_MATCHING.md",
-    "sha256": "bb8dcfe54036b6e77b98c2da471253405f4971f2bcdb96d1cdef777f3ee0e80f"
-  },
-  {
-    "file": "raw/current-business/additional-event-context.txt",
-    "url": "/raw/current-business/additional-event-context.txt",
-    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022"
-  },
-  {
-    "file": "raw/current-business/raw-transcript-context.txt",
-    "url": "/raw/current-business/raw-transcript-context.txt",
+    "file": "raw/current-business/ceo-discussion-transcript.txt",
+    "url": "/raw/current-business/ceo-discussion-transcript.txt",
     "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
   },
   {
-    "file": "raw/current-business/team-meeting-1.transcript.txt",
-    "url": "/raw/current-business/team-meeting-1.transcript.txt",
+    "file": "raw/current-business/customer-journey.md",
+    "url": "/raw/current-business/customer-journey.md",
+    "sha256": "22fdbf1fc74c87052fb808dd39effb758c8b3238186cbdb33265b2e45f0b6126"
+  },
+  {
+    "file": "raw/current-business/existing-marketing-funnel.md",
+    "url": "/raw/current-business/existing-marketing-funnel.md",
+    "sha256": "4bb2cde6d5f5436c4699da18c3c500ba34a02c02ae5524d6917f5b8c219e7267"
+  },
+  {
+    "file": "raw/current-business/hackathon-brief.pdf",
+    "url": "/raw/current-business/hackathon-brief.pdf",
+    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca"
+  },
+  {
+    "file": "raw/current-business/hackathon-brief.pdf.txt",
+    "url": "/raw/current-business/hackathon-brief.pdf.txt",
+    "sha256": "528895caffa168df116e09d47629327c10f61819126e1cd17304d48728cf5142"
+  },
+  {
+    "file": "raw/current-business/hackathon-organizer-transcript.txt",
+    "url": "/raw/current-business/hackathon-organizer-transcript.txt",
+    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022"
+  },
+  {
+    "file": "raw/current-business/team-meeting-01-transcript.txt",
+    "url": "/raw/current-business/team-meeting-01-transcript.txt",
     "sha256": "b21c41ee22f54adc7112f464e90cb51c1757742c4f1d79c8b71c87796d014ef0"
   },
   {
-    "file": "raw/ideas-and-work/COMMUNITY_OUTREACH.md",
-    "url": "/raw/ideas-and-work/COMMUNITY_OUTREACH.md",
-    "sha256": "15ab1d56a5fc155b90a413597e967bac3091ac0b2ae33be272ff469f3fc8e98a"
+    "file": "raw/current-business/worker-matching.md",
+    "url": "/raw/current-business/worker-matching.md",
+    "sha256": "135e258e3b956afb00e7c86c132a9f3f644282fe2d94ea1812462217b526721a"
   },
   {
-    "file": "raw/ideas-and-work/CUSTOMER_RESEARCH.md",
-    "url": "/raw/ideas-and-work/CUSTOMER_RESEARCH.md",
-    "sha256": "3763f737315cf13e6bca6eb42095f4b54b85e3fea59f93a1d626501d23d378d2"
+    "file": "raw/ideas-and-work/community-outreach.md",
+    "url": "/raw/ideas-and-work/community-outreach.md",
+    "sha256": "968252a2dcda6c43345b4217f28a0f693e0f1cc025bce10dbf8ee4a281527871"
   },
   {
-    "file": "raw/ideas-and-work/DIGITAL_ADVERTISING.md",
-    "url": "/raw/ideas-and-work/DIGITAL_ADVERTISING.md",
-    "sha256": "c667f6fac5ca174cf05d4c9ebcf6e80a9a3a7cd9894cd1eee24060de0d33e8e5"
+    "file": "raw/ideas-and-work/customer-research.md",
+    "url": "/raw/ideas-and-work/customer-research.md",
+    "sha256": "d8ecd06ca61eedfdd7dd705cafec9f4090549137c54538e97869cef6f1baa749"
   },
   {
-    "file": "raw/ideas-and-work/EXPERIMENTS_AND_DECISIONS.md",
-    "url": "/raw/ideas-and-work/EXPERIMENTS_AND_DECISIONS.md",
-    "sha256": "b2730df4bdd7a2c88970f14b2cd5bdd4b928d9843e6acc63ac55d1040f3d6404"
+    "file": "raw/ideas-and-work/digital-advertising.md",
+    "url": "/raw/ideas-and-work/digital-advertising.md",
+    "sha256": "400774361d818c6a3c3bff614d55abb70191e838b48e59eb61e01098e241c656"
   },
   {
-    "file": "raw/ideas-and-work/MESSAGING.md",
-    "url": "/raw/ideas-and-work/MESSAGING.md",
-    "sha256": "0d0e816acac4c309dacfa9a84ad026a8df877961f8ae5bfbf30b77d0b681e62f"
+    "file": "raw/ideas-and-work/experiments-and-decisions.md",
+    "url": "/raw/ideas-and-work/experiments-and-decisions.md",
+    "sha256": "a4474c05fbd292cebfe2231b75cbcf43b707c3f7942b75c18e4886c4a4389287"
   },
   {
-    "file": "raw/ideas-and-work/PARTNERSHIPS.md",
-    "url": "/raw/ideas-and-work/PARTNERSHIPS.md",
-    "sha256": "f3fbb76845c94ad7526f81c2d65985181a9249e2d8f82b753ae0e70cb39c0f0f"
+    "file": "raw/ideas-and-work/messaging.md",
+    "url": "/raw/ideas-and-work/messaging.md",
+    "sha256": "3c196a1777feaed9d18b950f06e19ab670ce7d21c133a608294a6e6fb4c3d398"
   },
   {
-    "file": "raw/ideas-and-work/REWARDS_AND_REFERRALS.md",
-    "url": "/raw/ideas-and-work/REWARDS_AND_REFERRALS.md",
-    "sha256": "e9327f5ff7ddb4002a6e567374c6b37f186d78d4582af90d57640afb54b3cb08"
+    "file": "raw/ideas-and-work/partnerships.md",
+    "url": "/raw/ideas-and-work/partnerships.md",
+    "sha256": "da83f392c67aa5c9d1e07e355a3fec64dbae07c7368823e230c80742e3706059"
   },
   {
-    "file": "raw/ideas-and-work/WEBSITE_AND_BOOKING.md",
-    "url": "/raw/ideas-and-work/WEBSITE_AND_BOOKING.md",
-    "sha256": "ec5c1a18d6354e56dacfdce2dd9ba234a233b1415e411d2779a20913fa67ff35"
+    "file": "raw/ideas-and-work/rewards-and-referrals.md",
+    "url": "/raw/ideas-and-work/rewards-and-referrals.md",
+    "sha256": "f0b4075a1478efea7e26a34acba91010cca77550fbeccf46a5716a6489e78a48"
   },
   {
-    "file": "raw/looking-ahead/OBJECTIVE.md",
-    "url": "/raw/looking-ahead/OBJECTIVE.md",
-    "sha256": "28dc38881dd407b0db588c98d63a2bf9ea4ef547be576c20534e8eb9a1b4ecf0"
+    "file": "raw/ideas-and-work/website-and-booking.md",
+    "url": "/raw/ideas-and-work/website-and-booking.md",
+    "sha256": "5b4e1518097a2fa65d5f3eca62356e87cd8f9a422708a4abf8dc6de75b91c67e"
   },
   {
-    "file": "raw/looking-ahead/OPEN_QUESTIONS.md",
-    "url": "/raw/looking-ahead/OPEN_QUESTIONS.md",
-    "sha256": "86fcd15bbeb4bef57f368e085b95fde5b72f9a847112ec3fd0196ee8f57585a9"
+    "file": "raw/looking-ahead/business-objectives.md",
+    "url": "/raw/looking-ahead/business-objectives.md",
+    "sha256": "24df00d22875bf3fab7cdc516f36d7f15ee70372adb5376798917c554d301af6"
   },
   {
-    "file": "raw/looking-ahead/SUCCESS_AND_MEASUREMENT.md",
-    "url": "/raw/looking-ahead/SUCCESS_AND_MEASUREMENT.md",
-    "sha256": "d112ce894b79b7d0188f73cfa2cd74a346cd68c486adfe9890fd539d2e2e88b8"
+    "file": "raw/looking-ahead/open-questions.md",
+    "url": "/raw/looking-ahead/open-questions.md",
+    "sha256": "5915830c5d75c8d2b66986317ccc0abb3fbafa8df5b22a68f545c155a55e1503"
   },
   {
-    "file": "raw/looking-ahead/TARGET_AUDIENCE.md",
-    "url": "/raw/looking-ahead/TARGET_AUDIENCE.md",
+    "file": "raw/looking-ahead/success-and-measurement.md",
+    "url": "/raw/looking-ahead/success-and-measurement.md",
+    "sha256": "fc463c7690299379ef8419f07d6cb4be8a0a812fc858fad162fa43722c37a14e"
+  },
+  {
+    "file": "raw/looking-ahead/target-audience.md",
+    "url": "/raw/looking-ahead/target-audience.md",
     "sha256": "ae7a1ad8190175c0449100b517cd0ab1d1d56b2f97995638015d68b87d5d6908"
   }
 ]

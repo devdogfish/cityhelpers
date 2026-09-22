@@ -1,6 +1,6 @@
-# City Helpers — client acquisition
+# Customer journey
 
-Read top to bottom. Each layer has one purpose; the branches show alternate customer routes. **Blue = documented channel or published process. Amber = activity or handling not verified.** Arrows describe the journey, not measured conversion. This map ends when a paid dispatch has a submitted worker request; operations continue in [worker matching and delivery](WORKER_MATCHING.md).
+Read top to bottom. Each layer has one purpose; the branches show alternate customer routes. **Blue = documented channel or published process. Amber = activity or handling not verified.** Arrows describe the journey, not measured conversion. This map ends when a paid dispatch has a submitted worker request; operations continue in [worker matching and delivery](worker-matching.md).
 
 ```mermaid
 flowchart TB
@@ -70,4 +70,4 @@ flowchart TB
 
 **Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
 
-**Sources:** [existing marketing funnel](EXISTING_MARKETING_FUNNEL.md), [business context](CONTEXT.md), [open questions](../looking-ahead/OPEN_QUESTIONS.md), and the CEO transcript `raw-transcript-context.txt`. These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in `CONTEXT.md`, so the business offer remains unresolved.
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](../looking-ahead/open-questions.md), and the CEO transcript `ceo-discussion-transcript.txt`. These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in `business-context.md`, so the business offer remains unresolved.

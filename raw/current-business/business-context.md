@@ -1,4 +1,4 @@
-# City Helpers Inc. — base business context
+# Business context
 
 *Initial public-source snapshot: 22 September 2026. Figures and operating claims need client confirmation.*
 

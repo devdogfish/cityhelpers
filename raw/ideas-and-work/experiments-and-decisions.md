@@ -14,4 +14,4 @@ For each experiment record: problem; audience and task; hypothesis; source; owne
 
 **Current working decisions:** prioritize seniors booking help themselves; focus initial acquisition on Toronto/GTA; distinguish audience/measurement learning from generating paying customers; organize the knowledge base by business topic. The slide deck is a later expression of this work and does not determine which ideas are worth preserving. These are project decisions from our conversation, not claims of CEO approval.
 
-**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../looking-ahead/OBJECTIVE.md) and [open questions](../looking-ahead/OPEN_QUESTIONS.md).
+**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../looking-ahead/business-objectives.md) and [open questions](../looking-ahead/open-questions.md).

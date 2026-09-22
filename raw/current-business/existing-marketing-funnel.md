@@ -1,4 +1,4 @@
-# City Helpers — existing marketing funnel
+# Existing marketing funnel
 
 Public-source snapshot, 22 September 2026. This describes visible channels and the advertised customer journey. Traffic, conversion, sales activity, and revenue have not been verified. The business markets in Halifax and Toronto; this project's acquisition focus is Toronto/GTA.
 
@@ -10,7 +10,7 @@ Public-source snapshot, 22 September 2026. This describes visible channels and t
 |---|---|---|
 | [LinkedIn](https://ca.linkedin.com/company/cityhelpers) | Regular posts promote household help and temporary business labour, usually directing readers to the website. Worker recruitment also appears in the feed. | Customer reach, clicks, enquiries, and sales. |
 | [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) | Halifax business page has promotional posts, website links, messaging/call options, and a public service enquiry. | Toronto reach and whether enquiries become bookings. |
-| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in `CONTEXT.md`. | Current posting activity, group participation, and results. |
+| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in `business-context.md`. | Current posting activity, group participation, and results. |
 | [Website / organic search](https://www.cityhelpers.ca/) | Indexed service pages, testimonials, and customer calls to action provide a discoverable destination. | Search rankings, organic traffic, and an active SEO programme. |
 
 The website displays business partners, but their contribution to referrals is unverified. In the project discussion, a participant described finding customers through Facebook community groups; the CEO welcomed the idea. This does not establish an existing City Helpers group-marketing programme.
@@ -25,7 +25,7 @@ A [LinkedIn recruitment post](https://ca.linkedin.com/company/cityhelpers) seeks
 
 The [published process](https://www.cityhelpers.ca/terms-and-conditions) describes paying the platform fee, submitting a request, notifying local workers, selecting a worker, completing the job, paying the worker directly, and rating them. This is the stated journey; checkout and fulfilment have not been tested. Existing email and messaging contacts also allow enquiries before purchase, but their handling is unknown. Repeat-booking reminders, referral incentives, and customer email campaigns are unverified.
 
-**Pricing inconsistency:** the [current pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) advertises $9.99 dispatch offers for both homeowners and businesses. Business subscription language remains elsewhere, and `CONTEXT.md` records earlier $99/month and $999/year plans. The offer used by sales representatives and at checkout needs confirmation.
+**Pricing inconsistency:** the [current pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) advertises $9.99 dispatch offers for both homeowners and businesses. Business subscription language remains elsewhere, and `business-context.md` records earlier $99/month and $999/year plans. The offer used by sales representatives and at checkout needs confirmation.
 
 ## Measurement gap
 

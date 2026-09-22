@@ -9,6 +9,8 @@ import uuid
 import knowledge_exports
 
 KNOWN = {
+    'business-context.md': ('context', 'Business context', 'Business context'),
+    'business-objectives.md': ('objective', 'Business objectives', 'Business objectives'),
     'OBJECTIVE.md': ('objective', 'Business problem and objective', 'Objective'),
     'TARGET_AUDIENCE.md': ('target-audience', 'Target audience', 'Target audience'),
     'CONTEXT.md': ('context', 'Business context', 'Business context'),

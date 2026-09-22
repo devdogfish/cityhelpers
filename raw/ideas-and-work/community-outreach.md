@@ -8,4 +8,4 @@ Match the offer to the setting. Seniors in apartments may need lifting, organizi
 
 **Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
-Source: `current-business/team-meeting-1.transcript.txt`. Test design is our proposed development. See [partnerships](PARTNERSHIPS.md) and [measurement](../looking-ahead/SUCCESS_AND_MEASUREMENT.md).
+Source: `current-business/team-meeting-01-transcript.txt`. Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/success-and-measurement.md).

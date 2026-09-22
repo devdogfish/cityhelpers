@@ -2,7 +2,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 repo='devdogfish/cityhelpers'
-for command in python3 git gh curl; do
+for command in python3 git gh curl pdftotext; do
   command -v "$command" >/dev/null || { echo "Missing required command: $command" >&2; exit 1; }
 done
 [[ "$(git branch --show-current)" == main ]] || { echo 'Publish from the main branch.' >&2; exit 1; }

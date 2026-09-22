@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('sync_notes', Path(__file__).with_name('sync-notes.py'))
 sync_notes = importlib.util.module_from_spec(spec)
@@ -17,6 +18,10 @@ class SyncTests(unittest.TestCase):
         self.project = Path(self.tmp.name)
         self.site = self.project / 'site'
         self.site.mkdir()
+        # Discovery fixtures are text files, not real PDF documents.
+        extractor = patch('knowledge_exports.extract_pdf', return_value='Extracted fixture PDF text.')
+        extractor.start()
+        self.addCleanup(extractor.stop)
 
     def note(self, name, body='# Example\n\nText.\n'):
         p = self.project / name
@@ -80,6 +85,25 @@ class SyncTests(unittest.TestCase):
         sync_notes.sync(self.site)
         self.assertFalse((self.site / 'remove.md').exists())
         self.assertEqual(len(json.loads((self.site / '_data/navigation.json').read_text())), 1)
+
+    def test_source_exports_preserve_full_context_and_cleanup(self):
+        self.note('current-business/CONTEXT.md', '# Context\n\nA complete note.\n')
+        transcript = self.note('current-business/meeting.txt', 'First speaker.\nLast speaker.\n')
+        self.note('current-business/brief.pdf', 'PDF fixture')
+        self.note('current-business/_PRIVATE.txt', 'Do not publish')
+        sync_notes.sync(self.site)
+        self.assertEqual((self.site / 'raw/current-business/meeting.txt').read_bytes(), transcript.read_bytes())
+        full = (self.site / 'llms-full.txt').read_text()
+        for text in ['A complete note.', 'First speaker.\nLast speaker.', 'Extracted fixture PDF text.']:
+            self.assertIn(text, full)
+        self.assertNotIn('Do not publish', full)
+        self.assertTrue((self.site / 'raw/current-business/brief.pdf.txt').exists())
+        manifest = json.loads((self.site / '_data/sources.json').read_text())
+        self.assertEqual(len(manifest), 3)
+        transcript.unlink()
+        sync_notes.sync(self.site)
+        self.assertFalse((self.site / 'raw/current-business/meeting.txt').exists())
+        self.assertNotIn('Last speaker.', (self.site / 'llms-full.txt').read_text())
 
 
 if __name__ == '__main__':

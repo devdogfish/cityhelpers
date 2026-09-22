@@ -1,0 +1,28 @@
+# City Helpers knowledge base
+
+> Business context, source material, proposed marketing work, and decisions.
+
+- [Complete context in one text file](https://devdogfish.github.io/cityhelpers/llms-full.txt)
+- [Human-readable source library](https://devdogfish.github.io/cityhelpers/sources.html)
+
+## Original files
+- [current-business/additional-event-context.txt](https://devdogfish.github.io/cityhelpers/raw/current-business/additional-event-context.txt)
+- [current-business/City Helpers_Hackathon Overview.pdf](https://devdogfish.github.io/cityhelpers/raw/current-business/City%20Helpers_Hackathon%20Overview.pdf)
+- [current-business/CONTEXT.md](https://devdogfish.github.io/cityhelpers/raw/current-business/CONTEXT.md)
+- [current-business/CUSTOMER_JOURNEY.md](https://devdogfish.github.io/cityhelpers/raw/current-business/CUSTOMER_JOURNEY.md)
+- [current-business/EXISTING_MARKETING_FUNNEL.md](https://devdogfish.github.io/cityhelpers/raw/current-business/EXISTING_MARKETING_FUNNEL.md)
+- [current-business/raw-transcript-context.txt](https://devdogfish.github.io/cityhelpers/raw/current-business/raw-transcript-context.txt)
+- [current-business/team-meeting-1.transcript.txt](https://devdogfish.github.io/cityhelpers/raw/current-business/team-meeting-1.transcript.txt)
+- [current-business/WORKER_MATCHING.md](https://devdogfish.github.io/cityhelpers/raw/current-business/WORKER_MATCHING.md)
+- [ideas-and-work/COMMUNITY_OUTREACH.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/COMMUNITY_OUTREACH.md)
+- [ideas-and-work/CUSTOMER_RESEARCH.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/CUSTOMER_RESEARCH.md)
+- [ideas-and-work/DIGITAL_ADVERTISING.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/DIGITAL_ADVERTISING.md)
+- [ideas-and-work/EXPERIMENTS_AND_DECISIONS.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/EXPERIMENTS_AND_DECISIONS.md)
+- [ideas-and-work/MESSAGING.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/MESSAGING.md)
+- [ideas-and-work/PARTNERSHIPS.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/PARTNERSHIPS.md)
+- [ideas-and-work/REWARDS_AND_REFERRALS.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/REWARDS_AND_REFERRALS.md)
+- [ideas-and-work/WEBSITE_AND_BOOKING.md](https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/WEBSITE_AND_BOOKING.md)
+- [looking-ahead/OBJECTIVE.md](https://devdogfish.github.io/cityhelpers/raw/looking-ahead/OBJECTIVE.md)
+- [looking-ahead/OPEN_QUESTIONS.md](https://devdogfish.github.io/cityhelpers/raw/looking-ahead/OPEN_QUESTIONS.md)
+- [looking-ahead/SUCCESS_AND_MEASUREMENT.md](https://devdogfish.github.io/cityhelpers/raw/looking-ahead/SUCCESS_AND_MEASUREMENT.md)
+- [looking-ahead/TARGET_AUDIENCE.md](https://devdogfish.github.io/cityhelpers/raw/looking-ahead/TARGET_AUDIENCE.md)

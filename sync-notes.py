@@ -6,6 +6,7 @@ import json
 import posixpath
 import re
 import uuid
+import knowledge_exports
 
 KNOWN = {
     'OBJECTIVE.md': ('objective', 'Business problem and objective', 'Objective'),
@@ -24,16 +25,16 @@ def sort_key(value):
     return (value.casefold(), value)
 
 
-def discover(project, site):
+def discover(project, site, extensions={'.md'}):
     sources = []
     for path in project.iterdir():
         if not visible(path):
             continue
-        if path.is_file() and path.suffix == '.md' and path.name not in EXCLUDED:
+        if path.is_file() and path.suffix.lower() in extensions and path.name not in EXCLUDED:
             sources.append(path)
         elif path.is_dir() and path.resolve() != site.resolve() and path.name not in INFRASTRUCTURE:
             sources.extend(p for p in path.iterdir()
-                           if visible(p) and p.is_file() and p.suffix == '.md' and p.name not in EXCLUDED)
+                           if visible(p) and p.is_file() and p.suffix.lower() in extensions and p.name not in EXCLUDED)
     return sorted(sources, key=lambda p: (sort_key(p.relative_to(project).parent.as_posix()), sort_key(p.name)))
 
 
@@ -44,7 +45,7 @@ def sync(root):
     if not sources:
         raise ValueError('No Markdown notes found in the project root or immediate folders.')
     notes = []
-    slugs = {'index', 'readme'}
+    slugs = {'index', 'readme', 'sources', 'llms', 'llms-full'}
     for source in sources:
         body = source.read_text(encoding='utf-8').strip()
         heading = re.match(r'^#\s+(.+?)\n', body + '\n')
@@ -82,7 +83,8 @@ def sync(root):
             suffix = ('?' + parts.query if parts.query else '') + ('#' + parts.fragment if parts.fragment else '')
             return '](' + other['url'].lstrip('/') + suffix + ')'
         note['body'] = re.sub(r'\]\((<[^>]+>|[^\s)]+)\)', rewrite, note['body'])
-    # Complete validation before replacing generated pages.
+    exports = knowledge_exports.prepare(project, discover(project, root, {'.md', '.txt', '.pdf'}))
+    # Complete validation and extraction before replacing generated pages.
     manifest = root / '_data/notes.json'
     previous = json.loads(manifest.read_text()) if manifest.exists() else []
     current = {note['file'] for note in notes}
@@ -104,10 +106,13 @@ def sync(root):
     manifest.write_text(json.dumps(public, indent=2, ensure_ascii=False) + '\n')
     (root / '_data/navigation.json').write_text(json.dumps(navigation, indent=2, ensure_ascii=False) + '\n')
     (root / '_data/publication.json').write_text(json.dumps({'id': uuid.uuid4().hex}) + '\n')
+    knowledge_exports.write(root, *exports)
     (root / 'index.md').write_text('''---
 title: City Helpers knowledge base
 ---
 Our shared reference for understanding City Helpers and developing practical ways to help the business in Toronto/GTA.
+
+**For LLMs:** [Read all context in one text file]({{ '/llms-full.txt' | relative_url }}), including original transcripts and PDF text. [Browse sources and downloads]({{ '/sources.html' | relative_url }}) or use the [compact index]({{ '/llms.txt' | relative_url }}).
 
 {% for group in site.data.navigation %}
 ## {{ group.label }}

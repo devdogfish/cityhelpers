@@ -5,13 +5,15 @@ from html.parser import HTMLParser
 import json
 import subprocess
 import time
+from hashlib import sha256
 
 root = Path(__file__).resolve().parent
 base = 'https://devdogfish.github.io/cityhelpers'
 build = json.loads((root / '_data/publication.json').read_text())['id']
 notes = json.loads((root / '_data/notes.json').read_text())
 groups = [g['label'] for g in json.loads((root / '_data/navigation.json').read_text())]
-pages = ['/'] + [note['url'] for note in notes]
+pages = ['/', '/sources.html'] + [note['url'] for note in notes]
+context_files = json.loads((root / '_data/context-files.json').read_text())
 
 class Page(HTMLParser):
     def __init__(self):
@@ -20,10 +22,13 @@ class Page(HTMLParser):
         self.links = set()
         self.groups = []
         self.in_group = False
+        self.robots = ''
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == 'meta' and attrs.get('name') == 'notes-publication':
             self.marker = attrs.get('content')
+        if tag == 'meta' and attrs.get('name') == 'robots':
+            self.robots = attrs.get('content', '')
         if tag == 'a':
             self.links.add(attrs.get('href', ''))
         if tag == 'h2' and 'nav-group-title' in attrs.get('class', '').split():
@@ -48,10 +53,24 @@ def verify(path):
                 raise RuntimeError(f'{path}: navigation missing {missing}')
             if page.groups != groups:
                 raise RuntimeError(f'{path}: navigation folders differ: {page.groups}')
+            if 'noindex' not in page.robots:
+                raise RuntimeError(f'{path}: missing search indexing opt-out')
             return 'Verified ' + path
         time.sleep(5)
     raise RuntimeError(f'{path}: latest publication was not visible after retries')
 
+def verify_context(item):
+    for attempt in range(18):
+        result = subprocess.run(['curl', '--fail', '--silent', '--show-error', '--max-time', '20',
+                                 base + item['url'] + '?publication=' + build], capture_output=True)
+        if result.returncode == 0 and sha256(result.stdout).hexdigest() == item['sha256']:
+            return 'Verified context ' + item['file']
+        time.sleep(5)
+    raise RuntimeError(f"{item['url']}: published bytes differ from local source/export")
+
+
 with ThreadPoolExecutor(max_workers=4) as pool:
     for message in pool.map(verify, pages):
+        print(message)
+    for message in pool.map(verify_context, context_files):
         print(message)

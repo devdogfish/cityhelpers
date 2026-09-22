@@ -31,15 +31,6 @@
         "updated": "2026-09-22"
       },
       {
-        "source": "current-business/existing-marketing-funnel.md",
-        "folder": "current-business",
-        "file": "existing-marketing-funnel.md",
-        "url": "/existing-marketing-funnel.html",
-        "title": "Existing marketing funnel",
-        "label": "Existing marketing funnel",
-        "updated": "2026-09-22"
-      },
-      {
         "source": "current-business/target-audience.md",
         "folder": "current-business",
         "file": "target-audience.md",
@@ -95,8 +86,8 @@
         "folder": "brainstorming",
         "file": "digital-advertising.md",
         "url": "/digital-advertising.html",
-        "title": "Digital advertising",
-        "label": "Digital advertising",
+        "title": "Facebook ads",
+        "label": "Facebook ads",
         "updated": "2026-09-22"
       },
       {
@@ -104,8 +95,8 @@
         "folder": "brainstorming",
         "file": "partnerships.md",
         "url": "/partnerships.html",
-        "title": "Partnerships",
-        "label": "Partnerships",
+        "title": "Housing and community partnerships",
+        "label": "Housing and community partnerships",
         "updated": "2026-09-22"
       },
       {

@@ -18,4 +18,4 @@ For service rewards, define an eligible task, maximum labour allowance, service 
 
 Before launch, City Helpers would set the reward budget from contribution per completed job and assign someone to handle credits, invoices, and disputes. Evaluate referred paying customers, completed jobs, repeat bookings, and total reward cost; signup and point totals alone do not demonstrate growth. These are recommendations for implementation after the hackathon.
 
-See [partnerships](partnerships.md), [existing funnel](../current-business/existing-marketing-funnel.md), and [business objectives](../current-business/business-objectives.md).
+See [housing and community partnerships](partnerships.md), [customer journey](../current-business/customer-journey.md), and [business objectives](../current-business/business-objectives.md).

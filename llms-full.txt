@@ -18,7 +18,7 @@ Match the offer to the setting. Seniors in apartments may need lifting, organizi
 
 **Suggested first implementation:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [housing and community partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).
 
 ---
 
@@ -44,7 +44,7 @@ Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/s
 
 Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/digital-advertising.md
 
-# Digital advertising
+# Facebook ads
 
 Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
 
@@ -52,7 +52,7 @@ Start with one service, a small area workers can cover, and a destination explai
 
 The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Compare that concept with a direct task-focused ad. Draft copy developed for these notes: “Need a hand with your yard cleanup?” versus “Spend the afternoon with family. Get a hand with the chores.” The family concept comes from the meeting; these exact lines are suggested wording, not participant quotes. Confirm vetting, availability, and service terms before promising screening standards or guaranteed arrival. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
 
-**Suggested first implementation:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
+**Suggested first implementation:** one Facebook campaign, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
 Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [customer research](customer-research.md) and [website](website-and-booking.md).
 
@@ -62,9 +62,11 @@ Unknowns: available budget, account access, baseline conversion, worker coverage
 
 Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/partnerships.md
 
-# Partnerships
+# Housing and community partnerships
 
-The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone.
+The meeting proposed working with housing and community organizations. The proposal is an ongoing referral relationship with housing providers, condo managers, and community organizations: they introduce residents who need help and provide a trusted route to City Helpers.
+
+**How this differs from other partner programmes.** City Helpers already advertises commission-based B2B sales partners who prospect businesses and sell memberships; the website also displays business partners, whose referral contribution is unverified. This proposal gives housing and community organizations a way to connect residents with household help. It does not assume those existing partners already provide that route, or that community referrals would earn a commission. Erick’s proposed CHP instead concerns workers delivering reward-funded services. See the [customer journey and acquisition channels](../current-business/customer-journey.md) and [rewards and referrals](rewards-and-referrals.md).
 
 Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
 
@@ -104,7 +106,7 @@ For service rewards, define an eligible task, maximum labour allowance, service 
 
 Before launch, City Helpers would set the reward budget from contribution per completed job and assign someone to handle credits, invoices, and disputes. Evaluate referred paying customers, completed jobs, repeat bookings, and total reward cost; signup and point totals alone do not demonstrate growth. These are recommendations for implementation after the hackathon.
 
-See [partnerships](partnerships.md), [existing funnel](../current-business/existing-marketing-funnel.md), and [business objectives](../current-business/business-objectives.md).
+See [housing and community partnerships](partnerships.md), [customer journey](../current-business/customer-journey.md), and [business objectives](../current-business/business-objectives.md).
 
 ---
 
@@ -150,7 +152,7 @@ Original: https://devdogfish.github.io/cityhelpers/raw/current-business/business
 
 City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”.
 
-**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We currently lack access to these figures; that does not establish whether City Helpers already collects them.
+**1. Observability and audience knowledge.** Establish who needs the service, who actually books, where customers come from, and where they abandon the booking process. Use campaign links, referral codes, or “How did you hear about us?” to connect visits, requests, paid dispatches, completed jobs, and repeat bookings by channel. Success here means enough reliable evidence to identify promising audiences and diagnose barriers. We can reconstruct visible entry points, but lack channel-level visitor and enquiry counts, outbound contacts and replies, paid dispatches, completed jobs, acquisition costs, and repeat bookings. Whether City Helpers already tracks these internally is unknown.
 
 **2. Customer acquisition.** Use suitable channels, clear messaging, and easier booking to generate more paying customers at a sustainable cost. The CEO stresses that “a marketing campaign is not useful if it sends people to a website that they don't understand.” Success here means additional paid dispatches at a viable cost, supported by completed jobs and repeat bookings. Better measurement supports that outcome, but does not itself deliver customers.
 
@@ -239,50 +241,28 @@ flowchart TB
 | E · Incomplete outcomes | Exit reasons, volumes, and recovery processes are unknown. Customers may retry or return through an entry route. |
 | F · Business offer | Dispatch and membership descriptions conflict in local evidence. |
 
-**Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in the Brainstorming section; they are not shown as existing acquisition channels.
+## Existing acquisition channels
 
-**Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
+Public-source snapshot, 22 September 2026. City Helpers markets in Halifax and Toronto; this project's priority is seniors booking for themselves in Toronto/GTA. These are visible channels and advertised processes; traffic, conversion, sales activity, and the full booking flow have not been verified. Proposed campaigns remain in Brainstorming.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](open-questions.md), and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in [business context](https://devdogfish.github.io/cityhelpers/context.html), so the business offer remains unresolved.
+| Inbound channel | Evidence and role | What remains unknown |
+| --- | --- | --- |
+| [LinkedIn](https://ca.linkedin.com/company/cityhelpers) | Regular household-help, business-labour, and worker-recruitment posts, usually linking to the website. | Customer reach, clicks, enquiries, and sales. |
+| [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) | Halifax business page with promotional posts, website/contact links, and a public service enquiry. | Toronto reach and whether enquiries become bookings. |
+| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in the [introduction](business-context.md). | Posting activity, group participation, and campaign results. |
+| [Website / organic search](https://www.cityhelpers.ca/) | Indexed service pages, testimonials, and customer calls to action. | Search rankings, organic traffic, and an active SEO programme. |
 
----
+The website displays business partners, but their referral contribution is unverified. A project participant suggested finding customers through Facebook community groups; the CEO welcomed the idea. This does not establish an existing group-marketing programme.
 
-## Source: current-business/existing-marketing-funnel.md
+**Outbound business sales:** a [LinkedIn recruitment post](https://ca.linkedin.com/company/cityhelpers) seeks commission-based sales partners to prospect, meet business owners, sell memberships, and maintain relationships, using company-generated opportunities and their own prospecting. This establishes recruitment for that model, not active representatives or sales results. Cold email, cold calling, direct messages, outreach volume, and follow-up processes remain unverified. No comparable outbound programme targeting seniors is established.
 
-Original: https://devdogfish.github.io/cityhelpers/raw/current-business/existing-marketing-funnel.md
+## Booking and return visits
 
-# Existing marketing funnel
+The [published terms](https://www.cityhelpers.ca/terms-and-conditions) describe platform payment followed by a worker request. Payment and submission are separate milestones; neither proves a completed job. Email and messaging enquiry routes exist, but their handling and staff-assisted booking are unverified. Customers may leave, retry, or return; recovery processes, repeat-booking fees, reminders, referral incentives, and customer email campaigns remain unknown. Continue to [worker matching and delivery](worker-matching.md) for fulfilment, worker payment, ratings, and complaints.
 
-Public-source snapshot, 22 September 2026. This describes visible channels and the advertised customer journey. Traffic, conversion, sales activity, and revenue have not been verified. The business markets in Halifax and Toronto; this project's acquisition focus is Toronto/GTA.
+**Pricing inconsistency:** the pricing-page snapshot recorded $9.99 dispatch offers for homeowners and businesses, while the [introduction](business-context.md) records earlier $99/month and $999/year business plans. Subscription language also appears elsewhere. Confirm the offer used at checkout and by sales representatives before treating either as settled. [Pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing).
 
-## Inbound: customers discover City Helpers
-
-**Social post or search result → website or direct enquiry → pricing → paid dispatch → worker request.**
-
-| Channel | Evidence and role | What remains unknown |
-|---|---|---|
-| [LinkedIn](https://ca.linkedin.com/company/cityhelpers) | Regular posts promote household help and temporary business labour, usually directing readers to the website. Worker recruitment also appears in the feed. | Customer reach, clicks, enquiries, and sales. |
-| [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) | Halifax business page has promotional posts, website links, messaging/call options, and a public service enquiry. | Toronto reach and whether enquiries become bookings. |
-| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in [business context](https://devdogfish.github.io/cityhelpers/context.html). | Current posting activity, group participation, and results. |
-| [Website / organic search](https://www.cityhelpers.ca/) | Indexed service pages, testimonials, and customer calls to action provide a discoverable destination. | Search rankings, organic traffic, and an active SEO programme. |
-
-The website displays business partners, but their contribution to referrals is unverified. In the project discussion, a participant described finding customers through Facebook community groups; the CEO welcomed the idea. This does not establish an existing City Helpers group-marketing programme.
-
-## Outbound: City Helpers approaches customers
-
-**Advertised B2B sales model: prospecting → conversation with a business decision-maker → paid membership → worker requests.**
-
-A [LinkedIn recruitment post](https://ca.linkedin.com/company/cityhelpers) seeks commission-based sales partners to find prospects, meet business owners, close memberships, and maintain relationships. It mentions company-generated opportunities and representatives' own prospecting. This confirms recruitment for an outbound model; it does not confirm that representatives are active or producing sales. Cold email, cold calling, direct messages, outreach volume, and follow-up processes remain unverified. No comparable outbound programme targeting seniors is established by the available evidence.
-
-## Conversion, fulfilment, and retention
-
-The [published process](https://www.cityhelpers.ca/terms-and-conditions) describes paying the platform fee, submitting a request, notifying local workers, selecting a worker, completing the job, paying the worker directly, and rating them. This is the stated journey; checkout and fulfilment have not been tested. Existing email and messaging contacts also allow enquiries before purchase, but their handling is unknown. Repeat-booking reminders, referral incentives, and customer email campaigns are unverified.
-
-**Pricing inconsistency:** the [current pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) advertises $9.99 dispatch offers for both homeowners and businesses. Business subscription language remains elsewhere, and [business context](https://devdogfish.github.io/cityhelpers/context.html) records earlier $99/month and $999/year plans. The offer used by sales representatives and at checkout needs confirmation.
-
-## Measurement gap
-
-We can identify entry points and reconstruct the advertised journey, but cannot quantify the funnel. Missing evidence includes channel-level visitors and enquiries, outbound contacts and replies, paid dispatches, completed jobs, acquisition costs, and repeat bookings. Whether City Helpers already tracks these internally is unknown. The CEO's claim of approximately 1,200 vetted Toronto workers describes supply, not customer acquisition or active worker availability.
+See [business objectives](business-objectives.md) for measurement gaps, [Q&A](open-questions.md) for pending questions, and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) for the project discussion.
 
 ---
 
@@ -414,11 +394,11 @@ flowchart TB
 | E · Replacement | A replacement restarts matching; timing and availability are unverified. It does not guarantee fulfilment. |
 | F · Complaint outcome | Remedy, payment handling, and follow-up are unknown. An unresolved case is not assumed to end in a refund or completed job. |
 
-**What is established:** the local funnel records area notifications, customer selection, direct worker payment, ratings, replacement requests after no-shows, and support for complaints. The CEO described approximately 1,200 vetted Toronto registrations; this does not establish current coverage or available workers. The exact order of candidate responses, selection, and acceptance needs confirmation.
+**What is established:** the [published service terms](https://www.cityhelpers.ca/terms-and-conditions) describe area notifications, customer selection, direct worker payment, ratings, replacement requests after no-shows, and support for complaints. The CEO described approximately 1,200 vetted Toronto registrations; this describes worker supply, not customer acquisition, current coverage, or active availability. The exact order of candidate responses, selection, and acceptance needs confirmation.
 
 **What is not established:** an automatic matching algorithm, live availability checks, skill verification rules, response deadlines, or guaranteed fulfilment. The team proposed worker skill checkboxes and customer preferences; these remain improvements to investigate, not existing system capabilities. A replacement restarts matching; an unresolved case requires an operational decision, not an assumed refund or successful completion.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../brainstorming/website-and-booking.md), [open questions](open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
+**Sources:** [customer journey](customer-journey.md), [business context](business-context.md), [website and booking observations](../brainstorming/website-and-booking.md), [open questions](open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
 
 ---
 

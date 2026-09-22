@@ -76,8 +76,25 @@ flowchart TB
 | E · Incomplete outcomes | Exit reasons, volumes, and recovery processes are unknown. Customers may retry or return through an entry route. |
 | F · Business offer | Dispatch and membership descriptions conflict in local evidence. |
 
-**Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in the Brainstorming section; they are not shown as existing acquisition channels.
+## Existing acquisition channels
 
-**Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
+Public-source snapshot, 22 September 2026. City Helpers markets in Halifax and Toronto; this project's priority is seniors booking for themselves in Toronto/GTA. These are visible channels and advertised processes; traffic, conversion, sales activity, and the full booking flow have not been verified. Proposed campaigns remain in Brainstorming.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.html), [business context](context.html), [open questions](open-questions.html), and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in [business context](https://devdogfish.github.io/cityhelpers/context.html), so the business offer remains unresolved.
+| Inbound channel | Evidence and role | What remains unknown |
+| --- | --- | --- |
+| [LinkedIn](https://ca.linkedin.com/company/cityhelpers) | Regular household-help, business-labour, and worker-recruitment posts, usually linking to the website. | Customer reach, clicks, enquiries, and sales. |
+| [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) | Halifax business page with promotional posts, website/contact links, and a public service enquiry. | Toronto reach and whether enquiries become bookings. |
+| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in the [introduction](context.html). | Posting activity, group participation, and campaign results. |
+| [Website / organic search](https://www.cityhelpers.ca/) | Indexed service pages, testimonials, and customer calls to action. | Search rankings, organic traffic, and an active SEO programme. |
+
+The website displays business partners, but their referral contribution is unverified. A project participant suggested finding customers through Facebook community groups; the CEO welcomed the idea. This does not establish an existing group-marketing programme.
+
+**Outbound business sales:** a [LinkedIn recruitment post](https://ca.linkedin.com/company/cityhelpers) seeks commission-based sales partners to prospect, meet business owners, sell memberships, and maintain relationships, using company-generated opportunities and their own prospecting. This establishes recruitment for that model, not active representatives or sales results. Cold email, cold calling, direct messages, outreach volume, and follow-up processes remain unverified. No comparable outbound programme targeting seniors is established.
+
+## Booking and return visits
+
+The [published terms](https://www.cityhelpers.ca/terms-and-conditions) describe platform payment followed by a worker request. Payment and submission are separate milestones; neither proves a completed job. Email and messaging enquiry routes exist, but their handling and staff-assisted booking are unverified. Customers may leave, retry, or return; recovery processes, repeat-booking fees, reminders, referral incentives, and customer email campaigns remain unknown. Continue to [worker matching and delivery](worker-matching.html) for fulfilment, worker payment, ratings, and complaints.
+
+**Pricing inconsistency:** the pricing-page snapshot recorded $9.99 dispatch offers for homeowners and businesses, while the [introduction](context.html) records earlier $99/month and $999/year business plans. Subscription language also appears elsewhere. Confirm the offer used at checkout and by sales representatives before treating either as settled. [Pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing).
+
+See [business objectives](objective.html) for measurement gaps, [Q&A](open-questions.html) for pending questions, and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) for the project discussion.

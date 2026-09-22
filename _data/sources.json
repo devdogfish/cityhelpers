@@ -4,7 +4,7 @@
     "label": "Community outreach",
     "file": "raw/brainstorming/community-outreach.md",
     "url": "/raw/brainstorming/community-outreach.md",
-    "sha256": "238a6911b48b45cdd6c477ffdf4c44302008e4d0afdf8a9405a76a6969a432ee",
+    "sha256": "60d15d76238775c52f4e4c0895c4951266fc1b6988ec66210d9ba1380c9d018b",
     "kind": "note",
     "format": "MD"
   },
@@ -22,7 +22,7 @@
     "label": "Digital advertising",
     "file": "raw/brainstorming/digital-advertising.md",
     "url": "/raw/brainstorming/digital-advertising.md",
-    "sha256": "d039751486137adbb76af76935e2c14e2b83cddabcbc63d331fb440ae80d0372",
+    "sha256": "8abe614f84dd87f1e107ce461508ef6417c88edecc32fc2a41479bac198989f7",
     "kind": "note",
     "format": "MD"
   },
@@ -31,7 +31,7 @@
     "label": "Partnerships",
     "file": "raw/brainstorming/partnerships.md",
     "url": "/raw/brainstorming/partnerships.md",
-    "sha256": "10dae9b27d4938deda42904d6288349d51687f1b71adfc39ef80a878787a2a57",
+    "sha256": "e8dabe33637e2cb7af2bf01d9a7ee642ba77ecb6cdd0f1614d414bc8773d9442",
     "kind": "note",
     "format": "MD"
   },
@@ -40,7 +40,7 @@
     "label": "Rewards and referrals",
     "file": "raw/brainstorming/rewards-and-referrals.md",
     "url": "/raw/brainstorming/rewards-and-referrals.md",
-    "sha256": "dca110521088aa4b6a7a1c2bab0743391f22a985cc2533b37208d0b9eda5dc32",
+    "sha256": "0d75a6cd54dd4746afa4b2e7d0094f67cfb8b55ea25b3482959b84f871d04720",
     "kind": "note",
     "format": "MD"
   },
@@ -67,7 +67,7 @@
     "label": "Business objectives",
     "file": "raw/current-business/business-objectives.md",
     "url": "/raw/current-business/business-objectives.md",
-    "sha256": "8804e642bf958d81fcf9cb7c7b8c2bd0142bb430a1b827e71f0cb8a68f1dcc28",
+    "sha256": "779194c51bc89ff73c3243a0c7f626432456b3ef6853e056a67f9931606659c5",
     "kind": "note",
     "format": "MD"
   },
@@ -76,16 +76,7 @@
     "label": "Customer journey",
     "file": "raw/current-business/customer-journey.md",
     "url": "/raw/current-business/customer-journey.md",
-    "sha256": "12684c3e281ac0637775c292a56b14c5df411085270759b5f34e4936767eb7c9",
-    "kind": "note",
-    "format": "MD"
-  },
-  {
-    "source": "current-business/existing-marketing-funnel.md",
-    "label": "Existing marketing funnel",
-    "file": "raw/current-business/existing-marketing-funnel.md",
-    "url": "/raw/current-business/existing-marketing-funnel.md",
-    "sha256": "50b23fea89fe689beaaf6b3d02b9f5320f1f1a65e4380f7c20334fc066abc96d",
+    "sha256": "566789853d9d0d88e4a6016849a8d6b6fce84dc1bb85c91e61794ee9d92acfa0",
     "kind": "note",
     "format": "MD"
   },
@@ -112,7 +103,7 @@
     "label": "Worker matching",
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "918adc16cde93dc221a728b9593d580834e8d5f821f06ac2b123af5445a1077f",
+    "sha256": "1eae081958efe0078ecdddc5581558879cb17740478284f1b091603bc3295ee9",
     "kind": "note",
     "format": "MD"
   },

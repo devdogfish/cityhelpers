@@ -15,7 +15,6 @@
 - [current-business/business-context.md](https://devdogfish.github.io/cityhelpers/raw/current-business/business-context.md)
 - [current-business/business-objectives.md](https://devdogfish.github.io/cityhelpers/raw/current-business/business-objectives.md)
 - [current-business/customer-journey.md](https://devdogfish.github.io/cityhelpers/raw/current-business/customer-journey.md)
-- [current-business/existing-marketing-funnel.md](https://devdogfish.github.io/cityhelpers/raw/current-business/existing-marketing-funnel.md)
 - [current-business/open-questions.md](https://devdogfish.github.io/cityhelpers/raw/current-business/open-questions.md)
 - [current-business/target-audience.md](https://devdogfish.github.io/cityhelpers/raw/current-business/target-audience.md)
 - [current-business/worker-matching.md](https://devdogfish.github.io/cityhelpers/raw/current-business/worker-matching.md)

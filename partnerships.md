@@ -1,9 +1,11 @@
 ---
-title: "Partnerships"
+title: "Housing and community partnerships"
 updated: "2026-09-22"
 ---
 
-The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone.
+The meeting proposed working with housing and community organizations. The proposal is an ongoing referral relationship with housing providers, condo managers, and community organizations: they introduce residents who need help and provide a trusted route to City Helpers.
+
+**How this differs from other partner programmes.** City Helpers already advertises commission-based B2B sales partners who prospect businesses and sell memberships; the website also displays business partners, whose referral contribution is unverified. This proposal gives housing and community organizations a way to connect residents with household help. It does not assume those existing partners already provide that route, or that community referrals would earn a commission. Erick’s proposed CHP instead concerns workers delivering reward-funded services. See the [customer journey and acquisition channels](customer-journey.html) and [rewards and referrals](rewards-and-referrals.html).
 
 Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
 

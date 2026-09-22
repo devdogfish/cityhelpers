@@ -8,4 +8,4 @@ Match the offer to the setting. Seniors in apartments may need lifting, organizi
 
 **Suggested first implementation:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [housing and community partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).

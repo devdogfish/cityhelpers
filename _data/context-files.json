@@ -2,7 +2,7 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "3b9c7f4386894fd9804ffb63457f8a52505d0ee168b24af52f8a5e4327350da9"
+    "sha256": "951599192c37b662e67277b2955be48f1328f295022ea8b12bce7789ba91f7d9"
   },
   {
     "file": "llms.txt",
@@ -37,7 +37,7 @@
   {
     "file": "raw/current-business/customer-journey.md",
     "url": "/raw/current-business/customer-journey.md",
-    "sha256": "32850bde507cf35efed90a211be4b921d8d9b5a29b580fc577b787d267bb4263"
+    "sha256": "eb212e1fcb5be5da9e6e7dfcc604d9e0d1248dfb7341e6dddab8a59679ae2344"
   },
   {
     "file": "raw/current-business/existing-marketing-funnel.md",
@@ -77,7 +77,7 @@
   {
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "a9b10efa707364e9ec370d934b7e70ddbb415e05cecaed7d7570387d683597d5"
+    "sha256": "0460de8a5294b7366489cf806e0a9fee51a185296f900095e0c2d7fc414d7ef7"
   },
   {
     "file": "raw/ideas-and-work/community-outreach.md",

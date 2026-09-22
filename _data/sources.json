@@ -12,7 +12,7 @@
     "label": "Customer journey",
     "file": "raw/current-business/customer-journey.md",
     "url": "/raw/current-business/customer-journey.md",
-    "sha256": "32850bde507cf35efed90a211be4b921d8d9b5a29b580fc577b787d267bb4263",
+    "sha256": "eb212e1fcb5be5da9e6e7dfcc604d9e0d1248dfb7341e6dddab8a59679ae2344",
     "kind": "note"
   },
   {
@@ -28,7 +28,7 @@
     "label": "Worker matching",
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "a9b10efa707364e9ec370d934b7e70ddbb415e05cecaed7d7570387d683597d5",
+    "sha256": "0460de8a5294b7366489cf806e0a9fee51a185296f900095e0c2d7fc414d7ef7",
     "kind": "note"
   },
   {

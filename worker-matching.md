@@ -3,71 +3,84 @@ title: "Worker matching and delivery"
 updated: "2026-09-22"
 ---
 
-Operational companion to [client acquisition](customer-journey.html). The shared boundary is **paid dispatch + submitted request**; this map contains no marketing channels, sales conversations, or checkout steps. Read top to bottom: inputs → matching → agreement → delivery → closure. **Blue = stated process. Amber = operational detail needing confirmation.** This is a business-process map, not evidence of implemented software or automated matching.
+**Find a worker → agree the job → deliver → close.** Continue from the [customer journey](customer-journey.html). Blue boxes carry the main route; grey boxes supply workers; diamonds are decisions; red boxes show exceptions; green marks handoff or completion. Dashed arrows indicate handling needing confirmation. This maps the stated business process, not verified software or automation.
 
 ```mermaid
 flowchart TB
-    subgraph L1["01 · INPUTS"]
-        Input(["Paid dispatch + submitted request<br/>From acquisition diagram"])
-        Apply["Worker applies<br/>Identity · resume · video details"]
-        Vet["Vetting / approval<br/>Checks and rejection rules unknown"]
-        Pool["Registered worker pool<br/>Registration does not prove availability"]
+    Input(["READY FOR MATCHING<br/>Paid dispatch + submitted request"])
+    subgraph Supply["WORKER SUPPLY"]
+        Apply["Worker applies [A]"]
+        Vet["Vetting / approval [A]"]
+        Pool["Registered worker pool [B]"]
         Apply --> Vet --> Pool
     end
-
-    subgraph L2["02 · MATCHING"]
-        Notify["Notify registered workers in the area"]
-        Candidate["Identify suitable, available candidates<br/>Skills, timing, and screening process unknown"]
-        NoMatch["No suitable worker / no response<br/>Escalation, timing, and refund rules unknown"]
-    end
-
-    subgraph L3["03 · AGREEMENT"]
+    subgraph Match["1 · FIND & AGREE"]
+        Notify["Notify workers in the area"]
+        Candidate{"Worker available? [C]"}
         Select["Customer selects worker(s)"]
-        Agree["Agree task, timing, and labour payment<br/>Worker accepts assignment"]
+        Agree["Agree task, timing & labour payment<br/>Worker accepts assignment"]
+        NoMatch["No match / no response [D]"]
     end
-
-    subgraph L4["04 · DELIVERY"]
+    subgraph Deliver["2 · DELIVER THE JOB"]
         Attend{"Worker attends?"}
-        Work["Worker performs agreed job"]
-        NoShow["Customer reports no-show<br/>Replacement can be requested"]
-        Replacement["Replacement search<br/>Returns to matching;<br/>timing and availability unverified"]
+        Work["Perform agreed job"]
+        NoShow["Report no-show<br/>Replacement can be requested"]
+        Replacement["Replacement search [E]"]
     end
-
-    subgraph L5["05 · CLOSURE"]
+    subgraph Close["3 · CLOSE THE JOB"]
         Quality{"Work satisfactory?"}
-        Pay["Customer pays worker directly"]
-        Rate["Customer rates worker<br/>Job complete"]
-        Dispute["Customer contacts City Helpers<br/>Company and worker address complaint"]
-        Resolution["Resolution pending / agreed<br/>Remedy, payment handling,<br/>and follow-up outcome unknown"]
+        Pay["Pay worker directly"]
+        Dispute["Contact City Helpers<br/>Company + worker address complaint"]
+        Resolution["Resolution pending / agreed [F]"]
     end
+    Complete(["JOB COMPLETE<br/>Customer rates worker"])
 
     Input --> Notify
     Pool --> Notify
     Notify -.-> Candidate
-    Candidate --> Select
-    Candidate -.-> NoMatch
+    Candidate -->|Yes| Select
+    Candidate -.->|No / no response| NoMatch
     Select --> Agree
     Agree --> Attend
-    Attend -->|"Yes"| Work
-    Attend -->|"No"| NoShow
+    Attend -->|Yes| Work
+    Attend -->|No| NoShow
     NoShow -.-> Replacement
+    Replacement -.->|Restart matching| Notify
     Work --> Quality
-    Quality -->|"Yes"| Pay
-    Pay --> Rate
-    Quality -->|"No"| Dispute
+    Quality -->|Yes| Pay
+    Pay --> Complete
+    Quality -->|No| Dispute
     Dispute -.-> Resolution
-
-    %% Invisible layout constraints preserve chronological layer boundaries.
-    NoMatch ~~~ Select
+    NoMatch ~~~ Attend
     Replacement ~~~ Quality
+    Resolution ~~~ Complete
 
-    classDef documented fill:#e8f2fa,stroke:#397497,color:#17394d;
-    classDef unknown fill:#fff3d6,stroke:#b7872c,color:#49350d;
-    classDef boundary fill:#e4f2e9,stroke:#45825d,color:#20412c;
-    class Apply,Pool,Notify,Select,Agree,Attend,Work,NoShow,Quality,Pay,Rate,Dispute documented;
-    class Vet,Candidate,NoMatch,Replacement,Resolution unknown;
-    class Input boundary;
+    classDef main fill:#e8f2ff,stroke:#2864a0,stroke-width:2px,color:#173b61,font-weight:bold;
+    classDef secondary fill:#f3f4f6,stroke:#98a2b3,color:#475467;
+    classDef decision fill:#fff4d6,stroke:#af7a15,stroke-width:2px,color:#684600,font-weight:bold;
+    classDef exception fill:#fff0ef,stroke:#b85b55,color:#7c302c;
+    classDef outcome fill:#17634d,stroke:#104a39,stroke-width:2px,color:#ffffff,font-weight:bold;
+    class Notify,Select,Agree,Work,Pay main;
+    class Apply,Vet,Pool secondary;
+    class Candidate,Attend,Quality decision;
+    class NoMatch,NoShow,Replacement,Dispute,Resolution exception;
+    class Input,Complete outcome;
+    style Supply fill:#f9fafb,stroke:#d0d5dd,color:#667085
+    style Match fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Deliver fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Close fill:#fafcff,stroke:#d2dce8,color:#344054
 ```
+
+### Details behind the map
+
+| Key | Important detail |
+| --- | --- |
+| A · Worker onboarding | Application includes identity, résumé, and video details. Vetting checks and rejection rules are unknown. |
+| B · Worker pool | Registrations do not establish availability. The CEO described approximately 1,200 vetted Toronto registrations. |
+| C · Candidate selection | Skills, timing, screening, and the order of responses, selection, and acceptance need confirmation. No automatic matching algorithm is established. |
+| D · No match | Escalation, response deadlines, and refund rules are unknown. |
+| E · Replacement | A replacement restarts matching; timing and availability are unverified. It does not guarantee fulfilment. |
+| F · Complaint outcome | Remedy, payment handling, and follow-up are unknown. An unresolved case is not assumed to end in a refund or completed job. |
 
 **What is established:** the local funnel records area notifications, customer selection, direct worker payment, ratings, replacement requests after no-shows, and support for complaints. The CEO described approximately 1,200 vetted Toronto registrations; this does not establish current coverage or available workers. The exact order of candidate responses, selection, and acceptance needs confirmation.
 

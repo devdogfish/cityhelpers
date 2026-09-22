@@ -26,71 +26,78 @@ Original: https://devdogfish.github.io/cityhelpers/raw/current-business/customer
 
 # Customer journey
 
-Read top to bottom. Each layer has one purpose; the branches show alternate customer routes. **Blue = documented channel or published process. Amber = activity or handling not verified.** Arrows describe the journey, not measured conversion. This map ends when a paid dispatch has a submitted worker request; operations continue in [worker matching and delivery](worker-matching.md).
+**Discover → understand → book → hand off.** Follow the blue boxes for the main household route. Grey boxes show alternative routes; diamonds are choices; red boxes are incomplete outcomes; green marks the handoff. Dashed arrows indicate unverified activity or handling. Choices represent customer behaviour, not confirmed website screens.
 
 ```mermaid
 flowchart TB
-    subgraph L1["01 · REACH"]
-        Inbound["Organic inbound<br/>Search · LinkedIn · Nextdoor"]
-        Other["Other entry routes<br/>Facebook page · direct visit · referral<br/>Activity / attribution unverified"]
-        Outbound["Business outbound<br/>Sales partners recruited to prospect<br/>Actual outreach unverified"]
+    subgraph Reach["1 · DISCOVERY"]
+        Inbound["Organic discovery [A]<br/>Search · LinkedIn · Nextdoor"]
+        Other["Other routes [B]<br/>Facebook · direct visit · referral"]
+        Outbound["Business outreach [B]<br/>Sales partner → sales conversation"]
     end
-
-    subgraph L2["02 · ENTRY"]
-        Website["Website / service page"]
-        Contact["Call · email · platform message<br/>Enquiry channels exist;<br/>booking assistance unverified"]
-        Sales["B2B sales conversation<br/>Advertised model"]
+    subgraph Evaluate["2 · EVALUATION"]
+        Website["Visit website"]
+        Contact["Call · email · message [C]"]
+        Understand["Check tasks, trust & cost [D]"]
+        Ready{"Continue?"}
+        Pause["Leave or postpone [E]"]
     end
-
-    subgraph L3["03 · CONSIDERATION"]
-        Understand["Understand tasks, vetting, pricing,<br/>testimonials, and next steps"]
-        Pause["Leave · postpone · choose an alternative<br/>Reasons and volumes unknown"]
-    end
-
-    subgraph L4["04 · OFFER"]
-        Home["Senior / homeowner<br/>$9.99 dispatch<br/>Worker labour paid separately"]
-        Business["Business customer<br/>Dispatch vs membership offer<br/>Conflicting local evidence"]
-    end
-
-    subgraph L5["05 · CONVERSION"]
-        Fee["Pay City Helpers platform fee"]
+    subgraph Book["3 · BOOK HELP"]
+        Type{"Customer type?"}
+        Home["Senior / homeowner<br/>$9.99 dispatch + separate labour"]
+        Business["Business customer [F]<br/>Offer needs confirmation"]
+        Fee["Pay platform fee"]
         Request["Submit worker request"]
-        Incomplete["Payment fails or request unfinished<br/>Recovery process unknown"]
+        Incomplete["Payment failed / request unfinished [E]"]
     end
-
-    subgraph L6["06 · HANDOFF"]
-        Handoff(["Paid dispatch + submitted request<br/>Continue in worker matching diagram"])
-    end
+    Handoff(["READY FOR MATCHING<br/>Paid dispatch + submitted request"])
 
     Inbound --> Website
     Inbound --> Contact
     Other -.-> Website
     Other -.-> Contact
-    Outbound -.-> Sales
+    Outbound -.-> Understand
     Website --> Understand
     Contact -.-> Understand
-    Sales -.-> Understand
-    Understand --> Home
-    Understand --> Business
-    Understand -.-> Pause
+    Understand --> Ready
+    Ready -->|Yes| Type
+    Ready -->|No / later| Pause
+    Type -->|Household| Home
+    Type -->|Business| Business
     Home --> Fee
     Business --> Fee
     Fee --> Request
     Fee -.-> Incomplete
     Request -.-> Incomplete
     Request --> Handoff
-
-    %% Invisible layout constraints keep terminal branches inside their layer.
-    Pause ~~~ Home
+    Pause ~~~ Type
     Incomplete ~~~ Handoff
 
-    classDef documented fill:#e8f2fa,stroke:#397497,color:#17394d;
-    classDef unknown fill:#fff3d6,stroke:#b7872c,color:#49350d;
-    classDef boundary fill:#e4f2e9,stroke:#45825d,color:#20412c;
-    class Inbound,Website,Understand,Home,Fee,Request documented;
-    class Other,Outbound,Contact,Sales,Pause,Business,Incomplete unknown;
-    class Handoff boundary;
+    classDef main fill:#e8f2ff,stroke:#2864a0,stroke-width:2px,color:#173b61,font-weight:bold;
+    classDef secondary fill:#f3f4f6,stroke:#98a2b3,color:#475467;
+    classDef decision fill:#fff4d6,stroke:#af7a15,stroke-width:2px,color:#684600,font-weight:bold;
+    classDef exception fill:#fff0ef,stroke:#b85b55,color:#7c302c;
+    classDef outcome fill:#17634d,stroke:#104a39,stroke-width:2px,color:#ffffff,font-weight:bold;
+    class Inbound,Website,Understand,Home,Fee,Request main;
+    class Other,Outbound,Contact,Business secondary;
+    class Ready,Type decision;
+    class Pause,Incomplete exception;
+    class Handoff outcome;
+    style Reach fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Evaluate fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Book fill:#fafcff,stroke:#d2dce8,color:#344054
 ```
+
+### Details behind the map
+
+| Key | Important detail |
+| --- | --- |
+| A · Organic discovery | Channels are documented; Nextdoor evidence is from Halifax, not proof of Toronto reach. |
+| B · Other routes | Facebook presence does not prove active campaigns. Referral/direct attribution and actual sales-partner outreach are unverified. The B2B sales conversation is an advertised model. |
+| C · Contact | Enquiry channels exist; staff-assisted booking is unverified. |
+| D · Evaluation | Customers review task suitability, worker vetting, pricing, testimonials, and next steps. |
+| E · Incomplete outcomes | Exit reasons, volumes, and recovery processes are unknown. Customers may retry or return through an entry route. |
+| F · Business offer | Dispatch and membership descriptions conflict in local evidence. |
 
 **Scope:** seniors booking household help are the current priority; the existing business route is retained for completeness. Nextdoor evidence is from Halifax, not proof of Toronto reach. Facebook page presence does not establish an active campaign. Proposed ads, events, partnerships, and incentives remain in `ideas-and-work/`; they are not shown as existing acquisition channels.
 
@@ -145,71 +152,84 @@ Original: https://devdogfish.github.io/cityhelpers/raw/current-business/worker-m
 
 # Worker matching and delivery
 
-Operational companion to [client acquisition](customer-journey.md). The shared boundary is **paid dispatch + submitted request**; this map contains no marketing channels, sales conversations, or checkout steps. Read top to bottom: inputs → matching → agreement → delivery → closure. **Blue = stated process. Amber = operational detail needing confirmation.** This is a business-process map, not evidence of implemented software or automated matching.
+**Find a worker → agree the job → deliver → close.** Continue from the [customer journey](customer-journey.md). Blue boxes carry the main route; grey boxes supply workers; diamonds are decisions; red boxes show exceptions; green marks handoff or completion. Dashed arrows indicate handling needing confirmation. This maps the stated business process, not verified software or automation.
 
 ```mermaid
 flowchart TB
-    subgraph L1["01 · INPUTS"]
-        Input(["Paid dispatch + submitted request<br/>From acquisition diagram"])
-        Apply["Worker applies<br/>Identity · resume · video details"]
-        Vet["Vetting / approval<br/>Checks and rejection rules unknown"]
-        Pool["Registered worker pool<br/>Registration does not prove availability"]
+    Input(["READY FOR MATCHING<br/>Paid dispatch + submitted request"])
+    subgraph Supply["WORKER SUPPLY"]
+        Apply["Worker applies [A]"]
+        Vet["Vetting / approval [A]"]
+        Pool["Registered worker pool [B]"]
         Apply --> Vet --> Pool
     end
-
-    subgraph L2["02 · MATCHING"]
-        Notify["Notify registered workers in the area"]
-        Candidate["Identify suitable, available candidates<br/>Skills, timing, and screening process unknown"]
-        NoMatch["No suitable worker / no response<br/>Escalation, timing, and refund rules unknown"]
-    end
-
-    subgraph L3["03 · AGREEMENT"]
+    subgraph Match["1 · FIND & AGREE"]
+        Notify["Notify workers in the area"]
+        Candidate{"Worker available? [C]"}
         Select["Customer selects worker(s)"]
-        Agree["Agree task, timing, and labour payment<br/>Worker accepts assignment"]
+        Agree["Agree task, timing & labour payment<br/>Worker accepts assignment"]
+        NoMatch["No match / no response [D]"]
     end
-
-    subgraph L4["04 · DELIVERY"]
+    subgraph Deliver["2 · DELIVER THE JOB"]
         Attend{"Worker attends?"}
-        Work["Worker performs agreed job"]
-        NoShow["Customer reports no-show<br/>Replacement can be requested"]
-        Replacement["Replacement search<br/>Returns to matching;<br/>timing and availability unverified"]
+        Work["Perform agreed job"]
+        NoShow["Report no-show<br/>Replacement can be requested"]
+        Replacement["Replacement search [E]"]
     end
-
-    subgraph L5["05 · CLOSURE"]
+    subgraph Close["3 · CLOSE THE JOB"]
         Quality{"Work satisfactory?"}
-        Pay["Customer pays worker directly"]
-        Rate["Customer rates worker<br/>Job complete"]
-        Dispute["Customer contacts City Helpers<br/>Company and worker address complaint"]
-        Resolution["Resolution pending / agreed<br/>Remedy, payment handling,<br/>and follow-up outcome unknown"]
+        Pay["Pay worker directly"]
+        Dispute["Contact City Helpers<br/>Company + worker address complaint"]
+        Resolution["Resolution pending / agreed [F]"]
     end
+    Complete(["JOB COMPLETE<br/>Customer rates worker"])
 
     Input --> Notify
     Pool --> Notify
     Notify -.-> Candidate
-    Candidate --> Select
-    Candidate -.-> NoMatch
+    Candidate -->|Yes| Select
+    Candidate -.->|No / no response| NoMatch
     Select --> Agree
     Agree --> Attend
-    Attend -->|"Yes"| Work
-    Attend -->|"No"| NoShow
+    Attend -->|Yes| Work
+    Attend -->|No| NoShow
     NoShow -.-> Replacement
+    Replacement -.->|Restart matching| Notify
     Work --> Quality
-    Quality -->|"Yes"| Pay
-    Pay --> Rate
-    Quality -->|"No"| Dispute
+    Quality -->|Yes| Pay
+    Pay --> Complete
+    Quality -->|No| Dispute
     Dispute -.-> Resolution
-
-    %% Invisible layout constraints preserve chronological layer boundaries.
-    NoMatch ~~~ Select
+    NoMatch ~~~ Attend
     Replacement ~~~ Quality
+    Resolution ~~~ Complete
 
-    classDef documented fill:#e8f2fa,stroke:#397497,color:#17394d;
-    classDef unknown fill:#fff3d6,stroke:#b7872c,color:#49350d;
-    classDef boundary fill:#e4f2e9,stroke:#45825d,color:#20412c;
-    class Apply,Pool,Notify,Select,Agree,Attend,Work,NoShow,Quality,Pay,Rate,Dispute documented;
-    class Vet,Candidate,NoMatch,Replacement,Resolution unknown;
-    class Input boundary;
+    classDef main fill:#e8f2ff,stroke:#2864a0,stroke-width:2px,color:#173b61,font-weight:bold;
+    classDef secondary fill:#f3f4f6,stroke:#98a2b3,color:#475467;
+    classDef decision fill:#fff4d6,stroke:#af7a15,stroke-width:2px,color:#684600,font-weight:bold;
+    classDef exception fill:#fff0ef,stroke:#b85b55,color:#7c302c;
+    classDef outcome fill:#17634d,stroke:#104a39,stroke-width:2px,color:#ffffff,font-weight:bold;
+    class Notify,Select,Agree,Work,Pay main;
+    class Apply,Vet,Pool secondary;
+    class Candidate,Attend,Quality decision;
+    class NoMatch,NoShow,Replacement,Dispute,Resolution exception;
+    class Input,Complete outcome;
+    style Supply fill:#f9fafb,stroke:#d0d5dd,color:#667085
+    style Match fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Deliver fill:#fafcff,stroke:#d2dce8,color:#344054
+    style Close fill:#fafcff,stroke:#d2dce8,color:#344054
 ```
+
+### Details behind the map
+
+| Key | Important detail |
+| --- | --- |
+| A · Worker onboarding | Application includes identity, résumé, and video details. Vetting checks and rejection rules are unknown. |
+| B · Worker pool | Registrations do not establish availability. The CEO described approximately 1,200 vetted Toronto registrations. |
+| C · Candidate selection | Skills, timing, screening, and the order of responses, selection, and acceptance need confirmation. No automatic matching algorithm is established. |
+| D · No match | Escalation, response deadlines, and refund rules are unknown. |
+| E · Replacement | A replacement restarts matching; timing and availability are unverified. It does not guarantee fulfilment. |
+| F · Complaint outcome | Remedy, payment handling, and follow-up are unknown. An unresolved case is not assumed to end in a refund or completed job. |
 
 **What is established:** the local funnel records area notifications, customer selection, direct worker payment, ratings, replacement requests after no-shows, and support for complaints. The CEO described approximately 1,200 vetted Toronto registrations; this does not establish current coverage or available workers. The exact order of candidate responses, selection, and acceptance needs confirmation.
 

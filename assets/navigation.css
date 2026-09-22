@@ -49,8 +49,7 @@ nav a { padding: 5px 10px; line-height: 1.4; }
     font: inherit; font-size: 15px; font-weight: 700; cursor: pointer;
   }
   .nav-toggle:hover { background: var(--paper); }
-  .nav-toggle::after { content: '−'; font-size: 20px; }
-  .nav-toggle[aria-expanded="false"]::after { content: '+'; }
+  .nav-toggle[aria-expanded="true"] .nav-chevron { transform: rotate(180deg); }
   .nav-toggle:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
   aside.is-collapsed nav { display: none; }
   nav { gap: 0 12px; }
@@ -61,3 +60,21 @@ nav a { padding: 5px 10px; line-height: 1.4; }
 }
 
 @media print { .shell { padding: 24px 0; } }
+
+/* Shared SVG icons and a quiet, structured notes menu. */
+.nav-icon { width: 17px; height: 17px; flex: 0 0 17px; vertical-align: middle; }
+#notes-navigation { gap: 3px; }
+#notes-navigation a { display: flex; align-items: center; gap: 9px; padding: 7px 10px; }
+#notes-navigation a:hover { background: #f0f6f8; color: var(--blue); }
+#notes-navigation a[aria-current="page"] { background: var(--aqua); border-color: transparent; box-shadow: inset 3px 0 var(--blue); color: var(--blue); }
+#notes-navigation .nav-group { margin-top: 15px; gap: 2px; }
+#notes-navigation .nav-group-title { display: flex; align-items: center; gap: 8px; padding: 6px 10px; font-weight: 600; color: var(--muted); }
+#notes-navigation .nav-group-title .nav-icon { width: 15px; height: 15px; flex-basis: 15px; }
+#notes-navigation .nav-group a { margin-left: 10px; padding-left: 13px; }
+.business-link .nav-icon { width: 14px; height: 14px; margin-left: 4px; }
+.business-link:hover { color: var(--blue); }
+@media (max-width: 760px) {
+  #notes-navigation .nav-group { margin-top: 9px; }
+  #notes-navigation a { min-height: 44px; }
+  #notes-navigation .nav-group a { margin-left: 0; padding-left: 10px; }
+}

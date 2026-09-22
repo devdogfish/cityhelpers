@@ -4,10 +4,11 @@ const blocks = [...document.querySelectorAll('pre > code.language-mermaid, .lang
 if (blocks.length) {
   try {
     const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11.12.0/dist/mermaid.esm.min.mjs');
+    await document.fonts.ready;
     mermaid.initialize({
       startOnLoad: false,
       securityLevel: 'strict',
-      fontFamily: 'Arial, Helvetica, sans-serif',
+      fontFamily: 'IBM Plex Sans, Segoe UI, sans-serif',
       flowchart: { useMaxWidth: false },
     });
     for (const [index, code] of blocks.entries()) {

@@ -8,19 +8,11 @@
     "kind": "note"
   },
   {
-    "source": "current-business/ceo-discussion-transcript.txt",
-    "label": "CEO discussion transcript",
-    "file": "raw/current-business/ceo-discussion-transcript.txt",
-    "url": "/raw/current-business/ceo-discussion-transcript.txt",
-    "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941",
-    "kind": "source"
-  },
-  {
     "source": "current-business/customer-journey.md",
     "label": "Customer journey",
     "file": "raw/current-business/customer-journey.md",
     "url": "/raw/current-business/customer-journey.md",
-    "sha256": "22fdbf1fc74c87052fb808dd39effb758c8b3238186cbdb33265b2e45f0b6126",
+    "sha256": "32850bde507cf35efed90a211be4b921d8d9b5a29b580fc577b787d267bb4263",
     "kind": "note"
   },
   {
@@ -32,36 +24,11 @@
     "kind": "note"
   },
   {
-    "source": "current-business/hackathon-brief.pdf",
-    "label": "Hackathon brief",
-    "file": "raw/current-business/hackathon-brief.pdf",
-    "url": "/raw/current-business/hackathon-brief.pdf",
-    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca",
-    "kind": "source",
-    "text_url": "/raw/current-business/hackathon-brief.pdf.txt"
-  },
-  {
-    "source": "current-business/hackathon-organizer-transcript.txt",
-    "label": "Hackathon organizer transcript",
-    "file": "raw/current-business/hackathon-organizer-transcript.txt",
-    "url": "/raw/current-business/hackathon-organizer-transcript.txt",
-    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022",
-    "kind": "source"
-  },
-  {
-    "source": "current-business/team-meeting-01-transcript.txt",
-    "label": "Team meeting 01 transcript",
-    "file": "raw/current-business/team-meeting-01-transcript.txt",
-    "url": "/raw/current-business/team-meeting-01-transcript.txt",
-    "sha256": "b21c41ee22f54adc7112f464e90cb51c1757742c4f1d79c8b71c87796d014ef0",
-    "kind": "source"
-  },
-  {
     "source": "current-business/worker-matching.md",
     "label": "Worker matching",
     "file": "raw/current-business/worker-matching.md",
     "url": "/raw/current-business/worker-matching.md",
-    "sha256": "135e258e3b956afb00e7c86c132a9f3f644282fe2d94ea1812462217b526721a",
+    "sha256": "a9b10efa707364e9ec370d934b7e70ddbb415e05cecaed7d7570387d683597d5",
     "kind": "note"
   },
   {
@@ -69,7 +36,7 @@
     "label": "Community outreach",
     "file": "raw/ideas-and-work/community-outreach.md",
     "url": "/raw/ideas-and-work/community-outreach.md",
-    "sha256": "968252a2dcda6c43345b4217f28a0f693e0f1cc025bce10dbf8ee4a281527871",
+    "sha256": "36dcadabb5fdf45de6e69a583efa5587a3ef3a7244cfb7cbee566b58a4502299",
     "kind": "note"
   },
   {
@@ -77,7 +44,7 @@
     "label": "Customer research",
     "file": "raw/ideas-and-work/customer-research.md",
     "url": "/raw/ideas-and-work/customer-research.md",
-    "sha256": "d8ecd06ca61eedfdd7dd705cafec9f4090549137c54538e97869cef6f1baa749",
+    "sha256": "7a1aed9b5ffc60c678c9bf2dca6dc2d99d9bbfd382ad641323219fcc0bd5b57a",
     "kind": "note"
   },
   {
@@ -85,7 +52,7 @@
     "label": "Digital advertising",
     "file": "raw/ideas-and-work/digital-advertising.md",
     "url": "/raw/ideas-and-work/digital-advertising.md",
-    "sha256": "400774361d818c6a3c3bff614d55abb70191e838b48e59eb61e01098e241c656",
+    "sha256": "fd621a15102979fdf7fbd1485028539aa064600cc885ae30dd7335fd595300bc",
     "kind": "note"
   },
   {
@@ -101,7 +68,7 @@
     "label": "Messaging",
     "file": "raw/ideas-and-work/messaging.md",
     "url": "/raw/ideas-and-work/messaging.md",
-    "sha256": "3c196a1777feaed9d18b950f06e19ab670ce7d21c133a608294a6e6fb4c3d398",
+    "sha256": "2bedc548d43000644f4ed3aaa1fbfa22945c42c0c0a81935a43ff76497946b20",
     "kind": "note"
   },
   {
@@ -109,7 +76,7 @@
     "label": "Partnerships",
     "file": "raw/ideas-and-work/partnerships.md",
     "url": "/raw/ideas-and-work/partnerships.md",
-    "sha256": "da83f392c67aa5c9d1e07e355a3fec64dbae07c7368823e230c80742e3706059",
+    "sha256": "623d195438e3676358106858b769922ab478d38a3995cc7956f6e495a9dc98c8",
     "kind": "note"
   },
   {
@@ -117,7 +84,7 @@
     "label": "Rewards and referrals",
     "file": "raw/ideas-and-work/rewards-and-referrals.md",
     "url": "/raw/ideas-and-work/rewards-and-referrals.md",
-    "sha256": "f0b4075a1478efea7e26a34acba91010cca77550fbeccf46a5716a6489e78a48",
+    "sha256": "5895c8b617473b42ddf5b71dec483efee5a77ec0acfd09015abdc5f3d8acc40a",
     "kind": "note"
   },
   {
@@ -125,7 +92,7 @@
     "label": "Website and booking",
     "file": "raw/ideas-and-work/website-and-booking.md",
     "url": "/raw/ideas-and-work/website-and-booking.md",
-    "sha256": "5b4e1518097a2fa65d5f3eca62356e87cd8f9a422708a4abf8dc6de75b91c67e",
+    "sha256": "67faa3305a7225dbe0c837e81c2da0a3f01a5029e50cc6f0ca88bf747bc086f2",
     "kind": "note"
   },
   {
@@ -141,7 +108,7 @@
     "label": "Open questions",
     "file": "raw/looking-ahead/open-questions.md",
     "url": "/raw/looking-ahead/open-questions.md",
-    "sha256": "5915830c5d75c8d2b66986317ccc0abb3fbafa8df5b22a68f545c155a55e1503",
+    "sha256": "67f87bcf6444e480c64c326542e36b2dac1a26bc89e497e84f8d461bd61e6ddc",
     "kind": "note"
   },
   {
@@ -159,5 +126,38 @@
     "url": "/raw/looking-ahead/target-audience.md",
     "sha256": "ae7a1ad8190175c0449100b517cd0ab1d1d56b2f97995638015d68b87d5d6908",
     "kind": "note"
+  },
+  {
+    "source": "source-material/ceo-discussion-transcript.txt",
+    "label": "CEO discussion transcript",
+    "file": "raw/source-material/ceo-discussion-transcript.txt",
+    "url": "/raw/source-material/ceo-discussion-transcript.txt",
+    "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941",
+    "kind": "source"
+  },
+  {
+    "source": "source-material/hackathon-brief.pdf",
+    "label": "Hackathon brief",
+    "file": "raw/source-material/hackathon-brief.pdf",
+    "url": "/raw/source-material/hackathon-brief.pdf",
+    "sha256": "8162162af40b9e31288b5256a7a3cca72ab6b9d3ba7c025c78870f024a798aca",
+    "kind": "source",
+    "text_url": "/raw/source-material/hackathon-brief.pdf.txt"
+  },
+  {
+    "source": "source-material/hackathon-organizer-transcript.txt",
+    "label": "Hackathon organizer transcript",
+    "file": "raw/source-material/hackathon-organizer-transcript.txt",
+    "url": "/raw/source-material/hackathon-organizer-transcript.txt",
+    "sha256": "96e61e9b4b242cdc3ba2cd33b64f901eec4fe643f9b44a421c38d6a957516022",
+    "kind": "source"
+  },
+  {
+    "source": "source-material/team-meeting-01-transcript.txt",
+    "label": "Team meeting 01 transcript",
+    "file": "raw/source-material/team-meeting-01-transcript.txt",
+    "url": "/raw/source-material/team-meeting-01-transcript.txt",
+    "sha256": "b21c41ee22f54adc7112f464e90cb51c1757742c4f1d79c8b71c87796d014ef0",
+    "kind": "source"
   }
 ]

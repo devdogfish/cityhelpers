@@ -43,7 +43,8 @@ def discover(project, site, extensions={'.md'}):
 def sync(root):
     root = Path(root)
     project = root.parent
-    sources = discover(project, root)
+    sources = [source for source in discover(project, root)
+               if source.relative_to(project).parts[0] != "source-material"]
     if not sources:
         raise ValueError('No Markdown notes found in the project root or immediate folders.')
     notes = []

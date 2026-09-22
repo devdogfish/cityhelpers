@@ -34,7 +34,7 @@ def prepare(project, sources):
         label = source.stem.replace('-', ' ').replace('_', ' ').capitalize()
         label = label.replace('Ceo ', 'CEO ')
         entry = dict(source=relative, label=label, file=name, url=url, sha256=sha256(data).hexdigest(),
-                     kind='note' if source.suffix == '.md' else 'source')
+                     kind='source' if source.relative_to(project).parts[0] == 'source-material' else 'note')
         if source.suffix.lower() == '.pdf':
             text = extract_pdf(source)
             text_name = name + '.txt'
@@ -76,6 +76,8 @@ title: Sources and transcripts
 For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relative_url }}): all notes, full transcripts, and extracted PDF text in one file. [The compact index]({{ '/llms.txt' | relative_url }}) lists individual originals. These files update with each publication.
 
 ## Original source documents
+
+Listed alphabetically from `source-material/`. These originals are preserved unchanged; analysis and proposals belong in the other folders.
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
 - [{{ source.label }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}

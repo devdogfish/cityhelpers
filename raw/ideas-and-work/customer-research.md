@@ -8,4 +8,4 @@ At events, use a short optional enquiry or feedback form. During booking, collec
 
 **Smallest test:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
 
-Source: `current-business/team-meeting-01-transcript.txt`; interview design is proposed. See [target audience](../looking-ahead/target-audience.md) and [website](website-and-booking.md).
+Source: `source-material/team-meeting-01-transcript.txt`; interview design is proposed. See [target audience](../looking-ahead/target-audience.md) and [website](website-and-booking.md).

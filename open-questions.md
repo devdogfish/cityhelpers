@@ -1,21 +1,25 @@
 ---
-title: "Open questions"
+title: "Q&A"
 updated: "2026-09-22"
 ---
 
-These questions address gaps in our working knowledge. The team meeting raised budget and customer-data questions; the additional operational questions below help turn those ideas into usable tests. Answers are pending.
+Questions for City Helpers. Answers are pending; add each response beneath its question, with the respondent and date.
 
-| Priority | Question for City Helpers | Decision it enables |
-|---|---|---|
-| First | What marketing budget and staff time can support a small test? | Choose feasible channels and a spending cap. |
-| First | Which Toronto neighbourhoods, tasks, and dates can active workers reliably cover? | Advertise jobs the business can fulfil. The CEO's 1,200 registrations do not establish availability. |
-| First | What does each customer pay, when, and what happens if no worker is found? | Explain the offer accurately; reconcile dispatch and subscription copy. |
-| First | How many enquiries, paid dispatches, completed jobs, and repeat customers exist by city? | Establish a baseline and learn from actual customers. |
-| First | What remains from each dispatch after support, payment, and fulfilment costs? | Set an affordable acquisition cost and incentive budget. |
-| Next | Which analytics, source fields, customer records, and outbound tracking already exist? | Improve existing measurement rather than duplicate it. |
-| Next | What does vetting include, and how are no-shows or complaints handled? | Support specific trust claims. |
-| Next | Can customers book by phone or with staff assistance? | Decide whether community enquiries have a workable booking path. |
-| Next | Which housing/community partners or incentive programmes already exist? | Separate new proposals from existing activity. |
-| Next | Can staff interview recent customers and people who did not finish booking? | Understand barriers and motivations. |
+## Team questions
 
-Record each answer with its source and date. Missing answers limit confidence, but do not prevent preliminary research. See [measurement](success-and-measurement.html) and [experiments](experiments-and-decisions.html).
+1. Do you expect a detailed report alongside the final presentation, or only the presentation?
+2. Does worker vetting include any checks beyond those described on the website? What does the full process involve?
+3. How will the planned automation accommodate seniors who prefer speaking on the phone? Can they enquire and book by phone or with staff assistance?
+4. What are the main complaints from workers, seniors and families, and businesses about what is advertised or promised? Please distinguish the three groups.
+
+## Business and marketing questions
+
+5. What marketing budget and staff time can support a small test?
+6. Which Toronto neighbourhoods, tasks, and dates can active workers reliably cover?
+7. What does each customer pay, when, and what happens if no worker is found?
+8. How many enquiries, paid dispatches, completed jobs, and repeat customers exist in each city?
+9. What remains from each dispatch after support, payment, and fulfilment costs?
+10. Which analytics, acquisition-source fields, customer records, and outbound tracking already exist?
+11. How are worker no-shows and customer complaints handled?
+12. Which housing or community partnerships and incentive programmes already exist?
+13. Can staff interview recent customers and people who did not finish booking?

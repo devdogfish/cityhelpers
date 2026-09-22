@@ -20,6 +20,7 @@ The command discovers the notes, generates pages and navigation, commits and pus
 
 ## File rules
 
+- `source-material/` holds untouched originals. Its eligible direct children (`.md`, `.txt`, `.pdf`) appear alphabetically on Sources & transcripts, never as separate navigation pages. Keep analysis and edits in the topic folders; the publisher only reads originals.
 - Root-level `.md` notes and notes one folder deep become public pages automatically. A new immediate folder containing eligible notes automatically creates a navigation group.
 - Folder groups and files are sorted alphabetically (case-insensitive, with a case-sensitive tie break). Group labels come from folder names. No manually maintained navigation list is needed.
 - Root notes appear in a `Project notes` group. Empty groups disappear. Deeper folders are not scanned.

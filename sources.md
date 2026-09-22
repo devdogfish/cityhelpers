@@ -6,6 +6,8 @@ For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relat
 
 ## Original source documents
 
+Listed alphabetically from `source-material/`. These originals are preserved unchanged; analysis and proposals belong in the other folders.
+
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
 - [{{ source.label }}]({{ source.url | relative_url }}){% if source.text_url %} — [extracted text]({{ source.text_url | relative_url }}){% endif %}
 {% endif %}{% endfor %}

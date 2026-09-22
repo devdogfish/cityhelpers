@@ -88,21 +88,25 @@ class SyncTests(unittest.TestCase):
 
     def test_source_exports_preserve_full_context_and_cleanup(self):
         self.note('current-business/CONTEXT.md', '# Context\n\nA complete note.\n')
-        transcript = self.note('current-business/meeting.txt', 'First speaker.\nLast speaker.\n')
-        self.note('current-business/brief.pdf', 'PDF fixture')
-        self.note('current-business/_PRIVATE.txt', 'Do not publish')
-        sync_notes.sync(self.site)
-        self.assertEqual((self.site / 'raw/current-business/meeting.txt').read_bytes(), transcript.read_bytes())
+        transcript = self.note('source-material/meeting.txt', 'First speaker.\nLast speaker.\n')
+        self.note('source-material/brief.pdf', 'PDF fixture')
+        self.note('source-material/_PRIVATE.txt', 'Do not publish')
+        self.note('source-material/original.md', '# Original document\n\nUnedited source.\n')
+        notes = sync_notes.sync(self.site)
+        self.assertEqual(len(notes), 1)
+        self.assertEqual((self.site / 'raw/source-material/meeting.txt').read_bytes(), transcript.read_bytes())
         full = (self.site / 'llms-full.txt').read_text()
         for text in ['A complete note.', 'First speaker.\nLast speaker.', 'Extracted fixture PDF text.']:
             self.assertIn(text, full)
         self.assertNotIn('Do not publish', full)
-        self.assertTrue((self.site / 'raw/current-business/brief.pdf.txt').exists())
+        self.assertTrue((self.site / 'raw/source-material/brief.pdf.txt').exists())
         manifest = json.loads((self.site / '_data/sources.json').read_text())
-        self.assertEqual(len(manifest), 3)
+        self.assertEqual(len(manifest), 4)
+        originals = [entry for entry in manifest if entry['kind'] == 'source']
+        self.assertEqual([entry['source'] for entry in originals], ['source-material/brief.pdf', 'source-material/meeting.txt', 'source-material/original.md'])
         transcript.unlink()
         sync_notes.sync(self.site)
-        self.assertFalse((self.site / 'raw/current-business/meeting.txt').exists())
+        self.assertFalse((self.site / 'raw/source-material/meeting.txt').exists())
         self.assertNotIn('Last speaker.', (self.site / 'llms-full.txt').read_text())
 
     def test_unregistered_page_cannot_be_published_without_navigation(self):

@@ -2,7 +2,7 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "4a4a86a4a1ebbf78c89d31631d31360805ffa9562c99f4815b3a633c1e39ea47"
+    "sha256": "ecde10ceba69442ffb8288781e9d21e282ce36b9a9bc1f72374501e2ee8fe577"
   },
   {
     "file": "llms.txt",
@@ -72,7 +72,7 @@
   {
     "file": "raw/current-business/competitors.md",
     "url": "/raw/current-business/competitors.md",
-    "sha256": "bc5129479670ab4944693e6ad77c0523edaefe7bb6428442a28c74046d85b2a7"
+    "sha256": "4f06c114f7aac6f9a78c17101f49e9b7b12ef4291983ccedef001da0e0fb3b83"
   },
   {
     "file": "raw/current-business/customer-journey.md",

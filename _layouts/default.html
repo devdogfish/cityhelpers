@@ -10,8 +10,9 @@
   <meta name="description" content="City Helpers marketing research and team working notes.">
   <link rel="icon" type="image/jpeg" href="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}?v={{ site.data.publication.id }}-zoom1">
+  <link rel="stylesheet" href="{{ '/assets/navigation.css' | relative_url }}?v={{ site.data.publication.id }}">
 </head>
-<body>
+<body{% if page.url == '/' %} class="overview"{% endif %}>
   <a class="skip" href="#content">Skip to notes</a>
   <header class="masthead">
     <div class="masthead-inner">
@@ -25,7 +26,8 @@
   <div class="shell">
     <aside>
       <div class="nav-label">Notes</div>
-      <nav aria-label="Notes">
+      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="notes-navigation" hidden>Browse notes</button>
+      <nav id="notes-navigation" aria-label="Notes">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
         <a href="{{ '/sources.html' | relative_url }}" {% if page.url == '/sources.html' %}aria-current="page"{% endif %}>Sources / LLM context</a>
         {% for group in site.data.navigation %}
@@ -48,6 +50,7 @@
     </main>
   </div>
   <script type="module" src="{{ '/assets/mermaid.js' | relative_url }}?v={{ site.data.publication.id }}-zoom1"></script>
+  <script defer src="{{ '/assets/navigation.js' | relative_url }}?v={{ site.data.publication.id }}"></script>
   <script>
     document.querySelectorAll('a[href]').forEach(link => {
       const url = new URL(link.href);

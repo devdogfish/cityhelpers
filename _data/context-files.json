@@ -2,52 +2,47 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "ee1ac110f264cf3d0d3445fd2cbd49287a7cb43b7f604d8f9bf4036b18053eac"
+    "sha256": "25e0381b1283bae9a203ec04e3e2fb5bf6172b064703d2fb62e53abf4d541d67"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "580fc92b99f50363788646688b524aa0249e444fd85d50448ce5ae17c7f672ed"
+    "sha256": "abda765b5e0aecc73703403c5a2f0f43caa68bd49d0c44288a4e23d51458ccda"
   },
   {
     "file": "raw/brainstorming/community-outreach.md",
     "url": "/raw/brainstorming/community-outreach.md",
-    "sha256": "777301b53d56fec65aea496fa06116a67eb578ddd3b504805caf12ad8cc2cafb"
+    "sha256": "01422f4775db4b424d1873426488aeae4037b39c853870a26882c67c94089917"
   },
   {
     "file": "raw/brainstorming/customer-research.md",
     "url": "/raw/brainstorming/customer-research.md",
-    "sha256": "0ca51351c29bf57d8776924c44a86f04397e58de8a850821c1f562722cabebda"
+    "sha256": "fabc80d21b68d33cafb9ba561adf562360ffdbca19f7fe377f31c9c6801d592f"
   },
   {
     "file": "raw/brainstorming/digital-advertising.md",
     "url": "/raw/brainstorming/digital-advertising.md",
-    "sha256": "382d9f0ec0d2253434672579db616696006ffd772f0886fe2d11ef2e2b9a7966"
-  },
-  {
-    "file": "raw/brainstorming/experiments-and-decisions.md",
-    "url": "/raw/brainstorming/experiments-and-decisions.md",
-    "sha256": "353766c0dc4bc8373c1cf6e4a22d1ab4e4dca98e1cc55bac245657454540a7d7"
+    "sha256": "ecf86e532a8c4864337656e47103c775040173fde887b7bd775afeacc6d3d9fd"
   },
   {
     "file": "raw/brainstorming/messaging.md",
     "url": "/raw/brainstorming/messaging.md",
-    "sha256": "5c8cc8df63fc0c981288c2374259b770b9a2cab9e10249df2bc808fbeb7e7fdb"
+    "sha256": "6234856d2169eb9347bc1fb4d2043887908cdfbf868f794ab51734f7d7bd0d20"
   },
   {
     "file": "raw/brainstorming/partnerships.md",
     "url": "/raw/brainstorming/partnerships.md",
-    "sha256": "ce89ac423b3d7ee8d05d68fa875beeda0feec3184279bd9d885f0b0ead0f2947"
+    "sha256": "10dae9b27d4938deda42904d6288349d51687f1b71adfc39ef80a878787a2a57"
   },
   {
     "file": "raw/brainstorming/rewards-and-referrals.md",
     "url": "/raw/brainstorming/rewards-and-referrals.md",
-    "sha256": "06ef8bb9b05c1977e238f3a7a42bf8bc26e2fe6c1cb40293a08ce86f82966881"
+    "sha256": "dca110521088aa4b6a7a1c2bab0743391f22a985cc2533b37208d0b9eda5dc32"
   },
   {
     "file": "raw/brainstorming/website-and-booking.md",
     "url": "/raw/brainstorming/website-and-booking.md",
-    "sha256": "ba28ccee67c7f5e9330b7fe04db8416683c9fbb472741273fdd003e85216d111"
+    "sha256": "bb100766b6a5296626fa72b87a2ac9883cebcd9d15950739955c6d7a46f365b2"
   },
   {
     "file": "raw/current-business/City Helpers_Hackathon Overview.pdf",
@@ -117,7 +112,7 @@
   {
     "file": "raw/current-business/target-audience.md",
     "url": "/raw/current-business/target-audience.md",
-    "sha256": "ae7a1ad8190175c0449100b517cd0ab1d1d56b2f97995638015d68b87d5d6908"
+    "sha256": "abf6cdf6b18f094b29db2c7c5f3d4c8ecaf05aad01fd3f6c2af6371a8905eb01"
   },
   {
     "file": "raw/current-business/team-meeting-01-transcript.txt",
@@ -138,6 +133,11 @@
     "file": "raw/source-material/ceo-discussion-transcript.txt",
     "url": "/raw/source-material/ceo-discussion-transcript.txt",
     "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
+  },
+  {
+    "file": "raw/source-material/erick-pre-meeting-ideas.txt",
+    "url": "/raw/source-material/erick-pre-meeting-ideas.txt",
+    "sha256": "c753d5e564bf714a42697e9cbb5099c3e9efff6dd18c66b9ed9d70ca4e37c4c7"
   },
   {
     "file": "raw/source-material/hackathon-brief.pdf",

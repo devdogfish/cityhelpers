@@ -1,6 +1,6 @@
 # City Helpers knowledge base
 
-> Business context, source material, proposed marketing work, and decisions.
+> Business context, source material, practical marketing recommendations.
 
 - [Complete context in one text file](https://devdogfish.github.io/cityhelpers/llms-full.txt)
 - [Human-readable source library](https://devdogfish.github.io/cityhelpers/sources.html)
@@ -9,7 +9,6 @@
 - [brainstorming/community-outreach.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/community-outreach.md)
 - [brainstorming/customer-research.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/customer-research.md)
 - [brainstorming/digital-advertising.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/digital-advertising.md)
-- [brainstorming/experiments-and-decisions.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/experiments-and-decisions.md)
 - [brainstorming/messaging.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.md)
 - [brainstorming/partnerships.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/partnerships.md)
 - [brainstorming/rewards-and-referrals.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/rewards-and-referrals.md)
@@ -22,6 +21,7 @@
 - [current-business/target-audience.md](https://devdogfish.github.io/cityhelpers/raw/current-business/target-audience.md)
 - [current-business/worker-matching.md](https://devdogfish.github.io/cityhelpers/raw/current-business/worker-matching.md)
 - [source-material/ceo-discussion-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt)
+- [source-material/erick-pre-meeting-ideas.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt)
 - [source-material/hackathon-brief.pdf](https://devdogfish.github.io/cityhelpers/raw/source-material/hackathon-brief.pdf)
 - [source-material/hackathon-organizer-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/hackathon-organizer-transcript.txt)
 - [source-material/team-meeting-01-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt)

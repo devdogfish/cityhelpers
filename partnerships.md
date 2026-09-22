@@ -3,12 +3,16 @@ title: "Partnerships"
 updated: "2026-09-22"
 ---
 
-**Status: team idea, untested.** The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone. No new partner commitment is established.
+The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone.
 
 Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
 
 Start by learning what residents ask for, what services already exist, and where the organization sees a gap. Offer a specific service and a named contact rather than a broad claim to handle everything. An introduction or opt-in referral can support the relationship without requiring a resident contact list. Apartment residents and homeowners need different examples.
 
-**Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
+**Suggested first implementation:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
+
+**Business customers.** In his [pre-meeting message](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt), Erick assumes small-business owners often maintain their property themselves, while medium and large businesses may need formal purchasing and invoices. For the former, propose relief from one recurring task; for the latter, prepare a defined scope, quote, invoice process, and named purchasing contact. These are Erick’s assumptions to validate, not established buying behaviour.
+
+**Worker partners.** Erick’s CHP programme uses participating workers to fulfil City Helpers-funded rewards. It serves a different role from organizations introducing residents; the mechanics belong in [rewards and referrals](rewards-and-referrals.html). His suggestion that workers seek fewer fiscal or work-hour restrictions is unverified and should not become a recruitment promise. Frame the offer around clear pay, scheduling, and applicable eligibility.
 
 Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.html) and [open questions](open-questions.html).

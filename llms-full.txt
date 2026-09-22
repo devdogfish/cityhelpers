@@ -10,13 +10,13 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/community-o
 
 # Community outreach
 
-**Status: team ideas, untested.** The meeting proposed sponsoring senior socials, coffee/tea gatherings, service giveaways, and door hangers. A participant described a neighbour gaining car-detailing customers after a building giveaway; this is an anecdote, not evidence of City Helpers results.
+The meeting proposed sponsoring senior socials, coffee/tea gatherings, service giveaways, and door hangers. A participant described a neighbour gaining car-detailing customers after a building giveaway; this is an anecdote, not evidence of City Helpers results.
 
 The hypothesis is that meeting a representative and seeing a useful service can make City Helpers familiar and easier to trust. Begin with an existing gathering through a willing community partner. Demonstrate one task, explain the dispatch fee and separate labour charge, and give attendees a simple next step. Hosting a standalone event adds cost and coordination; compare that option only after learning from a small collaboration.
 
 Match the offer to the setting. Seniors in apartments may need lifting, organizing, or small indoor jobs; yard-work messaging belongs with people responsible for their own outdoor space. Door hangers are a proposed awareness tool, with distribution arranged through the building or organizer. A giveaway needs a defined task, labour allowance, worker availability, and funding; a free dispatch alone does not pay for the work.
 
-**Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
+**Suggested first implementation:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
 Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../current-business/business-objectives.md).
 
@@ -28,13 +28,13 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/customer-re
 
 # Customer research
 
-**Status: proposed research plan.** The team asked how to understand customer behaviour and suggested event signups, surveys, customer profiles, testimonials, and platform data. The aim is to learn which jobs people need, how they find help, and what prevents booking.
+The team asked how to understand customer behaviour and suggested event signups, surveys, customer profiles, testimonials, and platform data. The aim is to learn which jobs people need, how they find help, and what prevents booking.
 
 Start with existing customers, relevant seniors who have not used City Helpers, and people who started but did not complete a request if the business can reach them. Keep their experiences separate. Ask about the last real task they needed help with: what they did, whom they contacted, what it cost, why they chose that option, and what went wrong. Ask whether they booked for themselves or someone else without assuming either answer.
 
 At events, use a short optional enquiry or feedback form. During booking, collect service requirements; add research questions only where they do not obstruct the task. Use testimonials as clues to motivations, recognizing that they are selected positive experiences. The meeting mentioned scraping or a Meta API, but no access or useful data fields were established; first inspect aggregate reporting available in the business's own accounts. Public platform activity does not reveal private preferences or purchase intent.
 
-**Smallest test:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
+**Suggested first implementation:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
 
 Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); interview design is proposed. See [target audience](../current-business/target-audience.md) and [website](website-and-booking.md).
 
@@ -46,39 +46,15 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/digital-adv
 
 # Digital advertising
 
-**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
+Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
 
 Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
 
 The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Treat this as a creative concept to compare with a direct task-focused message. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
 
-**Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
+**Suggested first implementation:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
 Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
-
----
-
-## Source: brainstorming/experiments-and-decisions.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/experiments-and-decisions.md
-
-# Experiments and decisions
-
-This is the working register for turning ideas into evidence. No acquisition experiment has been run or funded by this project. The order below is a proposed sequence based on dependencies, not an agreed team schedule.
-
-| Stage | Proposed work | Evidence needed to proceed |
-|---|---|---|
-| Establish the offer | Resolve fees, available tasks/areas, budget, and existing data. | Answers from City Helpers. |
-| Learn from customers | Interviews and booking walkthroughs. | Specific needs, language, and recurring obstacles. |
-| Improve booking | Fix the clearest comprehension or completion problem. | Successful repeat walkthroughs. |
-| Test acquisition | One community partner/event or one focused Facebook test. | Staff capacity, measurement, and a spending cap. |
-| Explore repeat use | A limited referral or reward experiment. | Completed jobs, satisfied customers, and viable economics. |
-
-For each experiment record: problem; audience and task; hypothesis; source; owner; change being tested; budget and staff effort; start/end dates; learning question; customer-growth measure; fulfilment limits; results; and decision with reasons. Mark status as proposed, ready, running, completed, or stopped. Set numerical thresholds with the business before launch.
-
-**Current working decisions:** prioritize seniors booking help themselves; focus initial acquisition on Toronto/GTA; distinguish audience/measurement learning from generating paying customers; organize the knowledge base by business topic. The slide deck is a later expression of this work and does not determine which ideas are worth preserving. These are project decisions from our conversation, not claims of CEO approval.
-
-**Still undecided:** channel priority, budget, partners, incentive mechanics, task focus, and success thresholds. Preserve alternatives and failed ideas with their reasoning rather than silently deleting them. See [objective](../current-business/business-objectives.md) and [open questions](../current-business/open-questions.md).
 
 ---
 
@@ -88,7 +64,7 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.m
 
 # Messaging
 
-**Status: proposed directions, not validated copy.** The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
+The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
 
 | Direction | Draft message | What to learn |
 |---|---|---|
@@ -99,7 +75,7 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.m
 
 These lines need a clear explanation of the $9.99 dispatch fee and separate worker payment. Verify vetting, availability, and service terms before promising a particular screening standard, guaranteed arrival, or same-day help. Avoid presenting seniors as unable to make their own booking decisions.
 
-**Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
+**Suggested first implementation:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
 
 Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).
 
@@ -111,13 +87,17 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/partnership
 
 # Partnerships
 
-**Status: team idea, untested.** The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone. No new partner commitment is established.
+The meeting proposed working with housing and community organizations. The opportunity is a trusted introduction to residents who need help, plus a clear route for an organization to refer someone.
 
 Separate three possible roles: an organization introduces residents; it hosts an event; or it purchases help itself. The first two support consumer acquisition, while the third creates a business customer with different pricing and responsibilities. Confirm who requests the job, who pays, and who coordinates access before presenting an offer.
 
 Start by learning what residents ask for, what services already exist, and where the organization sees a gap. Offer a specific service and a named contact rather than a broad claim to handle everything. An introduction or opt-in referral can support the relationship without requiring a resident contact list. Apartment residents and homeowners need different examples.
 
-**Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
+**Suggested first implementation:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
+
+**Business customers.** In his [pre-meeting message](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt), Erick assumes small-business owners often maintain their property themselves, while medium and large businesses may need formal purchasing and invoices. For the former, propose relief from one recurring task; for the latter, prepare a defined scope, quote, invoice process, and named purchasing contact. These are Erick’s assumptions to validate, not established buying behaviour.
+
+**Worker partners.** Erick’s CHP programme uses participating workers to fulfil City Helpers-funded rewards. It serves a different role from organizations introducing residents; the mechanics belong in [rewards and referrals](rewards-and-referrals.md). His suggestion that workers seek fewer fiscal or work-hour restrictions is unverified and should not become a recruitment promise. Frame the offer around clear pay, scheduling, and applicable eligibility.
 
 Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../current-business/open-questions.md).
 
@@ -129,15 +109,25 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/rewards-and
 
 # Rewards and referrals
 
-**Status: mentioned in the meeting; mechanics undefined.** The transcript refers to reward and partner programmes but does not preserve a full explanation. The options below develop that idea and should not be attributed to the team as agreed decisions.
+Erick proposed **CityHelpers Rewards (CHR)** and **CityHelpers Partners (CHP)** before team meeting 1. His [original message](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt) supplies the programme details referenced in the meeting. The aim is to encourage customers and workers to introduce new customers and keep using the service.
 
-A referral reward would encourage a satisfied customer to introduce a new customer. A repeat-use reward would encourage an existing customer to return. A partner payment would compensate an organization or representative for bringing customers. These address different behaviours and should be evaluated separately; the existing B2B sales recruitment already mentions commissions.
+## Erick’s proposed programmes
 
-One possible test is a capped dispatch credit earned after a referred customer's first paid, completed job. A second option is a small credit toward a later booking. Values, eligibility, timing, and funding remain undecided. Credits must distinguish the City Helpers fee from worker labour, and the business needs enough contribution per customer to fund them.
+**CHR — customer rewards.** Individuals and businesses earn points for referring new subscribers and using services. Points unlock perks such as free services. Participating workers deliver those services and bill City Helpers “at cost,” with City Helpers funding the reward.
 
-**Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
+**CHP — worker participation.** Workers commit a defined number of services at cost, invoiced directly to City Helpers. They also earn points for completed services, referred clients, and customer feedback, with awards or recognition. Erick calls the feedback measure NPS; recommendation scores and job satisfaction ratings should be defined separately before choosing the measure.
 
-Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../current-business/business-objectives.md), and [experiments](experiments-and-decisions.md).
+Erick also suggests points for public reviews and social posts using designated hashtags. Keep these as separate promotional options requiring platform-policy review before inclusion. Customer feedback can be requested after every completed job without making a positive review a condition of a reward.
+
+## Practical implementation recommendation
+
+Start with one referral benefit before building a points system: issue a capped credit after a referred customer’s first paid, completed job. This adapts Erick’s signup reward to the business objective of gaining paying customers. Use a referral code or link, one reward per new customer, and a simple record connecting referrer, booking, issued credit, and redemption. Show the credit value, expiry, eligibility, and whether it covers dispatch or labour before signup.
+
+For service rewards, define an eligible task, maximum labour allowance, service area, and monthly redemption cap. Agree worker compensation in advance: “at cost” needs an explicit amount and scope. City Helpers should confirm a participating worker before promising the appointment, pay the agreed invoice, and explain any customer extras. Recognize workers for reliable completed jobs and customer feedback using published criteria.
+
+Before launch, City Helpers would set the reward budget from contribution per completed job and assign someone to handle credits, invoices, and disputes. Evaluate referred paying customers, completed jobs, repeat bookings, and total reward cost; signup and point totals alone do not demonstrate growth. These are recommendations for implementation after the hackathon.
+
+See [partnerships](partnerships.md), [existing funnel](../current-business/existing-marketing-funnel.md), and [business objectives](../current-business/business-objectives.md).
 
 ---
 
@@ -147,13 +137,13 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/website-and
 
 # Website and booking
 
-**Status: team observations and proposed improvements.** Participants described the website as difficult to use and suggested simplifying it. They also proposed customer preference fields and worker skill checkboxes. These observations need a task-based walkthrough; they do not yet quantify abandonment.
+Participants described the website as difficult to use and suggested simplifying it. They also proposed customer preference fields and worker skill checkboxes. These observations need a task-based walkthrough; they do not yet quantify abandonment.
 
 First clarify the service, total payment structure, covered jobs, what happens after payment, and how to get help. Reconcile dispatch/subscription language across pages. Then inspect the path from “I need help” through fee payment and submitted request, including mobile use, readability, errors, and recovery after an unfinished request. See the [current journey](../current-business/customer-journey.md).
 
 Customer preferences could capture task, area, timing, and practical requirements. Collect what is necessary to fulfil the request; additional research questions can be optional or asked later. More profile fields might improve matching but also make booking harder. Worker skill categories could complement résumés, although declared skills still need appropriate verification and availability checks.
 
-**Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
+**Suggested first implementation:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
 
 Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../current-business/business-objectives.md).
 
@@ -352,9 +342,9 @@ Questions for City Helpers. Answers are pending; add each response beneath its q
 
 Original: https://devdogfish.github.io/cityhelpers/raw/current-business/target-audience.md
 
-**Customer and everyday need.** City Helpers’ primary audience is seniors aged 65+ living independently in Toronto/GTA, booking practical household help themselves. The working profile is an older homeowner, living alone or with a partner, who manages their home but struggles with particular physical tasks: mowing, hedge trimming, leaf cleanup, snow shovelling, lifting, garage cleaning, or small household jobs. The CEO’s project transcript centres people wanting to remain at home and describes his own difficulty finding help after a stroke. Independence, maintaining the home, and affordable assistance are the core motivations; household composition and purchasing habits remain hypotheses, not verified customer data.
+**Customer and everyday need.** City Helpers’ primary audience is seniors aged 65+ living independently in Toronto/GTA, booking practical household help themselves. One working profile is an older homeowner, living alone or with a partner, who manages their home but struggles with particular physical tasks: mowing, hedge trimming, leaf cleanup, snow shovelling, lifting, garage cleaning, or small household jobs. The CEO’s project transcript centres people wanting to remain at home and describes his own difficulty finding help after a stroke. Independence, maintaining the home, and affordable assistance are the core motivations; household composition and purchasing habits remain hypotheses, not verified customer data.
 
-**Location and purchasing capacity.** Focus on homes where residents are responsible for their own yard and maintenance. Toronto city had 476,990 residents aged 65+ in 2021, representing 17.1% of its population. The City identifies senior concentrations around Bridle Path–Sunnybrook–York Mills, Rosedale–Moore Park, Casa Loma, and northern Scarborough. These are neighbourhoods to investigate, with final targeting dependent on suitable homes and available helpers—not proven customer hotspots. The commercial target can afford labour plus the dispatch fee; homeownership alone does not establish disposable income. No exact income, gender, or retirement-status filter is supported. [Source: City of Toronto, 2021 Census backgrounder](https://www.toronto.ca/wp-content/uploads/2022/04/9654-City-Planning-2021-Census-Backgrounder-Age-Sex-Gender-DwellingType.pdf).
+**Location and purchasing capacity.** Erick’s [pre-meeting audience assumptions](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt) distinguish urban seniors in condos, private independent or assisted living, and family homes from seniors maintaining full households farther out in the GTA. These are his hypotheses, not measured customer data. He also notes tenant-to-tenant service advertising in condos: an existing alternative to understand. Match indoor help to residents’ unmet needs and yard work to households responsible for outdoor maintenance; confirm who books and pays in shared or assisted settings. Toronto city had 476,990 residents aged 65+ in 2021, representing 17.1% of its population. The City identifies senior concentrations around Bridle Path–Sunnybrook–York Mills, Rosedale–Moore Park, Casa Loma, and northern Scarborough. These are neighbourhoods to investigate, with final targeting dependent on suitable homes and available helpers—not proven customer hotspots. The commercial target can afford labour plus the dispatch fee; homeownership alone does not establish disposable income. No exact income, gender, or retirement-status filter is supported. [Source: City of Toronto, 2021 Census backgrounder](https://www.toronto.ca/wp-content/uploads/2022/04/9654-City-Planning-2021-Census-Backgrounder-Age-Sex-Gender-DwellingType.pdf).
 
 **Digital platforms and habits.** Seniors are reachable online: in 2022, 85.4% of Ontario residents aged 65+ used the internet. Nationally, 74.7% of seniors used email, 50.9% instant messaging, 43.5% social networks, and 40.7% booked appointments online. A 2025 Canadian online-panel survey found Facebook the most popular social platform among respondents over 60, with YouTube and Instagram also used. Facebook, Messenger, and email therefore merit initial attention; neighbourhood Facebook groups and Google searches for specific chores are acquisition hypotheses to test. These population findings do not establish GTA customers’ platform preferences or willingness to book City Helpers. [Statistics Canada, 2022 data](https://www.statcan.gc.ca/o1/en/plus/4288-canadian-seniors-more-connected-ever); [The Dais, 2025 survey](https://dais.ca/reports/survey-of-online-harms-in-canada-2025/).
 
@@ -460,6 +450,75 @@ flowchart TB
 Original: https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt
 
 Which channels and why, right? Okay. There's a lot of noise out there. I mentioned earlier that a lot of noise out there in the various channels and we want to eliminate some of that noise and have us stand out as the one to go to. Okay. So again, it's one of the priorities would be the marketing message. Okay. Determine which city helpers, what we should actually say to potential customers. This is a new project that we're doing. Okay. There's not a whole lot of competition out there, but there is competition, right? Okay. But we're offering a service basically to seniors and homeowners at a very low rate. Okay. But it's a new product. So therefore we believe there's an education component to it, right? We have to educate the people that were available, right? That we are available and willing to help and how easy it can be, right? So I guess the problem that we want to focus on is if you have a job, you can't do yourself or you need a hand, right? You can find help or city helpers. Okay. We want it to be convenient, right? For example, a business, we're also focused on businesses in the area as well. Manufacturing businesses in Toronto, for example, it is huge. But quite often they need extra help in the warehouse or manufacturing or moving company or something. And we want to be able to provide that help very easily, rapidly, you know, make it easy for everybody, right? And affordable, right? So we're looking for a team to test different approaches, create simple Google ads, Facebook ads, business advertisements, social media posts, short-term concepts. So I guess the questions that should be answered should also be like, who is this for? What problems does it solve? Why city helpers and why not, right? And what should the customer do next? Okay. The one important, most important part of the project is a marketing campaign is not useful if it sends people to a website that they don't understand. So we want to make sure that the general public understands the website and what to do next. Okay. And as we all know now, it only takes a couple of seconds to get somebody out of interest in your project or not. And if things aren't working properly and efficiently, they're going to move on very quickly, three or four or five seconds or whatever that number is. Right. Okay. So we want people to tell us what we're doing right. Tell us what we're doing wrong. Tell us how to do better. Okay. We do anticipate that city helpers can, well, let's put it this way. Our database now in Toronto, for example, is about 1200 people and they're all vetted, right? But they all have different skill sets. So whether the consumer needs somebody to walk their dog or babysit their house or help change a thermostat, right? We've had those kinds of requests, right? Or just to change the ink on a printer, right? We do just about everything. We have a large, all our 1200 people can do different skill sets. So chances of finding somebody to change the thermostat or walk their dog or anything like that are very good. Okay. But we want to make sure we can handle any complaint that can, not complain, any, any inquiry that comes in. Okay. So we're looking for also what could prevent a customer or a visitor from becoming a customer, right? It is 9.99 prevent people from coming on board for dispatch fee. Now that's a dispatch fee too. Let me explain that for just one minute. Every time a person needs help, they pay a dispatch fee and that is only whether you need one person or whether you need 10 people. It's only a one time dispatch fee. Okay. So if you need several people to help with landscaping or moving or something, it's a one time dispatch fee. Okay. So that's one question we have to, we have to deal with, right? Okay. Make sure the customers know that that's all we're charging, right? So one of the things would be look over the website, make recommendations so we can change what we should change, what keeps people there or what turns people off, right? Why do people move on, right? And how is it going to work in either, whether it's Halifax, Toronto, or whether we scale to major cities all across Canada. Like I say, we're looking for changes that directly affect, affect the customer conversion, right? We're looking for changes that could improve the customer experience. Okay. We're looking for nice to have improvements, but maybe those can wait, right? So kind of a priority basis as well as we're looking for. I guess the most important part would be how are we building a customer acquisition model, right? Okay. At the end of the week, we'd like to see our target customer, our marketing channel, right? Our advertising message, how we get them to city helpers, how we handle it afterwards, right? How we handle a customer request, right? And how we turn that included dispatch fee into a success, right? So we can scale. We need to develop several possible customer acquisition funnels, potential audience, the advertising cost, the expected website traffic from our advertising, from our marketing, expected conversion rate, estimated dispatches, estimated customer acquisition cost. Okay, these are estimates, of course, not guaranteed, right? Okay. And we'd like to clearly define the reasoning or the assumptions behind those costs. Okay. We're not looking for huge social media calendar or, you know, what we should do in three or four or five months from now. But we're looking for just something that we can use that will not guaranteed success, but look to get us in the door, right? To consumers and how we can scale this from city to city to city, right? We choose the Toronto market because the greater Toronto area, there's more people in that area and your marketing spend for your potential ROI would be very good compared to smaller communities across Canada, right? Okay, we're looking at doing it there and then expanding into other cities across Canada, major cities, and eventually to every community because we're we are offering, we're hoping, I guess, to get this into every community across Canada and offering, you know, seniors and homeowners the help that they need. Okay. We all know nowadays that we need the social media and that is our primary focus, okay, to get social media involved and have our website as automated as possible and as easy as possible. Okay. So we're looking for how to get there, right? For a lot of information on what we do, you can go to the website, chelpers.ca. I'll share this document with you, with Meredith and Chillchair, share it at the end of this program, right? And then we'll take it from there, okay? That's about the gist of it of what I want to say. Actually, I can probably talk forever, but we'll just stop there for a minute, right? I'm not trying to do a sales job, I'm just trying to get people as good as possible. Awesome. Thanks, Angus. We will take questions if anybody has any. I know somebody had their Joshua, I think you had your hand up earlier. Do you want to ask your question? Hello. Hi, Josh. I just mentioned my personal experience in chat there. Just some snow shoveling for some older people. Their feedback was that they were not able to do that anymore. They were too old now and they kicked the can on the shoveling, so they're happy to have a younger guy to be around. Well, that's a great point, Josh, because, okay, one of the reasons I started this is because I had a stroke a couple of years ago, right? And I was unable to trim my hedge or cut my grass or do anything, right? And it was a real hard problem finding, you know, back in the day, you guys are younger, but back in my day when I was younger, we had neighborhood people that you could pay some money to. Today would come and cut your grass or shovel your snow and all that kind of stuff. But those days are pretty well gone now and they're hard to find, right? Okay, so we put together back in 2022 actually, right? The idea of, you know what, who wants to make some money? Well, there's a lot of university students and there's a lot of people with everything so bloody crazy expensive these days. You want to make a few extra bucks, right? Okay. You, Joshua, as a student, you probably want to make some money for something you want to do on a weekend. When I had a full-time job, I was still doing stuff for people because I enjoyed helping people that they would be like, "Can you do this on this day?" And I'd be like, "Working all weekend, it's still my only day off. I think I can do it." And I do it. I don't want to do it. Not much money I get, not much, but I do it because I know that I'm helping someone. No, and that's really how we started all this. We found that there's enough people, university students and that type of thing that live in the community that don't know where to go to make an extra few dollars, right? I knocked on people's doors and then I started handing up business cards and I would drive on an electric bike and go around and I had a lot of people that did repeat every year. Yeah, and that's pretty much it for you, Olivia, right? Two or three, at least two or three people. And then I still, to this day, this year, I did some work for somebody and they get some money that they have because they're disabled and they get money automatically, get a certain amount of money they have to give out to someone. That kind of work. They have to find someone. They can pay that money. They have to show evidence that they paid somebody to do work for them and they get money disbursed to them for that purpose. Yeah, exactly. In Canada, we all know everybody's getting older, right? The senior citizens are outnumbering the younger people day by day, okay? And we're looking for a lot of people who want to stay in their home, right? They need people to either do this type of thing. But we want to make sure that every senior citizen that needs help out there can get it, right? Okay, and some of them are just as simple as, you know, like I said, we had another customer call us up and they wanted somebody to change the thermostat. right? Clean up their backyard, right? Just simple things that you can't call a contractor for because A) Contractors don't want small jobs and B) Too expensive anyway, right? So yeah, that's a great idea Josh, you know, you're doing good. I connected with people on Facebook community groups. A lot of the older people are in the community. They like to have me in a community. Some places are community-based like where I was in some Hatchet Lake. My mom was down there and I biked around and there was a group, couple groups, and they all talked to the group a lot And a lot of people would contact you if you post on the group. It's a good way to market. It's one of the ideas. Okay, that's a fantastic idea. And that's exactly what we're trying to do is help seniors, innocents and homeowners And attract people like you to join up on our website. And how to connect with them is through community groups. That's how they're all together in the same place. The different communities.
+
+---
+
+## Source: source-material/erick-pre-meeting-ideas.txt
+
+Original: https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt
+
+I know we are going to meet today, but I do not trust my memory 😅😅😅
+
+Ihave beem thinking through our goal here and I would like to register some assumptions I have based on key customers:
+
+Seniors in highly urbanized areas:
+
+- Live in condos (lower maintenance). On condos we have a lot of internal advertising from tenants offering services to other tenants.
+- Live in independent and assisted living (private)
+- Live with family
+- As we get further from Toronto, but still in GTA we may see seniors still maintaining full households
+
+Small business:
+
+- Tend to work on the whole property maintenance by themselves
+
+Medium-large businesses:
+
+- May have a burocratic process to hire services and invoices may be required
+
+Workers:
+
+- Looking for something without too much (or none) fiscal control or limitation about number of worked hours (especially if on study visa)
+
+
+
+1st idea:
+
+
+
+May take would be to use all these three groups to advertise CityHelpers through two programs:
+
+
+
+CityHelpers Rewards (CHR) and CityHelpers Partners (CHP)
+
+
+
+For CHR, customers (individuals or companies) will get CH points for referring the plataform to new subscribers, for using the services and after a certain number of points they cam get perks. Like free services.
+
+
+
+These free services would be provided by CH workers that partnered with CH, billing CH only the cost.
+
+
+
+For CHP, workers would agree to offer a certain number of services at cost and bill it directly to CH and not the client.
+
+
+
+The workers would also earn points based on NPS (net promoting score = great evaluations by customers) plus number of services provided and how many clients they are able to refer to the platform.
+
+
+
+Workers would also receive some sort of award or recognition from CH.
+
+
+
+On both CHR and CHP the customers and workers would also get point by online reviews (like Google reviews) and posts on social media with specific hashtags.
+
+
+
+This is a way to use the users to act as promoters of CH
 
 ---
 

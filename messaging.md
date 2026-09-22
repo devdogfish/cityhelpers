@@ -3,7 +3,7 @@ title: "Messaging"
 updated: "2026-09-22"
 ---
 
-**Status: proposed directions, not validated copy.** The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
+The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
 
 | Direction | Draft message | What to learn |
 |---|---|---|
@@ -14,6 +14,6 @@ updated: "2026-09-22"
 
 These lines need a clear explanation of the $9.99 dispatch fee and separate worker payment. Verify vetting, availability, and service terms before promising a particular screening standard, guaranteed arrival, or same-day help. Avoid presenting seniors as unable to make their own booking decisions.
 
-**Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
+**Suggested first implementation:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
 
 Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.html) and [advertising](digital-advertising.html).

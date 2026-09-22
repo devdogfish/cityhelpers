@@ -93,7 +93,7 @@ For an LLM, start with [the complete knowledge base]({{ '/llms-full.txt' | relat
 
 ## Original source documents
 
-Listed alphabetically from `source-material/`. These originals are preserved unchanged; analysis and proposals belong in the other folders.
+Original documents and transcripts, listed alphabetically and preserved unchanged.
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
 - <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }}</a>{% if source.text_url %} — <a href="{{ source.text_url | relative_url }}" download>extracted text</a>{% endif %}

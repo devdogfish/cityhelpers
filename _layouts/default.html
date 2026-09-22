@@ -39,6 +39,7 @@
       <footer><span>Working notes · Updated {{ page.updated | default: "22 September 2026" }}</span><span>Marketing project; not the official City Helpers website.</span></footer>
     </main>
   </div>
+  <script type="module" src="{{ '/assets/mermaid.js' | relative_url }}?v={{ site.data.publication.id }}"></script>
   <script>
     document.querySelectorAll('a[href]').forEach(link => {
       const url = new URL(link.href);

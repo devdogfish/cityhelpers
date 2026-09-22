@@ -30,3 +30,7 @@ The command discovers the notes, generates pages and navigation, commits and pus
 - Logo and design live in `assets/` and `_layouts/`. Website changes in this repository are included in publishing.
 
 Requires Python 3, Git, GitHub CLI (`gh`) authenticated with access to `devdogfish/cityhelpers`, and curl. GitHub performs the Jekyll build; no local Ruby or Node installation is needed. If the remote contains changes missing locally, the command stops and asks you to reconcile them before publishing.
+
+Mermaid code fences render in the browser through `assets/mermaid.js`, using a pinned Mermaid release from jsDelivr. If it cannot load, the source remains readable. Large diagrams scroll within the page.
+
+Optional rendering check (separate from the publication-marker check): install Playwright with `npm install --no-save playwright` and its browser with `npx playwright install chromium`, then run `node verify-diagrams.cjs`. Pass a local customer-journey URL to check a preview. Set `CHROME_PATH` to use an existing Chrome executable.

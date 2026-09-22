@@ -64,6 +64,9 @@ li { padding-left: 2px; margin-bottom: 10px; }
 code { font-size: .86em; background: var(--paper); padding: 2px 4px; overflow-wrap: anywhere; }
 pre { overflow-x: auto; padding: 16px; background: var(--paper); }
 pre code { padding: 0; }
+.mermaid { overflow: auto; max-height: 75vh; margin: 24px 0; border: 1px solid var(--line); padding: 16px; }
+.mermaid svg { display: block; max-width: none; }
+.mermaid:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
 .prose a { overflow-wrap: anywhere; }
 .prose img { max-width: 100%; height: auto; }
 footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px; font-size: 12px; line-height: 1.7; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
@@ -85,6 +88,8 @@ footer { border-top: 1px solid var(--line); margin-top: 40px; padding-top: 18px;
   h2 { font-size: 22px; }
 }
 @media print {
+  .mermaid { max-height: none; overflow: visible; }
+  .mermaid svg { max-width: 100%; height: auto; }
   aside, .location, .skip { display: none; }
   .masthead { border-top: 0; }
   .shell { display: block; padding: 24px 0; }

@@ -14,26 +14,26 @@
   <header class="masthead">
     <div class="masthead-inner">
       <a class="identity" href="{{ '/' | relative_url }}" aria-label="City Helpers notes home">
-        <img src="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}" width="88" height="88" alt="City Helpers Inc. logo">
-        <span><span class="brand">City Helpers</span><span class="brand-caption">Marketing project · Team notes</span></span>
+        <img src="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}" width="60" height="60" alt="City Helpers Inc. logo">
+        <span><span class="brand">City Helpers</span><span class="brand-caption">Team notes</span></span>
       </a>
       <span class="location">Toronto / GTA</span>
     </div>
   </header>
   <div class="shell">
     <aside>
-      <div class="nav-label">Project notes</div>
+      <div class="nav-label">Notes</div>
       <nav aria-label="Notes">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
         {% for note in site.data.notes %}
-        <a href="{{ note.url | relative_url }}" {% if page.url == note.url %}aria-current="page"{% endif %}>{{ note.label }}</a>
+        <a href="{{ note.url | relative_url }}" {% if page.url == note.url %}aria-current="page"{% endif %}>{{ note.label | escape }}</a>
         {% endfor %}
       </nav>
       <a class="business-link" href="https://www.cityhelpers.ca/" target="_blank" rel="noopener noreferrer">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>
     </aside>
     <main id="content" tabindex="-1">
       <article>
-        <div class="article-heading"><span class="eyebrow">City Helpers · Research & planning</span><h1>{{ page.title }}</h1></div>
+        <h1>{{ page.title | escape }}</h1>
         <div class="prose">{{ content }}</div>
       </article>
       <footer><span>Working notes · Updated {{ page.updated | default: "22 September 2026" }}</span><span>Marketing project; not the official City Helpers website.</span></footer>

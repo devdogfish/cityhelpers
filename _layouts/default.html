@@ -1,4 +1,42 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ page.title | escape }} · City Helpers Notes</title><meta name="description" content="City Helpers marketing research and team working notes."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2318463a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='38' fill='white'%3EC%3C/text%3E%3C/svg%3E"><style>
-*{box-sizing:border-box}body{margin:0;background:#f7f8f5;color:#24332d;font:17px/1.7 system-ui,-apple-system,sans-serif}a{color:#166448;text-underline-offset:3px}header{border-bottom:1px solid #dce3db;background:#fff}header>div{max-width:1100px;margin:auto;padding:24px 32px}.brand{font-weight:750;color:#18463a;text-decoration:none;font-size:22px}.tag{font-size:13px;color:#647469;margin-top:2px}.shell{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:210px minmax(0,1fr);gap:48px;padding:40px 32px}nav{display:flex;flex-direction:column;gap:5px;align-self:start;position:sticky;top:24px}nav a{padding:9px 12px;border-radius:6px;text-decoration:none;font-size:15px}nav a[aria-current=page]{background:#e5eee6;font-weight:700;color:#18463a}main{min-width:0;max-width:760px}h1{font-size:32px;line-height:1.2;letter-spacing:-.7px;margin:0 0 28px}h2{font-size:23px;line-height:1.35;margin:32px 0 12px}p{margin:0 0 22px}blockquote{border-left:3px solid #8aaa95;padding:4px 0 4px 20px;margin:24px 0;color:#486052}blockquote p{margin:0}li{margin-bottom:8px}code{font-size:.86em;overflow-wrap:anywhere}main a{overflow-wrap:anywhere}footer{font-size:13px;color:#69786d;border-top:1px solid #dce3db;padding-top:20px;margin-top:40px}a:focus-visible{outline:3px solid #9b741b;outline-offset:3px}@media(max-width:720px){header>div{padding:20px}.shell{padding:20px;grid-template-columns:1fr;gap:28px}nav{position:static;flex-direction:row;flex-wrap:wrap;gap:2px}nav a{padding:8px}h1{font-size:28px}}
-</style></head><body><header><div><a class="brand" href="{{ '/' | relative_url }}">City Helpers</a><div class="tag">Team notes · Toronto / GTA marketing</div></div></header><div class="shell"><nav aria-label="Notes">{% assign links = "Overview|/,Objective|/objective.html,Target audience|/target-audience.html,Business context|/context.html" | split: "," %}{% for item in links %}{% assign pair = item | split: "|" %}<a href="{{ pair[1] | relative_url }}" {% if page.url == pair[1] %}aria-current="page"{% endif %}>{{ pair[0] }}</a>{% endfor %}</nav><main><h1>{{ page.title }}</h1>{{ content }}<footer>Working research notes · Updated {{ page.updated | default: "22 September 2026" }}<br>Prepared for the marketing project; not the official City Helpers website.</footer></main></div></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · City Helpers Notes</title>
+  <meta name="description" content="City Helpers marketing research and team working notes.">
+  <link rel="icon" type="image/jpeg" href="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to notes</a>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="identity" href="{{ '/' | relative_url }}" aria-label="City Helpers notes home">
+        <img src="{{ '/assets/cityhelpers-logo.jpg' | relative_url }}" width="88" height="88" alt="City Helpers Inc. logo">
+        <span><span class="brand">City Helpers</span><span class="brand-caption">Marketing project · Team notes</span></span>
+      </a>
+      <span class="location">Toronto / GTA</span>
+    </div>
+  </header>
+  <div class="shell">
+    <aside>
+      <div class="nav-label">Project notes</div>
+      <nav aria-label="Notes">
+        {% assign links = "Overview|/,Objective|/objective.html,Target audience|/target-audience.html,Business context|/context.html" | split: "," %}
+        {% for item in links %}{% assign pair = item | split: "|" %}
+        <a href="{{ pair[1] | relative_url }}" {% if page.url == pair[1] %}aria-current="page"{% endif %}>{{ pair[0] }}</a>
+        {% endfor %}
+      </nav>
+      <a class="business-link" href="https://www.cityhelpers.ca/">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>
+    </aside>
+    <main id="content" tabindex="-1">
+      <article>
+        <div class="article-heading"><span class="eyebrow">City Helpers · Research & planning</span><h1>{{ page.title }}</h1></div>
+        <div class="prose">{{ content }}</div>
+      </article>
+      <footer><span>Working notes · Updated {{ page.updated | default: "22 September 2026" }}</span><span>Marketing project; not the official City Helpers website.</span></footer>
+    </main>
+  </div>
+</body>
+</html>

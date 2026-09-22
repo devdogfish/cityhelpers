@@ -14,6 +14,31 @@ nav a { padding: 5px 10px; line-height: 1.4; }
 .overview .prose li > p { margin: 0; }
 .overview .prose li a { display: inline-block; padding: 2px 0; }
 
+/* Scroll at viewport edges; keep the visual inset inside each scroll area. */
+@media screen and (min-width: 761px) {
+  body { overflow: hidden; }
+  .shell {
+    height: 100vh;
+    height: 100dvh;
+    padding-top: 0;
+    padding-bottom: 0;
+    grid-template-rows: minmax(0, 1fr);
+  }
+  .shell > aside, .shell > main {
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-gutter: stable;
+  }
+  .shell > aside {
+    position: static;
+    max-height: none;
+    align-self: stretch;
+    padding: 32px 0 56px;
+  }
+  .shell > main { padding: 37px 8px 56px 0; }
+}
+
 @media (max-width: 760px) {
   .shell { padding-top: 0; }
   aside { margin-bottom: 20px; padding: 10px 0; }

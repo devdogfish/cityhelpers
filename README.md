@@ -7,13 +7,13 @@ Live site: https://devdogfish.github.io/cityhelpers/
 Edit or add Markdown files beside `CONTEXT.md`, `OBJECTIVE.md`, and `TARGET_AUDIENCE.md` in the parent `cityhelpers.ca` folder. Then, from that folder, run:
 
 ```bash
-./site/publish.sh
+./publish.sh
 ```
 
 Or run this from anywhere:
 
 ```bash
-bash '/Users/devdogfish/Documents/10-19 Projects/12 Client projects/cityhelpers.ca/site/publish.sh'
+bash '/Users/devdogfish/Documents/10-19 Projects/12 Client projects/cityhelpers.ca/publish.sh'
 ```
 
 The command discovers the notes, generates pages and navigation, commits and pushes this site repository, waits for GitHub Pages to build and deploy, and checks every live page against the current publication. It exits unsuccessfully if any step fails. The final `Published:` message confirms completion.

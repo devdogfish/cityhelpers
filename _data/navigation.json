@@ -22,6 +22,15 @@
         "updated": "2026-09-22"
       },
       {
+        "source": "current-business/competitors.md",
+        "folder": "current-business",
+        "file": "competitors.md",
+        "url": "/competitors.html",
+        "title": "Competitors",
+        "label": "Competitors",
+        "updated": "2026-09-22"
+      },
+      {
         "source": "current-business/customer-journey.md",
         "folder": "current-business",
         "file": "customer-journey.md",

@@ -2,12 +2,12 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "be9b6583c94cb218938de42d07811406e45473e570360759a1516aa2f77f5121"
+    "sha256": "4a4a86a4a1ebbf78c89d31631d31360805ffa9562c99f4815b3a633c1e39ea47"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "72afbf9393c3350140eb139310b755e8255cffc78a3db6b00da1d6b4c33cfd73"
+    "sha256": "45c89c7f67402a52d459b0156f6a639805ba6db522562b150c983ab11da069d5"
   },
   {
     "file": "raw/brainstorming/community-outreach.md",
@@ -68,6 +68,11 @@
     "file": "raw/current-business/ceo-discussion-transcript.txt",
     "url": "/raw/current-business/ceo-discussion-transcript.txt",
     "sha256": "d8a39de248c6a7f6c184d61a3eee9e83f2faa9bd159b9ac752a0993de8105941"
+  },
+  {
+    "file": "raw/current-business/competitors.md",
+    "url": "/raw/current-business/competitors.md",
+    "sha256": "bc5129479670ab4944693e6ad77c0523edaefe7bb6428442a28c74046d85b2a7"
   },
   {
     "file": "raw/current-business/customer-journey.md",

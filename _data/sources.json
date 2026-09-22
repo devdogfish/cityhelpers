@@ -72,6 +72,15 @@
     "format": "MD"
   },
   {
+    "source": "current-business/competitors.md",
+    "label": "Competitors",
+    "file": "raw/current-business/competitors.md",
+    "url": "/raw/current-business/competitors.md",
+    "sha256": "bc5129479670ab4944693e6ad77c0523edaefe7bb6428442a28c74046d85b2a7",
+    "kind": "note",
+    "format": "MD"
+  },
+  {
     "source": "current-business/customer-journey.md",
     "label": "Customer journey",
     "file": "raw/current-business/customer-journey.md",

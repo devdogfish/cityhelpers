@@ -7,6 +7,17 @@ import subprocess
 
 BASE = 'https://devdogfish.github.io/cityhelpers'
 
+SOURCE_DESCRIPTIONS = {
+    'ceo-discussion-transcript.txt': ('Business goals — CEO discussion',
+        'The CEO discusses customers, marketing challenges, and how the service works.'),
+    'hackathon-brief.pdf': ('Marketing assignment — written brief',
+        'The project objectives, research priorities, and requested deliverables.'),
+    'hackathon-organizer-transcript.txt': ('Event logistics — organizer instructions',
+        'The organizers explain team formation, the Q&A session, and presentation arrangements.'),
+    'team-meeting-01-transcript.txt': ('Marketing ideas — team meeting 1',
+        'Our team brainstorms outreach, advertising, referrals, and website improvements.'),
+}
+
 # Previously published paths remain usable from cached pages and shared links.
 LEGACY_SOURCES = {
     'ceo-discussion-transcript.txt': 'raw-transcript-context.txt',
@@ -44,6 +55,9 @@ def prepare(project, sources):
         label = label.replace('Ceo ', 'CEO ')
         entry = dict(source=relative, label=label, file=name, url=url, sha256=sha256(data).hexdigest(),
                      kind='source' if source.relative_to(project).parts[0] == 'source-material' else 'note')
+        entry['format'] = source.suffix.lstrip('.').upper()
+        if entry['kind'] == 'source' and source.name in SOURCE_DESCRIPTIONS:
+            entry['label'], entry['description'] = SOURCE_DESCRIPTIONS[source.name]
         if source.suffix.lower() == '.pdf':
             text = extract_pdf(source)
             text_name = name + '.txt'
@@ -94,6 +108,6 @@ title: Sources and transcripts
 ## Original source documents
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
-- <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }}</a>{% if source.text_url %} — <a href="{{ source.text_url | relative_url }}" download>extracted text</a>{% endif %}
+- <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }} ({{ source.format }})</a>{% if source.text_url %} · <a href="{{ source.text_url | relative_url }}" download>Same document as text (TXT)</a>{% endif %}{% if source.description %}<br>{{ source.description | escape }}{% endif %}
 {% endif %}{% endfor %}
 ''')

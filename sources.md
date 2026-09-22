@@ -7,5 +7,5 @@ title: Sources and transcripts
 ## Original source documents
 
 {% for source in site.data.sources %}{% if source.kind == 'source' %}
-- <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }}</a>{% if source.text_url %} — <a href="{{ source.text_url | relative_url }}" download>extracted text</a>{% endif %}
+- <a href="{{ source.url | relative_url }}" download>{{ source.label | escape }} ({{ source.format }})</a>{% if source.text_url %} · <a href="{{ source.text_url | relative_url }}" download>Same document as text (TXT)</a>{% endif %}{% if source.description %}<br>{{ source.description | escape }}{% endif %}
 {% endif %}{% endfor %}

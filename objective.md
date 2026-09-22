@@ -1,6 +1,6 @@
 ---
-title: Business problem and objective
-updated: 2026-09-22
+title: "Business problem and objective"
+updated: "2026-09-22"
 ---
 
 City Helpers wants more paying customers in Toronto/GTA. Our initial focus is seniors booking household help, reflecting the CEO’s aim to serve “people who want to stay in their home”. Our working interpretation separates two related problems: understanding customer acquisition and improving it.

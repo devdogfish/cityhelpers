@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="notes-publication" content="{{ site.data.publication.id }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} · City Helpers Notes</title>
   <meta name="description" content="City Helpers marketing research and team working notes.">
@@ -23,9 +24,9 @@
     <aside>
       <div class="nav-label">Project notes</div>
       <nav aria-label="Notes">
-        {% assign links = "Overview|/,Objective|/objective.html,Target audience|/target-audience.html,Business context|/context.html" | split: "," %}
-        {% for item in links %}{% assign pair = item | split: "|" %}
-        <a href="{{ pair[1] | relative_url }}" {% if page.url == pair[1] %}aria-current="page"{% endif %}>{{ pair[0] }}</a>
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Overview</a>
+        {% for note in site.data.notes %}
+        <a href="{{ note.url | relative_url }}" {% if page.url == note.url %}aria-current="page"{% endif %}>{{ note.label }}</a>
         {% endfor %}
       </nav>
       <a class="business-link" href="https://www.cityhelpers.ca/" target="_blank" rel="noopener noreferrer">Visit CityHelpers.ca <span aria-hidden="true">↗</span></a>

@@ -1,6 +1,6 @@
 ---
-title: Business context
-updated: 2026-09-22
+title: "Business context"
+updated: "2026-09-22"
 ---
 
 *Initial public-source snapshot: 22 September 2026. Figures and operating claims need client confirmation.*

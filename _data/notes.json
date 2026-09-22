@@ -1,0 +1,26 @@
+[
+  {
+    "source": "OBJECTIVE.md",
+    "file": "objective.md",
+    "url": "/objective.html",
+    "title": "Business problem and objective",
+    "label": "Objective",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "TARGET_AUDIENCE.md",
+    "file": "target-audience.md",
+    "url": "/target-audience.html",
+    "title": "Target audience",
+    "label": "Target audience",
+    "updated": "2026-09-22"
+  },
+  {
+    "source": "CONTEXT.md",
+    "file": "context.md",
+    "url": "/context.html",
+    "title": "Business context",
+    "label": "Business context",
+    "updated": "2026-09-22"
+  }
+]

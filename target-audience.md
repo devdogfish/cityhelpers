@@ -1,6 +1,6 @@
 ---
-title: Target audience
-updated: 2026-09-22
+title: "Target audience"
+updated: "2026-09-22"
 ---
 
 **Customer and everyday need.** City Helpers’ primary audience is seniors aged 65+ living independently in Toronto/GTA, booking practical household help themselves. The working profile is an older homeowner, living alone or with a partner, who manages their home but struggles with particular physical tasks: mowing, hedge trimming, leaf cleanup, snow shovelling, lifting, garage cleaning, or small household jobs. The CEO’s project transcript centres people wanting to remain at home and describes his own difficulty finding help after a stroke. Independence, maintaining the home, and affordable assistance are the core motivations; household composition and purchasing habits remain hypotheses, not verified customer data.

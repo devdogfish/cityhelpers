@@ -31,6 +31,15 @@
         "updated": "2026-09-22"
       },
       {
+        "source": "current-business/target-audience.md",
+        "folder": "current-business",
+        "file": "target-audience.md",
+        "url": "/target-audience.html",
+        "title": "Target audience",
+        "label": "Target audience",
+        "updated": "2026-09-22"
+      },
+      {
         "source": "current-business/worker-matching.md",
         "folder": "current-business",
         "file": "worker-matching.md",
@@ -148,15 +157,6 @@
         "url": "/success-and-measurement.html",
         "title": "Success and measurement",
         "label": "Success and measurement",
-        "updated": "2026-09-22"
-      },
-      {
-        "source": "looking-ahead/target-audience.md",
-        "folder": "looking-ahead",
-        "file": "target-audience.md",
-        "url": "/target-audience.html",
-        "title": "Target audience",
-        "label": "Target audience",
         "updated": "2026-09-22"
       }
     ]

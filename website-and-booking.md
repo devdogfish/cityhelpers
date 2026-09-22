@@ -11,4 +11,4 @@ Customer preferences could capture task, area, timing, and practical requirement
 
 **Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
 
-Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: `source-material/team-meeting-01-transcript.txt`; the proposed evaluation goes beyond the meeting. See [customer research](customer-research.html) and [measurement](success-and-measurement.html).
+Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.html) and [measurement](success-and-measurement.html).

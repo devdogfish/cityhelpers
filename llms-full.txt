@@ -103,7 +103,7 @@ flowchart TB
 
 **Handoff:** payment and request submission are separate milestones. A paid fee alone does not prove a request was submitted or a job completed. Customers may retry or return through the entry layer; recovery automation and repeat-booking fees are unknown. Matching, worker payment, complaints, and job outcomes belong exclusively to the operations diagram.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](../looking-ahead/open-questions.md), and the CEO transcript `source-material/ceo-discussion-transcript.txt`. These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in `business-context.md`, so the business offer remains unresolved.
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [open questions](../looking-ahead/open-questions.md), and the [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These document the advertised process; the full booking flow has not been tested. The funnel's pricing update conflicts with older subscription figures in [business context](https://devdogfish.github.io/cityhelpers/context.html), so the business offer remains unresolved.
 
 ---
 
@@ -123,7 +123,7 @@ Public-source snapshot, 22 September 2026. This describes visible channels and t
 |---|---|---|
 | [LinkedIn](https://ca.linkedin.com/company/cityhelpers) | Regular posts promote household help and temporary business labour, usually directing readers to the website. Worker recruitment also appears in the feed. | Customer reach, clicks, enquiries, and sales. |
 | [Nextdoor](https://ca.nextdoor.com/pages/city-helpers-inc/) | Halifax business page has promotional posts, website links, messaging/call options, and a public service enquiry. | Toronto reach and whether enquiries become bookings. |
-| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in `business-context.md`. | Current posting activity, group participation, and results. |
+| [Facebook](https://www.facebook.com/profile.php?id=61563866975989) | Company page documented in [business context](https://devdogfish.github.io/cityhelpers/context.html). | Current posting activity, group participation, and results. |
 | [Website / organic search](https://www.cityhelpers.ca/) | Indexed service pages, testimonials, and customer calls to action provide a discoverable destination. | Search rankings, organic traffic, and an active SEO programme. |
 
 The website displays business partners, but their contribution to referrals is unverified. In the project discussion, a participant described finding customers through Facebook community groups; the CEO welcomed the idea. This does not establish an existing City Helpers group-marketing programme.
@@ -138,11 +138,25 @@ A [LinkedIn recruitment post](https://ca.linkedin.com/company/cityhelpers) seeks
 
 The [published process](https://www.cityhelpers.ca/terms-and-conditions) describes paying the platform fee, submitting a request, notifying local workers, selecting a worker, completing the job, paying the worker directly, and rating them. This is the stated journey; checkout and fulfilment have not been tested. Existing email and messaging contacts also allow enquiries before purchase, but their handling is unknown. Repeat-booking reminders, referral incentives, and customer email campaigns are unverified.
 
-**Pricing inconsistency:** the [current pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) advertises $9.99 dispatch offers for both homeowners and businesses. Business subscription language remains elsewhere, and `business-context.md` records earlier $99/month and $999/year plans. The offer used by sales representatives and at checkout needs confirmation.
+**Pricing inconsistency:** the [current pricing page](https://www.cityhelpers.ca/pricing-plans/plans-pricing) advertises $9.99 dispatch offers for both homeowners and businesses. Business subscription language remains elsewhere, and [business context](https://devdogfish.github.io/cityhelpers/context.html) records earlier $99/month and $999/year plans. The offer used by sales representatives and at checkout needs confirmation.
 
 ## Measurement gap
 
 We can identify entry points and reconstruct the advertised journey, but cannot quantify the funnel. Missing evidence includes channel-level visitors and enquiries, outbound contacts and replies, paid dispatches, completed jobs, acquisition costs, and repeat bookings. Whether City Helpers already tracks these internally is unknown. The CEO's claim of approximately 1,200 vetted Toronto workers describes supply, not customer acquisition or active worker availability.
+
+---
+
+## Source: current-business/target-audience.md
+
+Original: https://devdogfish.github.io/cityhelpers/raw/current-business/target-audience.md
+
+**Customer and everyday need.** City Helpers’ primary audience is seniors aged 65+ living independently in Toronto/GTA, booking practical household help themselves. The working profile is an older homeowner, living alone or with a partner, who manages their home but struggles with particular physical tasks: mowing, hedge trimming, leaf cleanup, snow shovelling, lifting, garage cleaning, or small household jobs. The CEO’s project transcript centres people wanting to remain at home and describes his own difficulty finding help after a stroke. Independence, maintaining the home, and affordable assistance are the core motivations; household composition and purchasing habits remain hypotheses, not verified customer data.
+
+**Location and purchasing capacity.** Focus on homes where residents are responsible for their own yard and maintenance. Toronto city had 476,990 residents aged 65+ in 2021, representing 17.1% of its population. The City identifies senior concentrations around Bridle Path–Sunnybrook–York Mills, Rosedale–Moore Park, Casa Loma, and northern Scarborough. These are neighbourhoods to investigate, with final targeting dependent on suitable homes and available helpers—not proven customer hotspots. The commercial target can afford labour plus the dispatch fee; homeownership alone does not establish disposable income. No exact income, gender, or retirement-status filter is supported. [Source: City of Toronto, 2021 Census backgrounder](https://www.toronto.ca/wp-content/uploads/2022/04/9654-City-Planning-2021-Census-Backgrounder-Age-Sex-Gender-DwellingType.pdf).
+
+**Digital platforms and habits.** Seniors are reachable online: in 2022, 85.4% of Ontario residents aged 65+ used the internet. Nationally, 74.7% of seniors used email, 50.9% instant messaging, 43.5% social networks, and 40.7% booked appointments online. A 2025 Canadian online-panel survey found Facebook the most popular social platform among respondents over 60, with YouTube and Instagram also used. Facebook, Messenger, and email therefore merit initial attention; neighbourhood Facebook groups and Google searches for specific chores are acquisition hypotheses to test. These population findings do not establish GTA customers’ platform preferences or willingness to book City Helpers. [Statistics Canada, 2022 data](https://www.statcan.gc.ca/o1/en/plus/4288-canadian-seniors-more-connected-ever); [The Dais, 2025 survey](https://dais.ca/reports/survey-of-online-harms-in-canada-2025/).
+
+**Buying behaviour and trust.** Likely triggers are seasonal chores, reduced ability to complete a task, or the loss of a regular helper. Test whether customers seek neighbour recommendations, compare providers, and rebook after a satisfactory job. Expected purchase questions: Who is coming? What does vetting mean? What will the whole job cost? When will it happen? What if nobody comes? Explain the brief’s $9.99 dispatch fee separately from labour, show credible local testimonials, and offer simple booking with a visible human contact. Community maintenance services are existing alternatives, sometimes subsidized. Lead with “Get help with the chores you want done”; family-assisted booking is a secondary path. Behavioural claims here require validation. [Toronto’s existing home-support options](https://www.toronto.ca/community-people/children-parenting/seniors-services/seniors-health-services/).
 
 ---
 
@@ -235,7 +249,7 @@ flowchart TB
 
 **What is not established:** an automatic matching algorithm, live availability checks, skill verification rules, response deadlines, or guaranteed fulfilment. The team proposed worker skill checkboxes and customer preferences; these remain improvements to investigate, not existing system capabilities. A replacement restarts matching; an unresolved case requires an operational decision, not an assumed refund or successful completion.
 
-**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../ideas-and-work/website-and-booking.md), [open questions](../looking-ahead/open-questions.md), and `source-material/ceo-discussion-transcript.txt`. These local notes reference the published service terms and team discussion; internal operations have not been observed.
+**Sources:** [existing marketing funnel](existing-marketing-funnel.md), [business context](business-context.md), [website and booking observations](../ideas-and-work/website-and-booking.md), [open questions](../looking-ahead/open-questions.md), and [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). These notes reference the published service terms and team discussion; internal operations have not been observed.
 
 ---
 
@@ -253,7 +267,7 @@ Match the offer to the setting. Seniors in apartments may need lifting, organizi
 
 **Smallest test:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
-Source: `source-material/team-meeting-01-transcript.txt`. Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/success-and-measurement.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). Test design is our proposed development. See [partnerships](partnerships.md) and [measurement](../looking-ahead/success-and-measurement.md).
 
 ---
 
@@ -271,7 +285,7 @@ At events, use a short optional enquiry or feedback form. During booking, collec
 
 **Smallest test:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
 
-Source: `source-material/team-meeting-01-transcript.txt`; interview design is proposed. See [target audience](../looking-ahead/target-audience.md) and [website](website-and-booking.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); interview design is proposed. See [target audience](../current-business/target-audience.md) and [website](website-and-booking.md).
 
 ---
 
@@ -281,7 +295,7 @@ Original: https://devdogfish.github.io/cityhelpers/raw/ideas-and-work/digital-ad
 
 # Digital advertising
 
-**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../looking-ahead/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
+**Status: Facebook advertising proposed by the team; campaign activity unverified.** Facebook is a candidate channel for the senior audience, supported by the population-level research in [target audience](../current-business/target-audience.md). That research does not predict City Helpers conversions or acquisition cost.
 
 Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
 
@@ -289,7 +303,7 @@ The meeting suggested tailoring ads to different groups and showing a senior enj
 
 **Smallest test:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
-Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: `source-material/team-meeting-01-transcript.txt` and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
+Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
 
 ---
 
@@ -336,7 +350,7 @@ These lines need a clear explanation of the $9.99 dispatch fee and separate work
 
 **Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
 
-Sources: CEO remarks in `source-material/ceo-discussion-transcript.txt` and team ideas in `source-material/team-meeting-01-transcript.txt`. See [research](customer-research.md) and [advertising](digital-advertising.md).
+Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).
 
 ---
 
@@ -354,7 +368,7 @@ Start by learning what residents ask for, what services already exist, and where
 
 **Smallest test:** one organization, one defined referral process, and one agreed service area. Give the partner a short explanation, booking link or code, and contact for unresolved requests. Track referred enquiries, paid bookings, completed jobs, partner effort, and resident feedback. Continue if the referrals fit available workers and the arrangement is useful to both sides.
 
-Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: `source-material/team-meeting-01-transcript.txt`; process details above are proposed. See [outreach](community-outreach.md) and [open questions](../looking-ahead/open-questions.md).
+Unknowns include existing partner relationships, staff capacity, financial arrangements, and whether the organization wants resident support or labour for its own operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); process details above are proposed. See [outreach](community-outreach.md) and [open questions](../looking-ahead/open-questions.md).
 
 ---
 
@@ -372,7 +386,7 @@ One possible test is a capped dispatch credit earned after a referred customer's
 
 **Smallest test:** one incentive with a limited eligible group and a simple referral code. Record issued and redeemed rewards, new paying customers, completed jobs, repeat bookings, and total incentive cost. Compare with an equivalent period or group where possible; reward redemptions alone do not establish additional sales. Check whether customers would have booked anyway and whether the reward creates support work or misuse.
 
-Source: `source-material/team-meeting-01-transcript.txt`. See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../looking-ahead/success-and-measurement.md), and [experiments](experiments-and-decisions.md).
+Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [existing funnel](../current-business/existing-marketing-funnel.md), [measurement](../looking-ahead/success-and-measurement.md), and [experiments](experiments-and-decisions.md).
 
 ---
 
@@ -390,7 +404,7 @@ Customer preferences could capture task, area, timing, and practical requirement
 
 **Smallest test:** observe prospective senior customers trying to understand the offer and complete a simulated booking without making a payment. Note confusion, assistance needed, errors, and whether they can explain the fee versus labour cost. Fix the largest recurring obstacle and repeat the task. Assess completion and comprehension before pursuing cosmetic changes or full automation.
 
-Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: `source-material/team-meeting-01-transcript.txt`; the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../looking-ahead/success-and-measurement.md).
+Unknowns: analytics, actual checkout behaviour, staff-assisted booking, and matching operations. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); the proposed evaluation goes beyond the meeting. See [customer research](customer-research.md) and [measurement](../looking-ahead/success-and-measurement.md).
 
 ---
 
@@ -460,20 +474,6 @@ We have two objectives: learn how people become customers and increase sustainab
 Use distinct links or referral codes and an optional “How did you hear about us?” field for offline activity. Link enquiry, payment, request, and outcome records without publishing personal details. Avoid treating ad clicks, event attendance, and website sessions as interchangeable counts.
 
 Before each test, agree a budget cap, evaluation date, outcome target, and operational limits. Numeric targets require current costs and capacity; none are established yet. Low-volume tests can reveal usability problems and customer language without supporting precise conversion forecasts. See [open questions](open-questions.md).
-
----
-
-## Source: looking-ahead/target-audience.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/looking-ahead/target-audience.md
-
-**Customer and everyday need.** City Helpers’ primary audience is seniors aged 65+ living independently in Toronto/GTA, booking practical household help themselves. The working profile is an older homeowner, living alone or with a partner, who manages their home but struggles with particular physical tasks: mowing, hedge trimming, leaf cleanup, snow shovelling, lifting, garage cleaning, or small household jobs. The CEO’s project transcript centres people wanting to remain at home and describes his own difficulty finding help after a stroke. Independence, maintaining the home, and affordable assistance are the core motivations; household composition and purchasing habits remain hypotheses, not verified customer data.
-
-**Location and purchasing capacity.** Focus on homes where residents are responsible for their own yard and maintenance. Toronto city had 476,990 residents aged 65+ in 2021, representing 17.1% of its population. The City identifies senior concentrations around Bridle Path–Sunnybrook–York Mills, Rosedale–Moore Park, Casa Loma, and northern Scarborough. These are neighbourhoods to investigate, with final targeting dependent on suitable homes and available helpers—not proven customer hotspots. The commercial target can afford labour plus the dispatch fee; homeownership alone does not establish disposable income. No exact income, gender, or retirement-status filter is supported. [Source: City of Toronto, 2021 Census backgrounder](https://www.toronto.ca/wp-content/uploads/2022/04/9654-City-Planning-2021-Census-Backgrounder-Age-Sex-Gender-DwellingType.pdf).
-
-**Digital platforms and habits.** Seniors are reachable online: in 2022, 85.4% of Ontario residents aged 65+ used the internet. Nationally, 74.7% of seniors used email, 50.9% instant messaging, 43.5% social networks, and 40.7% booked appointments online. A 2025 Canadian online-panel survey found Facebook the most popular social platform among respondents over 60, with YouTube and Instagram also used. Facebook, Messenger, and email therefore merit initial attention; neighbourhood Facebook groups and Google searches for specific chores are acquisition hypotheses to test. These population findings do not establish GTA customers’ platform preferences or willingness to book City Helpers. [Statistics Canada, 2022 data](https://www.statcan.gc.ca/o1/en/plus/4288-canadian-seniors-more-connected-ever); [The Dais, 2025 survey](https://dais.ca/reports/survey-of-online-harms-in-canada-2025/).
-
-**Buying behaviour and trust.** Likely triggers are seasonal chores, reduced ability to complete a task, or the loss of a regular helper. Test whether customers seek neighbour recommendations, compare providers, and rebook after a satisfactory job. Expected purchase questions: Who is coming? What does vetting mean? What will the whole job cost? When will it happen? What if nobody comes? Explain the brief’s $9.99 dispatch fee separately from labour, show credible local testimonials, and offer simple booking with a visible human contact. Community maintenance services are existing alternatives, sometimes subsidized. Lead with “Get help with the chores you want done”; family-assisted booking is a secondary path. Behavioural claims here require validation. [Toronto’s existing home-support options](https://www.toronto.ca/community-people/children-parenting/seniors-services/seniors-health-services/).
 
 ---
 

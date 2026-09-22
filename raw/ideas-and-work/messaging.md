@@ -13,4 +13,4 @@ These lines need a clear explanation of the $9.99 dispatch fee and separate work
 
 **Smallest test:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
 
-Sources: CEO remarks in `source-material/ceo-discussion-transcript.txt` and team ideas in `source-material/team-meeting-01-transcript.txt`. See [research](customer-research.md) and [advertising](digital-advertising.md).
+Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).

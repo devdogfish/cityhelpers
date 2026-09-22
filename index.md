@@ -13,4 +13,4 @@ Our shared reference for understanding City Helpers and developing practical way
 {% endfor %}
 {% endfor %}
 
-Evidence, assumptions, proposals, and results are distinguished within each topic. Navigation follows the local note folders in alphabetical order.
+Evidence, assumptions, proposals, and results are distinguished within each topic. Browse the topics above or use the navigation menu.

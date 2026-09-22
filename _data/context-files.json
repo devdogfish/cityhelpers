@@ -2,32 +2,27 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "3ca92ace6ab937b0418ec7b5c62cf3e0f0054bbfd900e1d051648d7311c9271b"
+    "sha256": "cf5b74f7ccee01b74bd72ac28b72b5cf498d15c3e805a20d84a7360de14a70fb"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "abda765b5e0aecc73703403c5a2f0f43caa68bd49d0c44288a4e23d51458ccda"
+    "sha256": "2cec09c3892c3863d12263557d8a604d519ec8595e57414b764c3c6fb37ca545"
   },
   {
     "file": "raw/brainstorming/community-outreach.md",
     "url": "/raw/brainstorming/community-outreach.md",
-    "sha256": "01422f4775db4b424d1873426488aeae4037b39c853870a26882c67c94089917"
+    "sha256": "238a6911b48b45cdd6c477ffdf4c44302008e4d0afdf8a9405a76a6969a432ee"
   },
   {
     "file": "raw/brainstorming/customer-research.md",
     "url": "/raw/brainstorming/customer-research.md",
-    "sha256": "fabc80d21b68d33cafb9ba561adf562360ffdbca19f7fe377f31c9c6801d592f"
+    "sha256": "d0aa61a92b1be67abcfb940fcb9702e9b6e83d8ef11f8d2a3fa4d4785d45864b"
   },
   {
     "file": "raw/brainstorming/digital-advertising.md",
     "url": "/raw/brainstorming/digital-advertising.md",
-    "sha256": "ecf86e532a8c4864337656e47103c775040173fde887b7bd775afeacc6d3d9fd"
-  },
-  {
-    "file": "raw/brainstorming/messaging.md",
-    "url": "/raw/brainstorming/messaging.md",
-    "sha256": "6234856d2169eb9347bc1fb4d2043887908cdfbf868f794ab51734f7d7bd0d20"
+    "sha256": "d039751486137adbb76af76935e2c14e2b83cddabcbc63d331fb440ae80d0372"
   },
   {
     "file": "raw/brainstorming/partnerships.md",
@@ -42,7 +37,7 @@
   {
     "file": "raw/brainstorming/website-and-booking.md",
     "url": "/raw/brainstorming/website-and-booking.md",
-    "sha256": "bb100766b6a5296626fa72b87a2ac9883cebcd9d15950739955c6d7a46f365b2"
+    "sha256": "1768fe4268c5da98f516bc03534937f084c99d84735acfff1771fc9066b46c2c"
   },
   {
     "file": "raw/current-business/City Helpers_Hackathon Overview.pdf",

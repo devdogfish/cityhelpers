@@ -4,7 +4,7 @@
     "label": "Community outreach",
     "file": "raw/brainstorming/community-outreach.md",
     "url": "/raw/brainstorming/community-outreach.md",
-    "sha256": "01422f4775db4b424d1873426488aeae4037b39c853870a26882c67c94089917",
+    "sha256": "238a6911b48b45cdd6c477ffdf4c44302008e4d0afdf8a9405a76a6969a432ee",
     "kind": "note",
     "format": "MD"
   },
@@ -13,7 +13,7 @@
     "label": "Customer research",
     "file": "raw/brainstorming/customer-research.md",
     "url": "/raw/brainstorming/customer-research.md",
-    "sha256": "fabc80d21b68d33cafb9ba561adf562360ffdbca19f7fe377f31c9c6801d592f",
+    "sha256": "d0aa61a92b1be67abcfb940fcb9702e9b6e83d8ef11f8d2a3fa4d4785d45864b",
     "kind": "note",
     "format": "MD"
   },
@@ -22,16 +22,7 @@
     "label": "Digital advertising",
     "file": "raw/brainstorming/digital-advertising.md",
     "url": "/raw/brainstorming/digital-advertising.md",
-    "sha256": "ecf86e532a8c4864337656e47103c775040173fde887b7bd775afeacc6d3d9fd",
-    "kind": "note",
-    "format": "MD"
-  },
-  {
-    "source": "brainstorming/messaging.md",
-    "label": "Messaging",
-    "file": "raw/brainstorming/messaging.md",
-    "url": "/raw/brainstorming/messaging.md",
-    "sha256": "6234856d2169eb9347bc1fb4d2043887908cdfbf868f794ab51734f7d7bd0d20",
+    "sha256": "d039751486137adbb76af76935e2c14e2b83cddabcbc63d331fb440ae80d0372",
     "kind": "note",
     "format": "MD"
   },
@@ -58,7 +49,7 @@
     "label": "Website and booking",
     "file": "raw/brainstorming/website-and-booking.md",
     "url": "/raw/brainstorming/website-and-booking.md",
-    "sha256": "bb100766b6a5296626fa72b87a2ac9883cebcd9d15950739955c6d7a46f365b2",
+    "sha256": "1768fe4268c5da98f516bc03534937f084c99d84735acfff1771fc9066b46c2c",
     "kind": "note",
     "format": "MD"
   },

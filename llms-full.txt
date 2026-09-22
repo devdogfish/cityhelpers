@@ -14,7 +14,7 @@ The meeting proposed sponsoring senior socials, coffee/tea gatherings, service g
 
 The hypothesis is that meeting a representative and seeing a useful service can make City Helpers familiar and easier to trust. Begin with an existing gathering through a willing community partner. Demonstrate one task, explain the dispatch fee and separate labour charge, and give attendees a simple next step. Hosting a standalone event adds cost and coordination; compare that option only after learning from a small collaboration.
 
-Match the offer to the setting. Seniors in apartments may need lifting, organizing, or small indoor jobs; yard-work messaging belongs with people responsible for their own outdoor space. Door hangers are a proposed awareness tool, with distribution arranged through the building or organizer. A giveaway needs a defined task, labour allowance, worker availability, and funding; a free dispatch alone does not pay for the work.
+Match the offer to the setting. Seniors in apartments may need lifting, organizing, or small indoor jobs; yard-work messaging belongs with people responsible for their own outdoor space. Door hangers are a proposed awareness tool, with distribution arranged through the building or organizer. For a flyer or door hanger, lead with one relevant job, explain the charges, and provide one booking or enquiry route. Suggested wording developed for these notes: “Heavy furniture to move? Get a helping hand.” Use the same concrete offer when introducing the service at an event. A giveaway needs a defined task, labour allowance, worker availability, and funding; a free dispatch alone does not pay for the work.
 
 **Suggested first implementation:** one partner, one event, one service offer, and a trackable contact route. Record event cost and staff time, qualified enquiries, paid dispatches after the event, completed jobs, and attendee questions. Do not count the free demonstration as acquired paid business. Decide whether to repeat based on both demand and fulfilment. Budget and partner access remain unknown.
 
@@ -34,7 +34,7 @@ Start with existing customers, relevant seniors who have not used City Helpers, 
 
 At events, use a short optional enquiry or feedback form. During booking, collect service requirements; add research questions only where they do not obstruct the task. Use testimonials as clues to motivations, recognizing that they are selected positive experiences. The meeting mentioned scraping or a Meta API, but no access or useful data fields were established; first inspect aggregate reporting available in the business's own accounts. Public platform activity does not reveal private preferences or purchase intent.
 
-**Suggested first implementation:** a handful of interviews plus an observed booking walkthrough. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
+**Suggested first implementation:** a handful of interviews plus an observed booking walkthrough. Include two short ad or flyer messages and their offer explanations. Ask what the service does, what they expect to pay, whether it fits a real task, and what would stop them booking. Compare understanding and relevant next steps; liking a slogan alone does not demonstrate demand. Record anonymized observations, direct customer wording, contradictions, and questions that remain open. Treat the sample as qualitative learning, not a representative survey. Compare findings with actual bookings when available.
 
 Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt); interview design is proposed. See [target audience](../current-business/target-audience.md) and [website](website-and-booking.md).
 
@@ -50,34 +50,11 @@ Facebook is a candidate channel for the senior audience, supported by the popula
 
 Start with one service, a small area workers can cover, and a destination explaining the same offer. Possible first offers include seasonal yard cleanup for homeowners or lifting/organizing help for apartment residents. Separate these buying situations so the message and landing page remain specific. Geographic coverage matters as much as age.
 
-The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Treat this as a creative concept to compare with a direct task-focused message. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
+The meeting suggested tailoring ads to different groups and showing a senior enjoying time with grandchildren while a helper works. Compare that concept with a direct task-focused ad. Draft copy developed for these notes: “Need a hand with your yard cleanup?” versus “Spend the afternoon with family. Get a hand with the chores.” The family concept comes from the meeting; these exact lines are suggested wording, not participant quotes. Confirm vetting, availability, and service terms before promising screening standards or guaranteed arrival. Google Search is another channel named in the original brief, but no keyword demand, costs, or campaign economics have been established here.
 
 **Suggested first implementation:** one channel, one service area, one offer, a capped budget, and a working booking path. Check the message with prospective customers before spending; compare a second message when volume permits meaningful interpretation. Track enquiries, paid dispatches, completed jobs, and acquisition cost rather than clicks alone. Pause if requests cannot be served or spending exceeds the agreed cap.
 
-Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [messaging](messaging.md) and [website](website-and-booking.md).
-
----
-
-## Source: brainstorming/messaging.md
-
-Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.md
-
-# Messaging
-
-The CEO's emphasis is useful, affordable household help for people wanting to stay at home. The team added a time-with-grandchildren concept. Lead with a recognizable job and explain what happens next; use independence and time savings as supporting benefits.
-
-| Direction | Draft message | What to learn |
-|---|---|---|
-| Specific task | “Need a hand with your yard cleanup?” | Does a concrete task generate relevant enquiries? |
-| Independence | “Get help with the chores you want done.” | Does the wording feel respectful and useful? |
-| Time with family | “Spend the afternoon with family. Get a hand with the chores.” | Is this relevant to the buyer's actual motivation? |
-| Simple process | “Tell us the job. Find local help.” | Do people understand the service and next step? |
-
-These lines need a clear explanation of the $9.99 dispatch fee and separate worker payment. Verify vetting, availability, and service terms before promising a particular screening standard, guaranteed arrival, or same-day help. Avoid presenting seniors as unable to make their own booking decisions.
-
-**Suggested first implementation:** show two short messages and the offer explanation to prospective customers. Ask what they think the service does, what they expect to pay, whether it fits a job they need done, and what would stop them booking. Record their language and misunderstandings. A preferred slogan is weaker evidence than understanding the offer and taking a relevant next step.
-
-Sources: CEO remarks in [CEO discussion transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt) and team ideas in [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt). See [research](customer-research.md) and [advertising](digital-advertising.md).
+Unknowns: available budget, account access, baseline conversion, worker coverage, and allowable acquisition cost. Source: [team meeting transcript](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt) and the original hackathon brief. See [customer research](customer-research.md) and [website](website-and-booking.md).
 
 ---
 
@@ -139,7 +116,7 @@ Original: https://devdogfish.github.io/cityhelpers/raw/brainstorming/website-and
 
 Participants described the website as difficult to use and suggested simplifying it. They also proposed customer preference fields and worker skill checkboxes. These observations need a task-based walkthrough; they do not yet quantify abandonment.
 
-First clarify the service, total payment structure, covered jobs, what happens after payment, and how to get help. Reconcile dispatch/subscription language across pages. Then inspect the path from “I need help” through fee payment and submitted request, including mobile use, readability, errors, and recovery after an unfinished request. See the [current journey](../current-business/customer-journey.md).
+First clarify the service, total payment structure, covered jobs, what happens after payment, and how to get help. Reconcile dispatch/subscription language across pages. Suggested headline: “Get help with the chores you want done,” followed by “Tell us the job. Find local help.” These are draft lines developed for these notes, informed by the CEO’s emphasis on useful household help and independence in the [CEO discussion](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt). Support them with the actual booking steps and explain the brief’s $9.99 dispatch fee separately from worker payment, checking current pricing before use. Address seniors as people making their own booking decisions. Then inspect the path from “I need help” through fee payment and submitted request, including mobile use, readability, errors, and recovery after an unfinished request. See the [current journey](../current-business/customer-journey.md).
 
 Customer preferences could capture task, area, timing, and practical requirements. Collect what is necessary to fulfil the request; additional research questions can be optional or asked later. More profile fields might improve matching but also make booking harder. Worker skill categories could complement résumés, although declared skills still need appropriate verification and availability checks.
 

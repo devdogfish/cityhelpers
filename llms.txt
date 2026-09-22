@@ -9,7 +9,6 @@
 - [brainstorming/community-outreach.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/community-outreach.md)
 - [brainstorming/customer-research.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/customer-research.md)
 - [brainstorming/digital-advertising.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/digital-advertising.md)
-- [brainstorming/messaging.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/messaging.md)
 - [brainstorming/partnerships.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/partnerships.md)
 - [brainstorming/rewards-and-referrals.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/rewards-and-referrals.md)
 - [brainstorming/website-and-booking.md](https://devdogfish.github.io/cityhelpers/raw/brainstorming/website-and-booking.md)

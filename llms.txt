@@ -21,6 +21,7 @@
 - [current-business/worker-matching.md](https://devdogfish.github.io/cityhelpers/raw/current-business/worker-matching.md)
 - [source-material/ceo-discussion-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/ceo-discussion-transcript.txt)
 - [source-material/erick-pre-meeting-ideas.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/erick-pre-meeting-ideas.txt)
+- [source-material/final-presentation-2026-09-28-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/final-presentation-2026-09-28-transcript.txt)
 - [source-material/hackathon-brief.pdf](https://devdogfish.github.io/cityhelpers/raw/source-material/hackathon-brief.pdf)
 - [source-material/hackathon-organizer-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/hackathon-organizer-transcript.txt)
 - [source-material/team-meeting-01-transcript.txt](https://devdogfish.github.io/cityhelpers/raw/source-material/team-meeting-01-transcript.txt)

@@ -2,12 +2,12 @@
   {
     "file": "llms-full.txt",
     "url": "/llms-full.txt",
-    "sha256": "2f334bc5b506f769cee0cd2eb8e89d337ade588edfe522907c9d7c2cad1b6060"
+    "sha256": "e83518ffea7b45723dca66fb924347f33241b5a92a9def235d3fa8e523704251"
   },
   {
     "file": "llms.txt",
     "url": "/llms.txt",
-    "sha256": "45c89c7f67402a52d459b0156f6a639805ba6db522562b150c983ab11da069d5"
+    "sha256": "c1b5257f8443125f2919ab627b0c4abf9c9efa634a1029d4abe45b3dbadbbd9a"
   },
   {
     "file": "raw/brainstorming/community-outreach.md",
@@ -133,6 +133,11 @@
     "file": "raw/source-material/erick-pre-meeting-ideas.txt",
     "url": "/raw/source-material/erick-pre-meeting-ideas.txt",
     "sha256": "c753d5e564bf714a42697e9cbb5099c3e9efff6dd18c66b9ed9d70ca4e37c4c7"
+  },
+  {
+    "file": "raw/source-material/final-presentation-2026-09-28-transcript.txt",
+    "url": "/raw/source-material/final-presentation-2026-09-28-transcript.txt",
+    "sha256": "fd00172be0906fb2449542861a2a4534c959d1e0423ef59b160f2fdd2e5001d2"
   },
   {
     "file": "raw/source-material/hackathon-brief.pdf",

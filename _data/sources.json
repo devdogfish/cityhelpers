@@ -137,6 +137,15 @@
     "description": "Erick\u2019s audience assumptions and original CHR/CHP proposal, shared before the meeting; exact date unconfirmed."
   },
   {
+    "source": "source-material/final-presentation-2026-09-28-transcript.txt",
+    "label": "Final presentation 2026 09 28 transcript",
+    "file": "raw/source-material/final-presentation-2026-09-28-transcript.txt",
+    "url": "/raw/source-material/final-presentation-2026-09-28-transcript.txt",
+    "sha256": "fd00172be0906fb2449542861a2a4534c959d1e0423ef59b160f2fdd2e5001d2",
+    "kind": "source",
+    "format": "TXT"
+  },
+  {
     "source": "source-material/hackathon-brief.pdf",
     "label": "Marketing assignment \u2014 written brief",
     "file": "raw/source-material/hackathon-brief.pdf",

@@ -40,128 +40,45 @@ if (siteHeader) {
 }
 
 const serviceSlider = document.getElementById('service-slider');
-const serviceSlides = [...(serviceSlider?.querySelectorAll('.service-slide') ?? [])];
-const servicePrev = document.getElementById('service-prev');
-const serviceNext = document.getElementById('service-next');
-const serviceAnnouncement = document.getElementById('service-announcement');
 
-if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
-  const section = serviceSlider.closest('.services');
+if (serviceSlider && window.Splide) {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const autoplayDelay = 2750;
-  const lastClone = serviceSlides.at(-1).cloneNode(true);
-  const firstClone = serviceSlides[0].cloneNode(true);
-  for (const clone of [lastClone, firstClone]) {
-    clone.setAttribute('aria-hidden', 'true');
-    clone.setAttribute('inert', '');
-  }
-  serviceSlider.prepend(lastClone);
-  serviceSlider.append(firstClone);
-  const trackSlides = [lastClone, ...serviceSlides, firstClone];
-  let activeIndex = 0;
-  let physicalIndex = 1;
-  let scrollFrame = 0;
-  let settleTimer = 0;
-  let autoplayTimer = 0;
-  let inView = false;
-  let touching = false;
-
-  const slideLeft = (index) => trackSlides[index].offsetLeft - trackSlides[0].offsetLeft;
-  const logicalIndex = (index) => (index - 1 + serviceSlides.length) % serviceSlides.length;
-
-  const updateControls = (index) => {
-    physicalIndex = index;
-    activeIndex = logicalIndex(index);
-  };
-
-  const nearestSlide = () => trackSlides.reduce((nearest, slide, index) => {
-    const distance = Math.abs(slideLeft(index) - serviceSlider.scrollLeft);
-    return distance < nearest.distance ? { index, distance } : nearest;
-  }, { index: 0, distance: Infinity }).index;
-
-  const jumpToSlide = (index) => {
-    serviceSlider.style.scrollBehavior = 'auto';
-    serviceSlider.style.scrollSnapType = 'none';
-    serviceSlider.scrollLeft = slideLeft(index);
-    serviceSlider.style.scrollSnapType = '';
-    serviceSlider.style.scrollBehavior = '';
-    updateControls(index);
-  };
-
-  const settleLoop = () => {
-    const index = nearestSlide();
-    if (index === 0) jumpToSlide(serviceSlides.length);
-    else if (index === trackSlides.length - 1) jumpToSlide(1);
-    else updateControls(index);
-  };
-
-  const goToSlide = (direction, announce = false) => {
-    if (physicalIndex === 0 || physicalIndex === trackSlides.length - 1) settleLoop();
-    const nextIndex = physicalIndex + direction;
-    updateControls(nextIndex);
-    if (announce) {
-      const title = serviceSlides[activeIndex].querySelector('h3').textContent;
-      serviceAnnouncement.textContent = title;
-    }
-    serviceSlider.scrollTo({
-      left: slideLeft(nextIndex),
-      behavior: reducedMotion.matches ? 'auto' : 'smooth',
-    });
-    if (!('onscrollend' in serviceSlider)) {
-      clearTimeout(settleTimer);
-      settleTimer = window.setTimeout(settleLoop, reducedMotion.matches ? 0 : 650);
-    }
-  };
-
-  const scheduleAutoplay = () => {
-    clearTimeout(autoplayTimer);
-    const keyboardFocus = section.contains(document.activeElement) && document.activeElement.matches(':focus-visible');
-    if (reducedMotion.matches || document.hidden || !inView || touching || keyboardFocus) return;
-    autoplayTimer = window.setTimeout(() => {
-      goToSlide(1);
-      scheduleAutoplay();
-    }, autoplayDelay);
-  };
-
-  servicePrev.addEventListener('click', () => { goToSlide(-1, true); scheduleAutoplay(); });
-  serviceNext.addEventListener('click', () => { goToSlide(1, true); scheduleAutoplay(); });
-  serviceSlider.addEventListener('keydown', (event) => {
-    if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
-    event.preventDefault();
-    goToSlide(event.key === 'ArrowRight' ? 1 : -1, true);
-    scheduleAutoplay();
+  const carousel = new Splide(serviceSlider, {
+    type: 'loop',
+    perPage: 1,
+    drag: true,
+    arrows: true,
+    pagination: false,
+    keyboard: 'focused',
+    autoplay: 'pause',
+    interval: 2750,
+    pauseOnHover: false,
+    pauseOnFocus: true,
+    speed: 450,
   });
-  serviceSlider.addEventListener('scroll', () => {
-    if (!('onscrollend' in serviceSlider)) {
-      clearTimeout(settleTimer);
-      settleTimer = window.setTimeout(settleLoop, 180);
-    }
-    if (scrollFrame) return;
-    scrollFrame = requestAnimationFrame(() => {
-      updateControls(nearestSlide());
-      scrollFrame = 0;
-      scheduleAutoplay();
-    });
-  }, { passive: true });
-  serviceSlider.addEventListener('scrollend', settleLoop);
-  serviceSlider.addEventListener('pointerdown', () => { touching = true; scheduleAutoplay(); });
-  window.addEventListener('pointerup', () => { touching = false; scheduleAutoplay(); });
-  section.addEventListener('focusin', scheduleAutoplay);
-  section.addEventListener('focusout', () => window.setTimeout(scheduleAutoplay, 0));
-  document.addEventListener('visibilitychange', scheduleAutoplay);
-  reducedMotion.addEventListener('change', scheduleAutoplay);
-  window.addEventListener('resize', () => jumpToSlide(activeIndex + 1));
-  window.addEventListener('load', () => requestAnimationFrame(() => jumpToSlide(activeIndex + 1)), { once: true });
+  carousel.mount();
+
+  const autoplay = carousel.Components.Autoplay;
+  let inView = false;
+  const updateAutoplay = () => {
+    const keyboardFocus = serviceSlider.contains(document.activeElement) && document.activeElement.matches(':focus-visible');
+    if (inView && !document.hidden && !reducedMotion.matches && !keyboardFocus) autoplay.play();
+    else autoplay.pause();
+  };
+
+  carousel.on('drag', () => autoplay.pause());
+  carousel.on('dragged', updateAutoplay);
+  document.addEventListener('visibilitychange', updateAutoplay);
+  reducedMotion.addEventListener('change', updateAutoplay);
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(([entry]) => {
       inView = entry.intersectionRatio >= 0.25;
-      scheduleAutoplay();
+      updateAutoplay();
     }, { threshold: 0.25 }).observe(serviceSlider);
   } else {
     inView = true;
-    scheduleAutoplay();
+    updateAutoplay();
   }
-  jumpToSlide(1);
 }
 
 document.getElementById('year').textContent = new Date().getFullYear();

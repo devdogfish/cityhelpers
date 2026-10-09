@@ -9,6 +9,7 @@
   <title>City Helpers | Help is on the way</title>
   <link rel="icon" type="image/jpeg" href="https://devdogfish.github.io/cityhelpers/assets/cityhelpers-logo.jpg">
   <link rel="preload" href="assets/ibm-plex-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/splide-core.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -57,27 +58,30 @@
     <section class="services section" id="services" aria-labelledby="services-title">
       <div class="wrap">
         <h2 id="services-title">What can we help with?</h2>
-        <div class="service-viewport" id="service-slider" role="region" aria-roledescription="carousel" aria-label="Jobs City Helpers can help with" tabindex="0">
-          <article class="service-slide" role="group" aria-roledescription="slide" aria-label="Yard work">
-            <div class="service-slide-copy"><h3>Yard work</h3><p>Lawn mowing, hedge trimming, garden cleanup, and snow removal.</p></div>
-            <img src="assets/service-yard-work.jpg" alt="A local helper trimming a hedge while a homeowner looks on" width="1536" height="1024" loading="eager">
-          </article>
-          <article class="service-slide" role="group" aria-roledescription="slide" aria-label="Home projects">
-            <div class="service-slide-copy"><h3>Home projects</h3><p>Cleaning, organizing, painting, and small repairs.</p></div>
-            <img src="assets/service-home-projects.jpg" alt="A helper painting trim inside a homeowner's house" width="1536" height="1024" loading="lazy">
-          </article>
-          <article class="service-slide" role="group" aria-roledescription="slide" aria-label="Moving and lifting">
-            <div class="service-slide-copy"><h3>Moving &amp; lifting</h3><p>Boxes, furniture, and other heavy items around the house.</p></div>
-            <img src="assets/service-moving.jpg" alt="Two helpers carrying a moving box into a home" width="1536" height="1024" loading="lazy">
-          </article>
-        </div>
-        <div class="service-bottom">
-          <a class="action-link" href="https://www.cityhelpers.ca/homeownerform">Describe your job <svg class="link-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
-          <div class="service-controls" aria-label="Service slider controls">
-            <button class="slider-button" id="service-prev" type="button" aria-label="Previous service" aria-controls="service-slider"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
-            <button class="slider-button" id="service-next" type="button" aria-label="Next service" aria-controls="service-slider"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
+        <div class="service-carousel splide" id="service-slider" aria-labelledby="services-title" tabindex="0">
+          <div class="service-viewport splide__track">
+            <ul class="service-list splide__list">
+              <li class="service-slide splide__slide" aria-label="Yard work">
+                <div class="service-slide-copy"><h3>Yard work</h3><p>Lawn mowing, hedge trimming, garden cleanup, and snow removal.</p></div>
+                <img src="assets/service-yard-work.jpg" alt="A local helper trimming a hedge while a homeowner looks on" width="1536" height="1024" loading="eager">
+              </li>
+              <li class="service-slide splide__slide" aria-label="Home projects">
+                <div class="service-slide-copy"><h3>Home projects</h3><p>Cleaning, organizing, painting, and small repairs.</p></div>
+                <img src="assets/service-home-projects.jpg" alt="A helper painting trim inside a homeowner's house" width="1536" height="1024" loading="lazy">
+              </li>
+              <li class="service-slide splide__slide" aria-label="Moving and lifting">
+                <div class="service-slide-copy"><h3>Moving &amp; lifting</h3><p>Boxes, furniture, and other heavy items around the house.</p></div>
+                <img src="assets/service-moving.jpg" alt="Two helpers carrying a moving box into a home" width="1536" height="1024" loading="lazy">
+              </li>
+            </ul>
           </div>
-          <span class="sr-only" id="service-announcement" aria-live="polite"></span>
+          <div class="service-bottom">
+            <a class="action-link" href="https://www.cityhelpers.ca/homeownerform">Describe your job <svg class="link-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            <div class="service-controls splide__arrows" aria-label="Service slider controls">
+              <button class="slider-button splide__arrow splide__arrow--prev" id="service-prev" type="button" aria-label="Previous service"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg></button>
+              <button class="slider-button splide__arrow splide__arrow--next" id="service-next" type="button" aria-label="Next service"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -144,6 +148,7 @@
     </div>
     <div class="wrap footer-bottom"><span>© <span id="year">2026</span> City Helpers Inc.</span><span>Help is on the way.</span></div>
   </footer>
+  <script src="assets/splide.min.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>

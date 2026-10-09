@@ -2,6 +2,9 @@
 
 Live site: https://devdogfish.github.io/cityhelpers/
 
+Standalone landing-page preview: https://devdogfish.github.io/cityhelpers/landing-page/
+Its HTML, CSS, JavaScript, and assets live in `landing-page/` and render outside the team-notes layout. The editable prototype is in `../work/landing-page/`; copy its web files here when updating the preview.
+
 ## Edit and publish
 
 Edit or add Markdown files in the project root or one folder deep, for example `current-business/` or `brainstorming/`. Then, from the parent `cityhelpers.ca` folder, run:

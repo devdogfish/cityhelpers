@@ -20,8 +20,6 @@ const serviceSlider = document.getElementById('service-slider');
 const serviceSlides = [...(serviceSlider?.querySelectorAll('.service-slide') ?? [])];
 const servicePrev = document.getElementById('service-prev');
 const serviceNext = document.getElementById('service-next');
-const servicePosition = document.getElementById('service-position');
-const serviceProgress = document.getElementById('service-progress-fill');
 const serviceAnnouncement = document.getElementById('service-announcement');
 
 if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
@@ -51,9 +49,6 @@ if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
   const updateControls = (index) => {
     physicalIndex = index;
     activeIndex = logicalIndex(index);
-    servicePosition.textContent = `${String(activeIndex + 1).padStart(2, '0')} / ${String(serviceSlides.length).padStart(2, '0')}`;
-    servicePosition.setAttribute('aria-label', `Service ${activeIndex + 1} of ${serviceSlides.length}`);
-    serviceProgress.style.width = `${((activeIndex + 1) / serviceSlides.length) * 100}%`;
   };
 
   const nearestSlide = () => trackSlides.reduce((nearest, slide, index) => {
@@ -83,12 +78,16 @@ if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
     updateControls(nextIndex);
     if (announce) {
       const title = serviceSlides[activeIndex].querySelector('h3').textContent;
-      serviceAnnouncement.textContent = `${title}, service ${activeIndex + 1} of ${serviceSlides.length}`;
+      serviceAnnouncement.textContent = title;
     }
     serviceSlider.scrollTo({
       left: slideLeft(nextIndex),
       behavior: reducedMotion.matches ? 'auto' : 'smooth',
     });
+    if (!('onscrollend' in serviceSlider)) {
+      clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(settleLoop, reducedMotion.matches ? 0 : 650);
+    }
   };
 
   const scheduleAutoplay = () => {
@@ -110,16 +109,16 @@ if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
     scheduleAutoplay();
   });
   serviceSlider.addEventListener('scroll', () => {
+    if (!('onscrollend' in serviceSlider)) {
+      clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(settleLoop, 180);
+    }
     if (scrollFrame) return;
     scrollFrame = requestAnimationFrame(() => {
       updateControls(nearestSlide());
       scrollFrame = 0;
       scheduleAutoplay();
     });
-    if (!('onscrollend' in serviceSlider)) {
-      clearTimeout(settleTimer);
-      settleTimer = window.setTimeout(settleLoop, 180);
-    }
   }, { passive: true });
   serviceSlider.addEventListener('scrollend', settleLoop);
   serviceSlider.addEventListener('pointerdown', () => { touching = true; scheduleAutoplay(); });
@@ -129,6 +128,7 @@ if (serviceSlider && serviceSlides.length && servicePrev && serviceNext) {
   document.addEventListener('visibilitychange', scheduleAutoplay);
   reducedMotion.addEventListener('change', scheduleAutoplay);
   window.addEventListener('resize', () => jumpToSlide(activeIndex + 1));
+  window.addEventListener('load', () => requestAnimationFrame(() => jumpToSlide(activeIndex + 1)), { once: true });
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(([entry]) => {
       inView = entry.intersectionRatio >= 0.25;

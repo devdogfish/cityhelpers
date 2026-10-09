@@ -16,6 +16,29 @@ menu?.querySelectorAll('a').forEach((link) => {
   });
 });
 
+const siteHeader = document.querySelector('.site-header');
+if (siteHeader) {
+  let previousScrollY = window.scrollY;
+  let scrollFrame = 0;
+
+  const updateHeader = () => {
+    const currentScrollY = Math.max(0, window.scrollY);
+    const keyboardFocus = siteHeader.contains(document.activeElement) && document.activeElement.matches(':focus-visible');
+    if (currentScrollY === 0 || currentScrollY < previousScrollY || keyboardFocus || menu?.classList.contains('is-open')) {
+      siteHeader.classList.remove('is-hidden');
+    } else if (currentScrollY > siteHeader.offsetHeight && currentScrollY > previousScrollY) {
+      siteHeader.classList.add('is-hidden');
+    }
+    previousScrollY = currentScrollY;
+    scrollFrame = 0;
+  };
+
+  window.addEventListener('scroll', () => {
+    if (!scrollFrame) scrollFrame = requestAnimationFrame(updateHeader);
+  }, { passive: true });
+  siteHeader.addEventListener('focusin', () => siteHeader.classList.remove('is-hidden'));
+}
+
 const serviceSlider = document.getElementById('service-slider');
 const serviceSlides = [...(serviceSlider?.querySelectorAll('.service-slide') ?? [])];
 const servicePrev = document.getElementById('service-prev');

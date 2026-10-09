@@ -3,7 +3,7 @@
 Live site: https://devdogfish.github.io/cityhelpers/
 
 Standalone landing-page preview: https://devdogfish.github.io/cityhelpers/landing-page/
-Its HTML, CSS, JavaScript, and assets live in `landing-page/` and render outside the team-notes layout. The editable prototype is in `../work/landing-page/`; copy its web files here when updating the preview.
+Its HTML, CSS, JavaScript, and assets live in `landing-page/` and render outside the team-notes layout. Edit the prototype in `../work/landing-page/`; `./publish.sh` copies its web files into this repository before publishing.
 
 ## Edit and publish
 

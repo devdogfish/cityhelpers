@@ -67,8 +67,9 @@ run git fetch origin main --quiet
 git merge-base --is-ancestor origin/main HEAD || fail 'Remote has new commits. Run git pull --rebase, then publish again.'
 step 3 'Checking notes and navigation'
 run python3 test-sync-notes.py
-step 4 'Generating pages, sources, and LLM exports'
+step 4 'Generating pages, sources, landing page, and LLM exports'
 run python3 sync-notes.py
+run python3 sync-landing-page.py
 run git diff --check
 step 5 'Saving changes'
 run git add -A
